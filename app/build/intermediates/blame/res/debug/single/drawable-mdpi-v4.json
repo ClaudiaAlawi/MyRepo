@@ -1,0 +1,454 @@
+[
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notes.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\notes.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_search_selected_holo_light.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_textfield_search_selected_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\arrow_right_float.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\arrow_right_float.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_spinner_ab_disabled_holo_light.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_spinner_ab_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icona_app_wfp.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\icona_app_wfp.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_search_right_default_holo_dark.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_textfield_search_right_default_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\opendatakit_zig.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\opendatakit_zig.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_share_pack_holo_dark.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ab_share_pack_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icontab_saved_active.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\icontab_saved_active.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_clear_disabled.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ic_clear_disabled.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_bottom_transparent_light_holo.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ab_bottom_transparent_light_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_moreoverflow_normal_holo_dark.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ic_menu_moreoverflow_normal_holo_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_tab_selected_pressed_holo.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_tab_selected_pressed_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_spinner_ab_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_spinner_ab_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icontab_complited_active.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\icontab_complited_active.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_divider_holo_dark.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_list_divider_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\splash_color.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\splash_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_menu_goto.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\ic_menu_goto.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\logo_wfp_v.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\logo_wfp_v.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_clear_normal.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ic_clear_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_search_default_holo_dark.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_textfield_search_default_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_spinner_ab_focused_holo_light.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_spinner_ab_focused_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_cab_background_top_holo_dark.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_cab_background_top_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\button_blue.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\button_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_menu_sms.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\ic_menu_sms.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_voice_search_api_holo_light.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ic_voice_search_api_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_cab_done_holo_dark.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ic_cab_done_holo_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_stacked_transparent_dark_holo.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ab_stacked_transparent_dark_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_divider_holo_light.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_list_divider_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_spinner_ab_pressed_holo_light.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_spinner_ab_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_solid_dark_holo.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ab_solid_dark_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icontab_new_active.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\icontab_new_active.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_clear_search_api_holo_light.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ic_clear_search_api_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\left_arrow.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\left_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icontab_submit.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\icontab_submit.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icontab_new.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\icontab_new.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_search_default_holo_light.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_textfield_search_default_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_tab_selected_focused_holo.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_tab_selected_focused_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\splash_screen.jpg",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\splash_screen.jpg"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_commit_search_api_holo_light.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ic_commit_search_api_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icon.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_bottom_transparent_dark_holo.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ab_bottom_transparent_dark_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\rsz_11geofence.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\rsz_11geofence.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_commit_search_api_holo_dark.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ic_commit_search_api_holo_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_search.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ic_search.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icontab_submit_active.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\icontab_submit_active.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_menu_settings.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\ic_menu_settings.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\setting_splash.jpg",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\setting_splash.jpg"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_stacked_solid_light_holo.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ab_stacked_solid_light_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_menu_forms.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\ic_menu_forms.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_spinner_ab_focused_holo_dark.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_spinner_ab_focused_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_transparent_light_holo.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ab_transparent_light_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_spinner_ab_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_spinner_ab_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_ab_back_holo_dark.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ic_ab_back_holo_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_tab_selected_holo.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_tab_selected_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_search_selected_holo_dark.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_textfield_search_selected_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_tab_unselected_pressed_holo.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_tab_unselected_pressed_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_menu_hardkey_panel_holo_dark.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_menu_hardkey_panel_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_menu_dropdown_panel_holo_dark.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_menu_dropdown_panel_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_search_right_default_holo_light.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_textfield_search_right_default_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icontab_finalized.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\icontab_finalized.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_formlist.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\ic_formlist.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_menu_mark.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\ic_menu_mark.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_go_search_api_holo_light.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ic_go_search_api_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_menu_start_conversation.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\ic_menu_start_conversation.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_share_pack_holo_light.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ab_share_pack_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_share_holo_dark.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ic_menu_share_holo_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_stacked_solid_dark_holo.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ab_stacked_solid_dark_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\expander_ic_maximized.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\expander_ic_maximized.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_search_right_selected_holo_dark.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_textfield_search_right_selected_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_spinner_ab_default_holo_light.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_spinner_ab_default_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icontab_saved.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\icontab_saved.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_share_holo_light.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ic_menu_share_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\button_black.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\button_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_moreoverflow_normal_holo_light.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ic_menu_moreoverflow_normal_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\expander_ic_minimized.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\expander_ic_minimized.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_menu_dropdown_panel_holo_light.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_menu_dropdown_panel_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_search_api_holo_light.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ic_search_api_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_clear_search_api_disabled_holo_light.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ic_clear_search_api_disabled_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\swipe.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\swipe.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\settings_splash_wfp.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\settings_splash_wfp.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_bottom_solid_dark_holo.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ab_bottom_solid_dark_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icontab_finalized_active.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\icontab_finalized_active.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_go.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ic_go.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_ab_back_holo_light.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ic_ab_back_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_menu_clear_playlist.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\ic_menu_clear_playlist.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\right_arrow.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\right_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\aai_logo.jpg",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\aai_logo.jpg"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_stacked_transparent_light_holo.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ab_stacked_transparent_light_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\expander_ic_right.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\expander_ic_right.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_spinner_ab_default_holo_dark.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_spinner_ab_default_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_logo.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\ic_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icontab_complited.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\icontab_complited.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_cab_background_top_holo_light.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_cab_background_top_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_transparent_dark_holo.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ab_transparent_dark_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_menu_hardkey_panel_holo_light.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_menu_hardkey_panel_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_cab_background_bottom_holo_dark.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_cab_background_bottom_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_voice_search.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ic_voice_search.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_cab_done_holo_light.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ic_cab_done_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_cab_background_bottom_holo_light.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_cab_background_bottom_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_search_right_selected_holo_light.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_textfield_search_right_selected_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\sp.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\sp.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_bottom_solid_light_holo.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ab_bottom_solid_light_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pet_logo.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\pet_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_maps_indicator_current_position.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\ic_maps_indicator_current_position.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_solid_light_holo.9.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ab_solid_light_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_menu_send.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\ic_menu_send.png"
+    }
+]

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About PET Crops"
+        android:id="@+id/about_crops"
+        android:layout_marginTop="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About PET Livestock"
+        android:id="@+id/about_livestock"
+        android:layout_below="@+id/about_crops"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guide for PET Crops-Using the app"
+        android:id="@+id/crops_guide1"
+        android:layout_below="@+id/about_livestock"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guide for PET Crops -Fieldwork"
+        android:id="@+id/crops_guide2"
+        android:layout_below="@+id/crops_guide1"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guide for PET Livestock-Using the app"
+        android:id="@+id/livestock_guide1"
+        android:layout_below="@+id/crops_guide2"
+        android:layout_alignLeft="@+id/crops_guide2" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guide for PET Livestock-Fieldwork"
+        android:id="@+id/livestock_guide2"
+        android:layout_below="@+id/livestock_guide1"
+        android:layout_alignLeft="@+id/livestock_guide1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quick Guide for Crops App"
+        android:id="@+id/quickG_crops"
+        android:layout_below="@+id/livestock_guide2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quick Guide for Livestock App"
+        android:id="@+id/quickG_livestock"
+        android:layout_below="@+id/quickG_crops"
+        android:layout_alignRight="@+id/quickG_crops" />
+</RelativeLayout>

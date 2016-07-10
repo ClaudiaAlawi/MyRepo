@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="App Settings" >
+
+    <ListPreference
+        android:defaultValue="Disabled"
+        android:dialogTitle="Keep Portrait screen only"
+        android:entries="@array/editing_completed"
+        android:entryValues="@array/editing_completed_values"
+        android:key="button_Portrait"
+        android:title="@string/portrait" />
+
+    <ListPreference
+        android:defaultValue="21"
+        android:dialogTitle="@string/change_font_size"
+        android:entries="@array/font_size_entries"
+        android:entryValues="@array/font_size_entry_values"
+        android:key="font_size"
+        android:title="@string/font_size" />
+    <Preference
+        android:key="button_check_conn"
+        android:title="@string/check_connection" />
+</PreferenceCategory>
+    <PreferenceCategory android:title="Downloads" >
+    <Preference
+        android:key="button_pdf_download"
+        android:title="@string/pdf_download" />
+
+    <Preference
+        android:key="button_crops_w_download"
+        android:title="@string/crops_w_imgs"/>
+
+    <Preference
+        android:key="button_crops_d_download"
+        android:title="@string/crops_d_imgs" />
+
+    <Preference
+        android:key="button_livestock_w_download"
+        android:title="@string/livestock_w_imgs" />
+
+    <Preference
+        android:key="button_livestock_d_download"
+        android:title="@string/livestock_d_imgs" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
