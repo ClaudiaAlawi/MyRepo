@@ -1,18 +1,34 @@
 [
     {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\xml\\user_settings.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\xml\\user_settings.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\xml\\user_prefernces.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\xml\\user_prefernces.xml"
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\xml\\preferences.xml"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\xml\\zxing_preferences.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.embarkmobile\\zxing-android-minimal\\1.2.1\\res\\xml\\zxing_preferences.xml"
     },
     {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\xml\\user_prefernces.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\xml\\user_prefernces.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\xml\\user_settings.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\xml\\user_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\xml\\user_settings.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\xml\\user_settings.xml"
+    },
+    {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\xml\\preferences.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\xml\\user_prefernces.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\xml\\user_prefernces.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\xml\\zxing_preferences.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.embarkmobile\\zxing-android-minimal\\1.2.1\\res\\xml\\zxing_preferences.xml"
     }
 ]

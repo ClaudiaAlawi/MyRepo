@@ -73,13 +73,19 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 //    private Button videoCaptureButton;
 
     private static Button mScoreButton;
-    private Button mZeroButton;
+    private static Button mZeroButton;
     private static ImageView mImageView;
     private static ImageView mImageView1;
     private static ImageView mImageView2;
     private static ImageView mImageView3;
- //   private static ImageView mImageView4;
-//    private static VideoView vImageView;
+    private static ImageView mImageView4;
+    private static ImageView redImage;
+    private static ImageView yellowImage;
+    private static ImageView blueImage;
+    private static Button moreRed;
+    private static Button moreBlue;
+    private static Button moreYellow;
+
 
     private static String mBinaryName;
     public static String imagesPath;
@@ -172,6 +178,8 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
             }
         });
+
+
         imageScore =false;
         //----------------------------------------------------------------------//
          //   mChooseButton.setBackgroundColor(colorHelper.getMandatoryBackgroundColor());
@@ -244,6 +252,8 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                     break;
 
             }
+
+ //-------------------Setup buttons for crops walking ---------------//
 //--------------------Setup buttons for livestock driving -----------//
         final Button CS1Button = new Button(getContext());
         CS1Button.setText("SCORE CS1");
@@ -251,6 +261,8 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
         CS1Button.setPadding(20, 20, 20, 20);
         CS1Button.setEnabled(!prompt.isReadOnly());
         CS1Button.setBackgroundColor(getResources().getColor(R.color.wfp_azure1));
+
+
         final Button CS2Button = new Button(getContext());
         CS2Button.setText("SCORE CS2");
         CS2Button.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
@@ -275,6 +287,108 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
         CS5Button.setPadding(20, 20, 20, 20);
         CS5Button.setEnabled(!prompt.isReadOnly());
         CS5Button.setBackgroundColor(Color.RED);
+
+        CS1Button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v)
+            {
+
+                mErrorTextView.setVisibility(View.GONE);
+
+                // get the species:
+                currentScrore = 1;
+                imageScore = true;
+
+                setBinaryData(currentScrore);
+                IAnswerData s = getAnswer();
+                setAnswer(s);
+
+                CS1Button.setBackgroundColor(Color.LTGRAY);
+
+                //add the score to the arrayList
+
+            }
+        });
+        CS2Button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v)
+            {
+
+                mErrorTextView.setVisibility(View.GONE);
+
+                // get the species:
+                currentScrore = 2;
+                imageScore = true;
+
+                setBinaryData(currentScrore);
+                IAnswerData s = getAnswer();
+                setAnswer(s);
+
+                CS2Button.setBackgroundColor(Color.LTGRAY);
+
+                //add the score to the arrayList
+
+            }
+        });
+        CS3Button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v)
+            {
+
+                mErrorTextView.setVisibility(View.GONE);
+
+                // get the species:
+                currentScrore = 3;
+                imageScore = true;
+
+                setBinaryData(currentScrore);
+                IAnswerData s = getAnswer();
+                setAnswer(s);
+
+                CS3Button.setBackgroundColor(Color.LTGRAY);
+
+                //add the score to the arrayList
+
+            }
+        });
+        CS4Button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v)
+            {
+
+                mErrorTextView.setVisibility(View.GONE);
+
+                // get the species:
+                currentScrore = 4;
+                imageScore = true;
+
+                setBinaryData(currentScrore);
+                IAnswerData s = getAnswer();
+                setAnswer(s);
+
+                CS4Button.setBackgroundColor(Color.LTGRAY);
+
+                //add the score to the arrayList
+
+            }
+        });
+        CS5Button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v)
+            {
+
+                mErrorTextView.setVisibility(View.GONE);
+
+                // get the species:
+                currentScrore = 5;
+                imageScore = true;
+
+                setBinaryData(currentScrore);
+                IAnswerData s = getAnswer();
+                setAnswer(s);
+
+                CS5Button.setBackgroundColor(Color.LTGRAY);
+
+                //add the score to the arrayList
+
+            }
+        });
+
         //--------------------Setup Buttons for the crops driving-----------------//
        final Button mRedButton = new Button(getContext());
        mRedButton.setText(getContext().getString(R.string.red));
@@ -553,26 +667,33 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
 
         //*********
-if (mFormName.contains("CropsDriving")){
-   removeView(mScoreButton);
-    addView(mRedButton);
-    addView(mYellowButton);
-    addView(mBlueButton);
-    addView(mZeroButton);
-}
-        else if (mFormName.contains("LivestockWalking")){
-    addView(mImageView1);
-    addView(mImageView2);
-        }
+    if (mFormName.contains("CropsDriving"))
+    {
+            removeView(mScoreButton);
+            addView(mRedButton);
+            addView(mYellowButton);
+            addView(mBlueButton);
+            addView(mZeroButton);
+    }
+        else if (mFormName.contains("LivestockWalking"))
+    {
+            addView(mImageView1);
+            addView(mImageView2);
+    }
         else if (mFormName.contains("LivestockDriving")){
-    removeView(mScoreButton);
-    addView(CS1Button);
-    addView(CS2Button);
-    addView(CS3Button);
-    addView(CS4Button);
-    addView(CS5Button);
-    addView(mZeroButton);
+            removeView(mScoreButton);
+            addView(CS1Button);
+            addView(CS2Button);
+            addView(CS3Button);
+            addView(CS4Button);
+            addView(CS5Button);
+            addView(mZeroButton);
         }
+        else if (mFormName.contains("CropsWalking"))
+    {
+        //add see more buttons
+
+    }
         //*********
 
         mErrorTextView.setVisibility(View.GONE);
