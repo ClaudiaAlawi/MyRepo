@@ -4,6 +4,10 @@
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\color\\abc_search_url_text_holo.xml"
     },
     {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text_holo.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\color\\abc_search_url_text_holo.xml"
+    },
+    {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text_holo.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\color\\abc_search_url_text_holo.xml"
     }

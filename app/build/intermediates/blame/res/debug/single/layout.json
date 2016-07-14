@@ -1,87 +1,51 @@
 [
     {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_spinner_item.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\custom_spinner_item.xml"
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_tab.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_tab.xml"
     },
     {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\icontab_formnew.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\icontab_formnew.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\prova2.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\prova2.xml"
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_help.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.embarkmobile\\zxing-android-minimal\\1.2.1\\res\\layout\\zxing_help.xml"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sms_list_row.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\sms_list_row.xml"
     },
     {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\prova2.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\prova2.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\form_entry_end.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\form_entry_end.xml"
+    },
+    {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabsubmitted.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\tabsubmitted.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabsaved.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\tabsaved.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_include.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_activity_chooser_view_include.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_help.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.embarkmobile\\zxing-android-minimal\\1.2.1\\res\\layout\\zxing_help.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\formlist_rownew.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\formlist_rownew.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_decor.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_decor.xml"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\notification.xml"
     },
     {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\form_entry_end.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\form_entry_end.xml"
-    },
-    {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sms_list_row.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\sms_list_row.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sms_list_row_inflater.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\sms_list_row_inflater.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\help.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\help.xml"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\prova2.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\prova2.xml"
     },
     {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\icontab_formfinalized.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\icontab_formfinalized.xml"
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\credits.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\credits.xml"
     },
     {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\splash_screen.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\splash_screen.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\settings_screen.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\settings_screen.xml"
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\form_entry_start.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\form_entry_start.xml"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabnew.xml",
@@ -96,32 +60,12 @@
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\quick_select_layout.xml"
     },
     {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\server_auth_dialog.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\server_auth_dialog.xml"
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\data_manage_list.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\data_manage_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\formlist.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\formlist.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\settings_screen.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\settings_screen.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
@@ -136,6 +80,130 @@
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_home.xml"
     },
     {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_spinner_item.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\custom_spinner_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\icontab_formnew.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\icontab_formnew.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabsaved.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\tabsaved.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_include.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_activity_chooser_view_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_help.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.embarkmobile\\zxing-android-minimal\\1.2.1\\res\\layout\\zxing_help.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_decor.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_decor.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\formlist_rownew.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\formlist_rownew.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\form_entry_end.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\form_entry_end.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sms_list_row_inflater.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\sms_list_row_inflater.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\help.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\help.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\icontab_formsubmitted.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\icontab_formsubmitted.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\icontab_formfinalized.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\icontab_formfinalized.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\form_entry.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\form_entry.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_view_filled.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\list_view_filled.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_map.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\activity_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\splash_screen.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\settings_screen.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\settings_screen.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabsubmitted.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\tabsubmitted.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_decor_overlay.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_decor_overlay.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\icontab_formcompleted.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\icontab_formcompleted.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\server_auth_dialog.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\server_auth_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_home.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_home.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\two_item.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\two_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\settings_screen.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\settings_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\formlist.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\formlist.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\geopoint_layout.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\geopoint_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\formlist_rowcompleted.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\formlist_rowcompleted.xml"
     },
@@ -144,64 +212,20 @@
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_decor.xml"
     },
     {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabpending.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\tabpending.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\basicmenu.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\basicmenu.xml"
-    },
-    {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sms_list_row_inflater.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\sms_list_row_inflater.xml"
     },
     {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_home.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_home.xml"
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\notification.xml"
     },
     {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\geopoint_layout.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\geopoint_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_map2.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\activity_map2.xml"
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabnew.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\tabnew.xml"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\formlist_rowsubmitted.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\formlist_rowsubmitted.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sms_list.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\sms_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\help.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\help.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\icontab_formsaved.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\icontab_formsaved.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_mode_close_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_decor_include.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_decor_include.xml"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\formlist_rownew.xml",
@@ -216,36 +240,20 @@
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\formlist_rowsubmitted.xml"
     },
     {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabpending.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\tabpending.xml"
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\splash_screen_pcd.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\splash_screen_pcd.xml"
     },
     {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_activity_chooser_view.xml"
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_mode_close_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\icontab_formcompleted.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\icontab_formcompleted.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_activity_chooser_view.xml"
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\radiobutton_linearlayout.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\radiobutton_linearlayout.xml"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_decor_include.xml",
@@ -264,20 +272,156 @@
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\toast_view.xml"
     },
     {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\icontab_formsaved.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\icontab_formsaved.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\basicmenu.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\basicmenu.xml"
+    },
+    {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\icontab_formsubmitted.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\icontab_formsubmitted.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\icontab_formnew.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\icontab_formnew.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabpending.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\tabpending.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\splash_screen.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\basicmenu.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\basicmenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_home.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_map2.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\activity_map2.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\geopoint_layout.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\geopoint_layout.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\formlist_rowpending.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\formlist_rowpending.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sms_list.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\sms_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\help.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\help.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_mode_close_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\icontab_formsaved.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\icontab_formsaved.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_decor_include.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_decor_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabpending.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\tabpending.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sms_list.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\sms_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_mode_close_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\icontab_formcompleted.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\icontab_formcompleted.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\radiobutton_linearlayout.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\radiobutton_linearlayout.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\credits.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\credits.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\prova.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\prova.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sms_list_row.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\sms_list_row.xml"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_tab.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_tab.xml"
     },
     {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\icontab_formfinalized.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\icontab_formfinalized.xml"
     },
     {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_picker_list_item.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.embarkmobile\\zxing-android-minimal\\1.2.1\\res\\layout\\app_picker_list_item.xml"
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\form_manage_list.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\form_manage_list.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_screen.xml"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen.xml",
@@ -288,72 +432,192 @@
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\formlist_rowsaved.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\formlist_rowsaved.xml"
-    },
-    {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\formlist_rownew.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\formlist_rownew.xml"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\icontab_formsubmitted.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\icontab_formsubmitted.xml"
     },
     {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_search_view.xml"
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\form_entry_end.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\form_entry_end.xml"
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_search_view.xml"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\formlist_rowpending.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\formlist_rowpending.xml"
     },
     {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_encode.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.embarkmobile\\zxing-android-minimal\\1.2.1\\res\\layout\\zxing_encode.xml"
-    },
-    {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabsubmitted.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\tabsubmitted.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_encode.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.embarkmobile\\zxing-android-minimal\\1.2.1\\res\\layout\\zxing_encode.xml"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_picker_list_item.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.embarkmobile\\zxing-android-minimal\\1.2.1\\res\\layout\\app_picker_list_item.xml"
     },
     {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\formlist_rowcompleted.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\formlist_rowcompleted.xml"
     },
     {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\prova.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\prova.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\credits.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\credits.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\formlist_rowsaved.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\formlist_rowsaved.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preference_test_button.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\preference_test_button.xml"
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabpending.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\tabpending.xml"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\icontab_formfinalized.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\icontab_formfinalized.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\quick_select_layout.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\quick_select_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_decor_overlay.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_decor_overlay.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\splash_screen.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\settings_screen.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\settings_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\icontab_formnew.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\icontab_formnew.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\radiobutton_linearlayout.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\radiobutton_linearlayout.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\toast_view.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\toast_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sms_list.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\sms_list.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preference_test_button.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\preference_test_button.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\formlist_rowsaved.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\formlist_rowsaved.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\hierarchy_layout.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\hierarchy_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\server_auth_dialog.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\server_auth_dialog.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_spinner_item.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\custom_spinner_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\formlist_rowcompleted.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\formlist_rowcompleted.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\formlist.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\formlist.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabsaved.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\tabsaved.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_picker_list_item.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.embarkmobile\\zxing-android-minimal\\1.2.1\\res\\layout\\app_picker_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\formlist_rowsaved.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\formlist_rowsaved.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\form_entry_end.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\form_entry_end.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\radiobutton_linearlayout.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\radiobutton_linearlayout.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\quick_select_layout.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\quick_select_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\prova.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\prova.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\formlist_rowsaved.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\formlist_rowsaved.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\credits.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\credits.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preference_test_button.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\preference_test_button.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sms_list_row_inflater.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\sms_list_row_inflater.xml"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_encode.xml",
@@ -364,20 +628,8 @@
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\hierarchy_layout.xml"
     },
     {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\quick_select_layout.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\quick_select_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_decor_overlay.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_decor_overlay.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\splash_screen.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\splash_screen.xml"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_decor_overlay.xml",
@@ -404,60 +656,32 @@
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\notification.xml"
     },
     {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\icontab_formnew.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\icontab_formnew.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\radiobutton_linearlayout.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\radiobutton_linearlayout.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\toast_view.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\toast_view.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_map2.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\activity_map2.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sms_list.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\sms_list.xml"
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_picker_list_item.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.embarkmobile\\zxing-android-minimal\\1.2.1\\res\\layout\\app_picker_list_item.xml"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\basicmenu.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\basicmenu.xml"
     },
     {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_map2.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\activity_map2.xml"
+    },
+    {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\password_setting.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\password_setting.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_image_preview.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\activity_image_preview.xml"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\form_manage_list.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\form_manage_list.xml"
     },
     {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\server_auth_dialog.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\server_auth_dialog.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_include.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_activity_chooser_view_include.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\form_entry.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\form_entry.xml"
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\help.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\help.xml"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_spinner_item.xml",
@@ -468,28 +692,24 @@
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\form_entry_start.xml"
     },
     {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_mode_close_item.xml"
+    },
+    {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_tabbar.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_tabbar.xml"
     },
     {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\two_item.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\two_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_capture.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.embarkmobile\\zxing-android-minimal\\1.2.1\\res\\layout\\zxing_capture.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_capture.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.embarkmobile\\zxing-android-minimal\\1.2.1\\res\\layout\\zxing_capture.xml"
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\password_setting.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\password_setting.xml"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\splash_screen_pcd.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\splash_screen_pcd.xml"
     },
     {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\form_manage_list.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\form_manage_list.xml"
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_view_filled.xml",
@@ -500,10 +720,6 @@
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\activity_image_preview.xml"
     },
     {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_search_view.xml"
-    },
-    {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabnew.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\tabnew.xml"
     },
@@ -512,32 +728,24 @@
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\formlist.xml"
     },
     {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabcompleted.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\tabcompleted.xml"
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_map2.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\activity_map2.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_include.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_activity_chooser_view_include.xml"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\toast_view.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\toast_view.xml"
+    },
+    {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabsaved.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\tabsaved.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\prova.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\prova.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\form_entry_start.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\form_entry_start.xml"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_tab.xml",
@@ -548,28 +756,20 @@
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.embarkmobile\\zxing-android-minimal\\1.2.1\\res\\layout\\zxing_help.xml"
     },
     {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\password_setting.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\password_setting.xml"
-    },
-    {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\icontab_formcompleted.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\icontab_formcompleted.xml"
     },
     {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preference_test_button.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\preference_test_button.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabcompleted.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\tabcompleted.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\data_manage_list.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\data_manage_list.xml"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_map.xml",
@@ -592,16 +792,120 @@
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_tabbar.xml"
     },
     {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\geopoint_layout.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\geopoint_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\data_manage_list.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\data_manage_list.xml"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\splash_screen_pcd.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\splash_screen_pcd.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\form_entry.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\form_entry.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_include.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_activity_chooser_view_include.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\formlist_rowsubmitted.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\formlist_rowsubmitted.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\prova2.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\prova2.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_capture.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.embarkmobile\\zxing-android-minimal\\1.2.1\\res\\layout\\zxing_capture.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\two_item.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\layout\\two_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_capture.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.embarkmobile\\zxing-android-minimal\\1.2.1\\res\\layout\\zxing_capture.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\form_manage_list.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\form_manage_list.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_encode.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.embarkmobile\\zxing-android-minimal\\1.2.1\\res\\layout\\zxing_encode.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_tabbar.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_tabbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabcompleted.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\tabcompleted.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_decor.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_decor.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabsaved.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\tabsaved.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\prova.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\prova.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\form_entry_start.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\form_entry_start.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\password_setting.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\password_setting.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\server_auth_dialog.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\layout\\server_auth_dialog.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preference_test_button.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\preference_test_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_capture.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.embarkmobile\\zxing-android-minimal\\1.2.1\\res\\layout\\zxing_capture.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_decor_include.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_decor_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\layout\\geopoint_layout.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\layout\\geopoint_layout.xml"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\hierarchy_layout.xml",

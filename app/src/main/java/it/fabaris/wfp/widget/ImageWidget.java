@@ -82,9 +82,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
     private static ImageView redImage;
     private static ImageView yellowImage;
     private static ImageView blueImage;
-    private static Button moreRed;
-    private static Button moreBlue;
-    private static Button moreYellow;
+
 
 
     private static String mBinaryName;
@@ -253,7 +251,172 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
             }
 
- //-------------------Setup buttons for crops walking ---------------//
+
+ //-------------------Setup buttons for crops walking -------------------//
+    //----------------Setup for close-ups for each color------------//
+        final ImageView red1= new ImageView(context);
+        final ImageView red2= new ImageView(context);
+        final ImageView red3= new ImageView(context);
+        final Button scoreRed1Btn = new Button(context);
+        scoreRed1Btn.setText("Score RED_LOW ");
+        scoreRed1Btn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+        scoreRed1Btn.setPadding(20, 20, 20, 20);
+        scoreRed1Btn.setEnabled(!prompt.isReadOnly());
+        scoreRed1Btn.setBackgroundColor(Color.RED);
+        scoreRed1Btn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v)
+            {
+
+            }
+        });;
+
+        final Button scoreRed2Btn = new Button(context);
+        scoreRed2Btn.setText("Score RED_MID");
+        scoreRed2Btn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+        scoreRed2Btn.setPadding(20, 20, 20, 20);
+        scoreRed2Btn.setEnabled(!prompt.isReadOnly());
+        scoreRed2Btn.setBackgroundColor(Color.RED);
+        scoreRed2Btn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v)
+            {
+
+            }
+        });;
+        final Button scoreRed3Btn = new Button(context);
+        scoreRed3Btn.setText("Score RED_HIGH");
+        scoreRed3Btn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+        scoreRed3Btn.setPadding(20, 20, 20, 20);
+        scoreRed3Btn.setEnabled(!prompt.isReadOnly());
+        scoreRed3Btn.setBackgroundColor(Color.RED);
+        scoreRed3Btn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v)
+            {
+
+            }
+        });;
+
+        final ImageView yellow1= new ImageView(context);
+        final ImageView yellow2= new ImageView(context);
+        final ImageView yellow3= new ImageView(context);
+        final Button scoreYellow1Btn = new Button(context);
+
+       scoreYellow1Btn.setText("Score YELLOW_LOW");
+       scoreYellow1Btn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+       scoreYellow1Btn.setPadding(20, 20, 20, 20);
+       scoreYellow1Btn.setEnabled(!prompt.isReadOnly());
+       scoreYellow1Btn.setBackgroundColor(Color.RED);
+       scoreYellow1Btn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v)
+            {
+
+            }
+        });;
+        final Button scoreYellow2Btn= new Button(context);
+        scoreYellow2Btn.setText("Score YELLOW_MID");
+        scoreYellow2Btn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+        scoreYellow2Btn.setPadding(20, 20, 20, 20);
+        scoreYellow2Btn.setEnabled(!prompt.isReadOnly());
+        scoreYellow2Btn.setBackgroundColor(Color.RED);
+        scoreYellow2Btn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v)
+            {
+
+            }
+        });;
+        final Button scoreYellow3Btn = new Button(context);
+        scoreYellow3Btn.setText("Score YELLOW_HIGH");
+        scoreYellow3Btn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+        scoreYellow3Btn.setPadding(20, 20, 20, 20);
+        scoreYellow3Btn.setEnabled(!prompt.isReadOnly());
+        scoreYellow3Btn.setBackgroundColor(Color.RED);
+        scoreYellow3Btn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v)
+            {
+
+            }
+        });
+        final ImageView blue1= new ImageView(context) ;
+        final ImageView blue2= new ImageView(context);
+        final ImageView blue3= new ImageView(context);
+        final Button scoreBlue1Btn = new Button(context);
+        scoreBlue1Btn.setText("Score BLUE_LOW");
+        scoreBlue1Btn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+        scoreBlue1Btn.setPadding(20, 20, 20, 20);
+        scoreBlue1Btn.setEnabled(!prompt.isReadOnly());
+        scoreBlue1Btn.setBackgroundColor(Color.RED);
+        scoreBlue1Btn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v)
+            {
+
+            }
+        });
+        final Button scoreBlue2Btn = new Button(context);
+        scoreBlue2Btn.setText("Score BLUE_MID");
+        scoreBlue2Btn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+        scoreBlue2Btn.setPadding(20, 20, 20, 20);
+        scoreBlue2Btn.setEnabled(!prompt.isReadOnly());
+        scoreBlue2Btn.setBackgroundColor(Color.RED);
+        scoreBlue2Btn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v)
+            {
+
+            }
+        });
+        final Button scoreBlue3Btn = new Button(context);
+        scoreBlue3Btn.setText("Score BLUE_HIGH");
+        scoreBlue3Btn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+        scoreBlue3Btn.setPadding(20, 20, 20, 20);
+        scoreBlue3Btn.setEnabled(!prompt.isReadOnly());
+        scoreBlue3Btn.setBackgroundColor(Color.RED);
+        scoreBlue3Btn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v)
+            {
+
+            }
+        });
+
+
+
+      final Button moreRed   =new Button(getContext());
+        moreRed.setText("See more RED");
+        moreRed.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+        moreRed.setPadding(20, 20, 20, 20);
+        moreRed.setEnabled(!prompt.isReadOnly());
+        moreRed.setBackgroundColor(Color.RED);
+        moreRed.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v)
+            {
+                addView(red1);
+                addView(scoreRed1Btn);
+                addView(red2);
+                addView(scoreRed2Btn);
+                addView(red3);
+                addView(scoreRed3Btn);
+            }
+        });;
+      final Button moreBlue  =new Button(getContext());
+        moreBlue.setText("See more BLUE");
+        moreBlue.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+        moreBlue.setPadding(20, 20, 20, 20);
+        moreBlue.setEnabled(!prompt.isReadOnly());
+        moreBlue.setBackgroundColor(Color.BLUE);
+        moreBlue.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                addView(blue1);
+                addView(blue2);
+                addView(blue3);
+            }
+        });;
+      final Button moreYellow=new Button(getContext());
+        moreYellow.setText("See more YELLOW");
+        moreYellow.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+        moreYellow.setPadding(20, 20, 20, 20);
+        moreYellow.setEnabled(!prompt.isReadOnly());
+        moreYellow.setBackgroundColor(Color.YELLOW);
+        moreYellow.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+            }
+        });;
 //--------------------Setup buttons for livestock driving -----------//
         final Button CS1Button = new Button(getContext());
         CS1Button.setText("SCORE CS1");
@@ -701,73 +864,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
         // retrieve answer from data model and update ui
         mBinaryName = prompt.getAnswerText();
 
-        // Only add the imageView if the user has taken a picture
-        /*
-        if (mBinaryName != null) {
-            mImageView = new ImageView(getContext());
-            Display display =
-                ((WindowManager) getContext().getSystemService(Context.WINDOW_SERVICE))
-                        .getDefaultDisplay();
-            int screenWidth = display.getWidth();
-            int screenHeight = display.getHeight();
 
-            File f = new File(mInstanceFolder + "/" + mBinaryName);
-
-            if (f.exists()) {
-                Bitmap bmp = FileUtils.getBitmapScaledToDisplay(f, screenHeight, screenWidth);
-                if (bmp == null) {
-                    mErrorTextView.setVisibility(View.VISIBLE);
-                }
-                mImageView.setImageBitmap(bmp);
-            } else {
-                mImageView.setImageBitmap(null);
-            }
-
-            mImageView.setPadding(10, 10, 10, 10);
-            mImageView.setAdjustViewBounds(true);
-            mImageView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent i = new Intent("android.intent.action.VIEW");
-                    String[] projection = {
-                        "_id"
-                    };
-                    Cursor c =
-                        getContext().getContentResolver()
-                                .query(
-                                    android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI,
-                                    projection, "_data='" + mInstanceFolder + mBinaryName + "'",
-                                    null, null);
-                    if (c.getCount() > 0) {
-                        c.moveToFirst();
-                        String id = c.getString(c.getColumnIndex("_id"));
-
-                        Log.i(
-                            t,
-                            "setting view path to: "
-                                    + Uri.withAppendedPath(
-                                        android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI,
-                                        id));
-
-                        i.setDataAndType(Uri.withAppendedPath(
-                            android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI, id),
-                            "image/*");
-                        try {
-                            getContext().startActivity(i);
-                        } catch (ActivityNotFoundException e) {
-                            Toast.makeText(getContext(),
-                                getContext().getString(R.string.activity_not_found, "view image"),
-                                Toast.LENGTH_SHORT);
-                        }
-                    }
-                    c.close();
-                }
-            });
-
-            addView(mImageView);
-          
-        }
-    	*/
     }
 
 	/**

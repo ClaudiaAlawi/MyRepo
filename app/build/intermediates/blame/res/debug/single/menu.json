@@ -8,11 +8,19 @@
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.embarkmobile\\zxing-android-minimal\\1.2.1\\res\\menu\\zxing_encode.xml"
     },
     {
-        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\menu\\zxing_encode.xml",
-        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.embarkmobile\\zxing-android-minimal\\1.2.1\\res\\menu\\zxing_encode.xml"
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\zxing_capture.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.embarkmobile\\zxing-android-minimal\\1.2.1\\res\\menu\\zxing_capture.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\zxing_encode.xml",
+        "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.embarkmobile\\zxing-android-minimal\\1.2.1\\res\\menu\\zxing_encode.xml"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\menu\\zxing_capture.xml",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.embarkmobile\\zxing-android-minimal\\1.2.1\\res\\menu\\zxing_capture.xml"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\menu\\zxing_encode.xml",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\exploded-aar\\com.embarkmobile\\zxing-android-minimal\\1.2.1\\res\\menu\\zxing_encode.xml"
     }
 ]
