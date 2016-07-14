@@ -254,9 +254,9 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
  //-------------------Setup buttons for crops walking -------------------//
     //----------------Setup for close-ups for each color------------//
-        final ImageView red1= new ImageView(context);
-        final ImageView red2= new ImageView(context);
-        final ImageView red3= new ImageView(context);
+//        final ImageView red1= new ImageView(context);
+//        final ImageView red2= new ImageView(context);
+//        final ImageView red3= new ImageView(context);
         final Button scoreRed1Btn = new Button(context);
         scoreRed1Btn.setText("Score RED_LOW ");
         scoreRed1Btn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
@@ -295,9 +295,9 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
             }
         });;
 
-        final ImageView yellow1= new ImageView(context);
-        final ImageView yellow2= new ImageView(context);
-        final ImageView yellow3= new ImageView(context);
+//        final ImageView yellow1= new ImageView(context);
+//        final ImageView yellow2= new ImageView(context);
+//        final ImageView yellow3= new ImageView(context);
         final Button scoreYellow1Btn = new Button(context);
 
        scoreYellow1Btn.setText("Score YELLOW_LOW");
@@ -335,9 +335,9 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
             }
         });
-        final ImageView blue1= new ImageView(context) ;
-        final ImageView blue2= new ImageView(context);
-        final ImageView blue3= new ImageView(context);
+//        final ImageView blue1= new ImageView(context) ;
+//        final ImageView blue2= new ImageView(context);
+//        final ImageView blue3= new ImageView(context);
         final Button scoreBlue1Btn = new Button(context);
         scoreBlue1Btn.setText("Score BLUE_LOW");
         scoreBlue1Btn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
@@ -386,14 +386,14 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
         moreRed.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v)
             {
-                addView(red1);
-                addView(scoreRed1Btn);
-                addView(red2);
-                addView(scoreRed2Btn);
-                addView(red3);
-                addView(scoreRed3Btn);
+//                addView(red1);
+//                addView(scoreRed1Btn);
+//                addView(red2);
+//                addView(scoreRed2Btn);
+//                addView(red3);
+//                addView(scoreRed3Btn);
             }
-        });;
+        });
       final Button moreBlue  =new Button(getContext());
         moreBlue.setText("See more BLUE");
         moreBlue.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
@@ -402,9 +402,12 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
         moreBlue.setBackgroundColor(Color.BLUE);
         moreBlue.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                addView(blue1);
-                addView(blue2);
-                addView(blue3);
+//                addView(blue1);
+//                addView(scoreBlue1Btn);
+//                addView(blue2);
+//                addView(scoreBlue2Btn);
+//                addView(blue3);
+//                addView(scoreBlue3Btn);
             }
         });;
       final Button moreYellow=new Button(getContext());
@@ -414,7 +417,15 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
         moreYellow.setEnabled(!prompt.isReadOnly());
         moreYellow.setBackgroundColor(Color.YELLOW);
         moreYellow.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
+            public void onClick(View v)
+            {
+//                addView(yellow1);
+//                addView(scoreYellow1Btn);
+//                addView(yellow2);
+//                addView(scoreYellow2Btn);
+//                addView(yellow3);
+//               addView(scoreYellow3Btn);
+
             }
         });;
 //--------------------Setup buttons for livestock driving -----------//
@@ -773,49 +784,6 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
         //////////////////////////////////////////////////////////////////////
 
-        // setup chooser button
-//        mChooseButton = new Button(getContext());
-//        mChooseButton.setText(getContext().getString(R.string.choose_image));
-//        mChooseButton.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
-//        mChooseButton.setPadding(20, 20, 20, 20);
-//        mChooseButton.setEnabled(!prompt.isReadOnly());
-//        if(prompt.isRequired() && !prevView){
-//              mChooseButton.setBackgroundColor(colorHelper.getMandatoryBackgroundColor());
-//        }
-//        else if (prompt.isRequired() && prevView){
-//            mChooseButton.setBackgroundColor(colorHelper.getReadOnlyBackgroundColor());
-//        }
-        /**
-         *  launch capture intent on click
-         */
-//        mChooseButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                mErrorTextView.setVisibility(View.GONE);
-//                Intent i = new Intent(Intent.ACTION_GET_CONTENT);
-//                i.addCategory(Intent.CATEGORY_OPENABLE);
-//                i.setType("image/* video/* ");
-//
-//                try {
-//                    ((Activity) getContext()).startActivityForResult(i, FormEntryActivity.IMAGE_CHOOSER);
-//                    mWaitingForData = true;
-//
-//                    //mBinaryName = prompt.getAnswerText();
-//                    //previewPhoto();
-//
-//                } catch (ActivityNotFoundException e) {
-//                    Toast.makeText(getContext(),
-//                        getContext().getString(R.string.activity_not_found, "choose image"),
-//                        Toast.LENGTH_SHORT);
-//                }
-//
-//            }
-//        });
-//
-//        // finish complex layout
-
-//      addView(mCaptureButton);
-//      addView(mChooseButton);
         mImageView = new ImageView(context);
         mImageView1 = new ImageView(context);
         mImageView2 = new ImageView(context);
@@ -840,8 +808,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
     }
         else if (mFormName.contains("LivestockWalking"))
     {
-            addView(mImageView1);
-            addView(mImageView2);
+
     }
         else if (mFormName.contains("LivestockDriving")){
             removeView(mScoreButton);
@@ -855,6 +822,14 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
         else if (mFormName.contains("CropsWalking"))
     {
         //add see more buttons
+        removeView(mImageView);
+        removeView(mScoreButton);
+       // addView(mImageView);
+        //TODO add "Close Up" image and handle it
+        // TODO handle path for images 1 to 9 in one folder for the fad and handlethe close-ups for each one
+        addView(mImageView1);
+        addView(mImageView2);
+        addView(mZeroButton);
 
     }
         //*********
