@@ -33,6 +33,7 @@ import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.media.ThumbnailUtils;
 import android.net.Uri;
+import android.os.Environment;
 import android.provider.MediaStore;
 import android.provider.MediaStore.Images;
 import android.util.Log;
@@ -68,23 +69,13 @@ import it.fabaris.wfp.view.ODKView;
 public class ImageWidget extends QuestionWidget implements IBinaryWidget {
     private final static String t = "MediaWidget";
 
-//    private Button mCaptureButton;
-//    private Button mChooseButton;
-//    private Button videoCaptureButton;
+
 
     private static Button mScoreButton;
     private static Button mZeroButton;
     private static ImageView mImageView;
     private static ImageView mImageView1;
     private static ImageView mImageView2;
-    private static ImageView mImageView3;
-    private static ImageView mImageView4;
-    private static ImageView redImage;
-    private static ImageView yellowImage;
-    private static ImageView blueImage;
-
-
-
     private static String mBinaryName;
     public static String imagesPath;
 
@@ -94,11 +85,11 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
     private static TextView mErrorTextView;
     public static boolean prevView= false;
-    private static int RESULT_OK = 5;
-    private static int RESULT_CANCELED = 8;
-    public static int picturesIndex= 0;
+    public static int picturesIndex= -1;
     private double currentScrore= 0;
     public static boolean imageScore = false;
+
+
     public ImageWidget(final Context context, final FormEntryPrompt prompt) {
         super(context, prompt);
 
@@ -107,13 +98,13 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
             FormEntryActivity.mInstancePath.substring(0,
                 FormEntryActivity.mInstancePath.lastIndexOf("/") + 1);
         mFormName = FormEntryActivity.formName;
-
+        final String mainPath =Environment.getExternalStorageDirectory().getPath() +"/GRASP/"+mFormName;
 
         setOrientation(LinearLayout.VERTICAL);
 
         mErrorTextView = new TextView(context);
         mErrorTextView.setText("Selected file is not a valid image");
-        picturesIndex++;
+        picturesIndex+= 2; // for crops walking
 //        if (picturesIndex > 5)
 //            picturesIndex = 1;
         Intent i = new Intent(context, ImagePreviewActivity.class);
@@ -154,6 +145,12 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
         mZeroButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
+                currentScrore = 0;
+                imageScore = true;
+
+                setBinaryData(currentScrore);
+                IAnswerData s = getAnswer();
+                setAnswer(s);
             }
         });
         mScoreButton.setOnClickListener(new View.OnClickListener() {
@@ -179,255 +176,124 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
 
         imageScore =false;
-        //----------------------------------------------------------------------//
-         //   mChooseButton.setBackgroundColor(colorHelper.getMandatoryBackgroundColor());
 
-//        /**
-//         * launch capture intent on click
-//         */
+//----------------------------------------------Get the Value of the Select---------------------------------------------------------------//
+
         final String species = SpinnerWidget.selectedAnswer.toString();
 
         if(species != null)
             switch (species) {
                 case "Camel":
-                    imagesPath = "Camels";
+                    imagesPath = "Camels/" + picturesIndex;
                     break;
                 case "Cattle":
-                    imagesPath = "Cattles";
+                    imagesPath = "Cattles/" + picturesIndex;
                     break;
                 case "Goat":
-                    imagesPath = "Goats" ;
+                    imagesPath = "Goats/" + picturesIndex;
                     break;
                 case "Long tailed sheep":
-                    imagesPath = "Lts" ;
+                    imagesPath = "Lts/" + picturesIndex;
                     break;
                 case "Fat tailed sheep":
-                    imagesPath = "Fts" ;
+                    imagesPath = "Fts/" + picturesIndex;
                     break;
                 case"Barley":
-                    imagesPath ="Barley";
+                    imagesPath ="Barley/" + picturesIndex;
                     break;
                 case"Cassava":
-                    imagesPath ="Cassava";
+                    imagesPath ="Cassava/" + picturesIndex;
                     break;
                 case"Groundnut":
-                    imagesPath ="Groundnut";
+                    imagesPath ="Groundnut/" + picturesIndex;
                     break;
                 case"Maize":
-                    imagesPath ="Maize";
+                    imagesPath ="Maize/" + picturesIndex;
                     break;
                 case"Teff":
-                    imagesPath ="Teff";
+                    imagesPath ="Teff/" + picturesIndex;
                     break;
                 case"Sunflowers":
-                    imagesPath ="Sunflowers";
+                    imagesPath ="Sunflowers/" + picturesIndex;
                     break;
                 case"Wheat Irrigated":
-                    imagesPath ="WheatI";
+                    imagesPath ="WheatI/" + picturesIndex;
                     break;
                 case"Wheat Rainfed":
-                    imagesPath ="WheatR";
+                    imagesPath ="WheatR/" + picturesIndex;
                     break;
                 case"Upland Rice":
-                    imagesPath ="Uplandrice";
+                    imagesPath ="Uplandrice/" + picturesIndex;
                     break;
                 case"Pearl Millet":
-                    imagesPath ="Pearlmillet";
+                    imagesPath ="Pearlmillet/" + picturesIndex;
                     break;
                 case"Early Main Sorghum Rainfed":
-                    imagesPath ="Earlymaindrf";
+                    imagesPath ="Earlymaindrf/" + picturesIndex;
                     break;
                 case"Early Main Sorghum Irrigated":
-                    imagesPath ="EarlymainI";
+                    imagesPath ="EarlymainI/" + picturesIndex;
                     break;
                 case"Late Maturing Sorghum":
-                    imagesPath ="Latesorg";
+                    imagesPath ="Latesorg/" + picturesIndex;
                     break;
                 case"Finger Millet":
-                    imagesPath ="Fingermillet";
+                    imagesPath ="Fingermillet/" + picturesIndex;
                     break;
                 default:
                     break;
 
             }
 
+//---------------------------------------------------------------------------------------End of getting selection --------------------------------------------------------------//
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+// ------------------------------------------------------------------------------------Setup buttons for crops walking -----------------------------------------------------------//
 
- //-------------------Setup buttons for crops walking -------------------//
-    //----------------Setup for close-ups for each color------------//
-//        final ImageView red1= new ImageView(context);
-//        final ImageView red2= new ImageView(context);
-//        final ImageView red3= new ImageView(context);
-        final Button scoreRed1Btn = new Button(context);
-        scoreRed1Btn.setText("Score RED_LOW ");
-        scoreRed1Btn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
-        scoreRed1Btn.setPadding(20, 20, 20, 20);
-        scoreRed1Btn.setEnabled(!prompt.isReadOnly());
-        scoreRed1Btn.setBackgroundColor(Color.RED);
-        scoreRed1Btn.setOnClickListener(new View.OnClickListener() {
+
+        final Button closeUpBtn = new Button(context);
+        closeUpBtn.setText("Close Up");
+        closeUpBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+        closeUpBtn.setPadding(20, 20, 20, 20);
+        closeUpBtn.setEnabled(!prompt.isReadOnly());
+        closeUpBtn.setBackgroundColor(Color.LTGRAY);
+        closeUpBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v)
             {
-
+                int closeupIndex = picturesIndex+ 1;
+                String closeupPath = imagesPath.substring(0,imagesPath.lastIndexOf("/")) + closeupIndex;
+                String imgCu = mainPath +"/"+closeupPath+ ".jpg";
+                try {
+                    Intent myIntent = new Intent(android.content.Intent.ACTION_VIEW);
+                    File file = new File(imgCu);
+                    String extension = android.webkit.MimeTypeMap.getFileExtensionFromUrl(Uri.fromFile(file).toString());
+                    String mimetype = android.webkit.MimeTypeMap.getSingleton().getMimeTypeFromExtension(extension);
+                    myIntent.setDataAndType(Uri.fromFile(file),mimetype);
+                    //   myIntent.setPackage("com.android.gallery");
+                    context.startActivity(myIntent);
+//                        Uri uri = Uri.parse("file:/"+FormEntryActivity.imagePath);
+//                        context.startActivity(new Intent(Intent.ACTION_VIEW,uri));;
+                } catch (ActivityNotFoundException e) {
+                    Toast.makeText(context,
+                            context.getString(R.string.activity_not_found, "view image"),
+                            Toast.LENGTH_SHORT);
+                }
+            }
+        });;
+        final Button scoreBtn = new Button(context);
+        scoreBtn.setText("Score");
+        scoreBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+        scoreBtn.setPadding(20, 20, 20, 20);
+        scoreBtn.setEnabled(!prompt.isReadOnly());
+        scoreBtn.setBackgroundColor(Color.GREEN);
+        scoreBtn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v)
+            {
+                //check selection
+               //get the index of the image from the image path
+                // if it dosn't work out just put a checkbox
             }
         });;
 
-        final Button scoreRed2Btn = new Button(context);
-        scoreRed2Btn.setText("Score RED_MID");
-        scoreRed2Btn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
-        scoreRed2Btn.setPadding(20, 20, 20, 20);
-        scoreRed2Btn.setEnabled(!prompt.isReadOnly());
-        scoreRed2Btn.setBackgroundColor(Color.RED);
-        scoreRed2Btn.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v)
-            {
-
-            }
-        });;
-        final Button scoreRed3Btn = new Button(context);
-        scoreRed3Btn.setText("Score RED_HIGH");
-        scoreRed3Btn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
-        scoreRed3Btn.setPadding(20, 20, 20, 20);
-        scoreRed3Btn.setEnabled(!prompt.isReadOnly());
-        scoreRed3Btn.setBackgroundColor(Color.RED);
-        scoreRed3Btn.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v)
-            {
-
-            }
-        });;
-
-//        final ImageView yellow1= new ImageView(context);
-//        final ImageView yellow2= new ImageView(context);
-//        final ImageView yellow3= new ImageView(context);
-        final Button scoreYellow1Btn = new Button(context);
-
-       scoreYellow1Btn.setText("Score YELLOW_LOW");
-       scoreYellow1Btn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
-       scoreYellow1Btn.setPadding(20, 20, 20, 20);
-       scoreYellow1Btn.setEnabled(!prompt.isReadOnly());
-       scoreYellow1Btn.setBackgroundColor(Color.RED);
-       scoreYellow1Btn.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v)
-            {
-
-            }
-        });;
-        final Button scoreYellow2Btn= new Button(context);
-        scoreYellow2Btn.setText("Score YELLOW_MID");
-        scoreYellow2Btn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
-        scoreYellow2Btn.setPadding(20, 20, 20, 20);
-        scoreYellow2Btn.setEnabled(!prompt.isReadOnly());
-        scoreYellow2Btn.setBackgroundColor(Color.RED);
-        scoreYellow2Btn.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v)
-            {
-
-            }
-        });;
-        final Button scoreYellow3Btn = new Button(context);
-        scoreYellow3Btn.setText("Score YELLOW_HIGH");
-        scoreYellow3Btn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
-        scoreYellow3Btn.setPadding(20, 20, 20, 20);
-        scoreYellow3Btn.setEnabled(!prompt.isReadOnly());
-        scoreYellow3Btn.setBackgroundColor(Color.RED);
-        scoreYellow3Btn.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v)
-            {
-
-            }
-        });
-//        final ImageView blue1= new ImageView(context) ;
-//        final ImageView blue2= new ImageView(context);
-//        final ImageView blue3= new ImageView(context);
-        final Button scoreBlue1Btn = new Button(context);
-        scoreBlue1Btn.setText("Score BLUE_LOW");
-        scoreBlue1Btn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
-        scoreBlue1Btn.setPadding(20, 20, 20, 20);
-        scoreBlue1Btn.setEnabled(!prompt.isReadOnly());
-        scoreBlue1Btn.setBackgroundColor(Color.RED);
-        scoreBlue1Btn.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v)
-            {
-
-            }
-        });
-        final Button scoreBlue2Btn = new Button(context);
-        scoreBlue2Btn.setText("Score BLUE_MID");
-        scoreBlue2Btn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
-        scoreBlue2Btn.setPadding(20, 20, 20, 20);
-        scoreBlue2Btn.setEnabled(!prompt.isReadOnly());
-        scoreBlue2Btn.setBackgroundColor(Color.RED);
-        scoreBlue2Btn.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v)
-            {
-
-            }
-        });
-        final Button scoreBlue3Btn = new Button(context);
-        scoreBlue3Btn.setText("Score BLUE_HIGH");
-        scoreBlue3Btn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
-        scoreBlue3Btn.setPadding(20, 20, 20, 20);
-        scoreBlue3Btn.setEnabled(!prompt.isReadOnly());
-        scoreBlue3Btn.setBackgroundColor(Color.RED);
-        scoreBlue3Btn.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v)
-            {
-
-            }
-        });
-
-
-
-      final Button moreRed   =new Button(getContext());
-        moreRed.setText("See more RED");
-        moreRed.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
-        moreRed.setPadding(20, 20, 20, 20);
-        moreRed.setEnabled(!prompt.isReadOnly());
-        moreRed.setBackgroundColor(Color.RED);
-        moreRed.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v)
-            {
-//                addView(red1);
-//                addView(scoreRed1Btn);
-//                addView(red2);
-//                addView(scoreRed2Btn);
-//                addView(red3);
-//                addView(scoreRed3Btn);
-            }
-        });
-      final Button moreBlue  =new Button(getContext());
-        moreBlue.setText("See more BLUE");
-        moreBlue.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
-        moreBlue.setPadding(20, 20, 20, 20);
-        moreBlue.setEnabled(!prompt.isReadOnly());
-        moreBlue.setBackgroundColor(Color.BLUE);
-        moreBlue.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-//                addView(blue1);
-//                addView(scoreBlue1Btn);
-//                addView(blue2);
-//                addView(scoreBlue2Btn);
-//                addView(blue3);
-//                addView(scoreBlue3Btn);
-            }
-        });;
-      final Button moreYellow=new Button(getContext());
-        moreYellow.setText("See more YELLOW");
-        moreYellow.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
-        moreYellow.setPadding(20, 20, 20, 20);
-        moreYellow.setEnabled(!prompt.isReadOnly());
-        moreYellow.setBackgroundColor(Color.YELLOW);
-        moreYellow.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v)
-            {
-//                addView(yellow1);
-//                addView(scoreYellow1Btn);
-//                addView(yellow2);
-//                addView(scoreYellow2Btn);
-//                addView(yellow3);
-//               addView(scoreYellow3Btn);
-
-            }
-        });;
 //--------------------Setup buttons for livestock driving -----------//
         final Button CS1Button = new Button(getContext());
         CS1Button.setText("SCORE CS1");
@@ -826,10 +692,13 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
         removeView(mScoreButton);
        // addView(mImageView);
         //TODO add "Close Up" image and handle it
+        addView(closeUpBtn);
+        addView(scoreBtn);
         // TODO handle path for images 1 to 9 in one folder for the fad and handlethe close-ups for each one
         addView(mImageView1);
         addView(mImageView2);
-        addView(mZeroButton);
+        // add zero score based on condition
+        //addView(mZeroButton);
 
     }
         //*********
