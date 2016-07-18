@@ -85,7 +85,8 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
     private static TextView mErrorTextView;
     public static boolean prevView= false;
-    public static int picturesIndex= -1;
+    public static int cropsPicturesIndex= -5;
+    public static int picturesIndex= 0;
     private double currentScrore= 0;
     public static boolean imageScore = false;
 
@@ -104,7 +105,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
         mErrorTextView = new TextView(context);
         mErrorTextView.setText("Selected file is not a valid image");
-        picturesIndex+= 2; // for crops walking
+        cropsPicturesIndex+= 2; // for crops walking
 //        if (picturesIndex > 5)
 //            picturesIndex = 1;
         Intent i = new Intent(context, ImagePreviewActivity.class);
@@ -180,71 +181,137 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 //----------------------------------------------Get the Value of the Select---------------------------------------------------------------//
 
         final String species = SpinnerWidget.selectedAnswer.toString();
+if (mFormName.contains("Walking")) {
+    if (species != null)
+        switch (species) {
+            case "Camel":
+                imagesPath = "Camels/" + picturesIndex;
+                break;
+            case "Cattle":
+                imagesPath = "Cattles/" + picturesIndex;
+                break;
+            case "Goat":
+                imagesPath = "Goats/" + picturesIndex;
+                break;
+            case "Long tailed sheep":
+                imagesPath = "Lts/" + picturesIndex;
+                break;
+            case "Fat tailed sheep":
+                imagesPath = "Fts/" + picturesIndex;
+                break;
+            case "Barley":
+                imagesPath = "Barley/" + cropsPicturesIndex;
+                break;
+            case "Cassava":
+                imagesPath = "Cassava/" + cropsPicturesIndex;
+                break;
+            case "Groundnut":
+                imagesPath = "Groundnut/" + cropsPicturesIndex;
+                break;
+            case "Maize":
+                imagesPath = "Maize/" + cropsPicturesIndex;
+                break;
+            case "Teff":
+                imagesPath = "Teff/" + cropsPicturesIndex;
+                break;
+            case "Sunflowers":
+                imagesPath = "Sunflowers/" + cropsPicturesIndex;
+                break;
+            case "Wheat Irrigated":
+                imagesPath = "WheatI/" + cropsPicturesIndex;
+                break;
+            case "Wheat Rainfed":
+                imagesPath = "WheatR/" + cropsPicturesIndex;
+                break;
+            case "Upland Rice":
+                imagesPath = "Uplandrice/" + cropsPicturesIndex;
+                break;
+            case "Pearl Millet":
+                imagesPath = "Pearlmillet/" + cropsPicturesIndex;
+                break;
+            case "Early Main Sorghum Rainfed":
+                imagesPath = "Earlymaindrf/" + cropsPicturesIndex;
+                break;
+            case "Early Main Sorghum Irrigated":
+                imagesPath = "EarlymainI/" + cropsPicturesIndex;
+                break;
+            case "Late Maturing Sorghum":
+                imagesPath = "Latesorg/" + cropsPicturesIndex;
+                break;
+            case "Finger Millet":
+                imagesPath = "Fingermillet/" + cropsPicturesIndex;
+                break;
+            default:
+                break;
 
-        if(species != null)
-            switch (species) {
-                case "Camel":
-                    imagesPath = "Camels/" + picturesIndex;
-                    break;
-                case "Cattle":
-                    imagesPath = "Cattles/" + picturesIndex;
-                    break;
-                case "Goat":
-                    imagesPath = "Goats/" + picturesIndex;
-                    break;
-                case "Long tailed sheep":
-                    imagesPath = "Lts/" + picturesIndex;
-                    break;
-                case "Fat tailed sheep":
-                    imagesPath = "Fts/" + picturesIndex;
-                    break;
-                case"Barley":
-                    imagesPath ="Barley/" + picturesIndex;
-                    break;
-                case"Cassava":
-                    imagesPath ="Cassava/" + picturesIndex;
-                    break;
-                case"Groundnut":
-                    imagesPath ="Groundnut/" + picturesIndex;
-                    break;
-                case"Maize":
-                    imagesPath ="Maize/" + picturesIndex;
-                    break;
-                case"Teff":
-                    imagesPath ="Teff/" + picturesIndex;
-                    break;
-                case"Sunflowers":
-                    imagesPath ="Sunflowers/" + picturesIndex;
-                    break;
-                case"Wheat Irrigated":
-                    imagesPath ="WheatI/" + picturesIndex;
-                    break;
-                case"Wheat Rainfed":
-                    imagesPath ="WheatR/" + picturesIndex;
-                    break;
-                case"Upland Rice":
-                    imagesPath ="Uplandrice/" + picturesIndex;
-                    break;
-                case"Pearl Millet":
-                    imagesPath ="Pearlmillet/" + picturesIndex;
-                    break;
-                case"Early Main Sorghum Rainfed":
-                    imagesPath ="Earlymaindrf/" + picturesIndex;
-                    break;
-                case"Early Main Sorghum Irrigated":
-                    imagesPath ="EarlymainI/" + picturesIndex;
-                    break;
-                case"Late Maturing Sorghum":
-                    imagesPath ="Latesorg/" + picturesIndex;
-                    break;
-                case"Finger Millet":
-                    imagesPath ="Fingermillet/" + picturesIndex;
-                    break;
-                default:
-                    break;
+        }
+}
+        else{
 
-            }
+    if(species != null)
+        switch (species) {
+            case "Camel":
+                imagesPath = "Camels";
+                break;
+            case "Cattle":
+                imagesPath = "Cattles";
+                break;
+            case "Goat":
+                imagesPath = "Goats";
+                break;
+            case "Long tailed sheep":
+                imagesPath = "Lts" ;
+                break;
+            case "Fat tailed sheep":
+                imagesPath = "Fts" ;
+                break;
+            case"Barley":
+                imagesPath ="Barley";
+                break;
+            case"Cassava":
+                imagesPath ="Cassava";
+                break;
+            case"Groundnut":
+                imagesPath ="Groundnut";
+                break;
+            case"Maize":
+                imagesPath ="Maize";
+                break;
+            case"Teff":
+                imagesPath ="Teff";
+                break;
+            case"Sunflowers":
+                imagesPath ="Sunflowers";
+                break;
+            case"Wheat Irrigated":
+                imagesPath ="WheatI";
+                break;
+            case"Wheat Rainfed":
+                imagesPath ="WheatR";
+                break;
+            case"Upland Rice":
+                imagesPath ="Uplandrice";
+                break;
+            case"Pearl Millet":
+                imagesPath ="Pearlmillet";
+                break;
+            case"Early Main Sorghum Rainfed":
+                imagesPath ="Earlymaindrf";
+                break;
+            case"Early Main Sorghum Irrigated":
+                imagesPath ="EarlymainI";
+                break;
+            case"Late Maturing Sorghum":
+                imagesPath ="Latesorg";
+                break;
+            case"Finger Millet":
+                imagesPath ="Fingermillet";
+                break;
+            default:
+                break;
 
+        }
+        }
 //---------------------------------------------------------------------------------------End of getting selection --------------------------------------------------------------//
 //------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
 // ------------------------------------------------------------------------------------Setup buttons for crops walking -----------------------------------------------------------//
@@ -259,8 +326,8 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
         closeUpBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v)
             {
-                int closeupIndex = picturesIndex+ 1;
-                String closeupPath = imagesPath.substring(0,imagesPath.lastIndexOf("/")) + closeupIndex;
+                int closeupIndex = cropsPicturesIndex+ 1;
+                String closeupPath = imagesPath.substring(0,imagesPath.lastIndexOf("/")) + "/"+closeupIndex;
                 String imgCu = mainPath +"/"+closeupPath+ ".jpg";
                 try {
                     Intent myIntent = new Intent(android.content.Intent.ACTION_VIEW);
@@ -999,11 +1066,6 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
 	}
 
-    public static void previewVideo(String sourceVideoPath) {
-        Bitmap thumbnail = ThumbnailUtils.createVideoThumbnail(sourceVideoPath,
-                MediaStore.Images.Thumbnails.MINI_KIND);
-   mImageView.setImageBitmap(thumbnail);
 
-    }
 
 }
