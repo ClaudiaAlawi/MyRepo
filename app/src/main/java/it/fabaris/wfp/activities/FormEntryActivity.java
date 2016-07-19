@@ -570,10 +570,13 @@ if (formName.equalsIgnoreCase("CropsDriving")){
 
 
              //   String s2 = mInstanceFolder.substring(0, mInstanceFolder.indexOf("_")) +"/"+ImageWidget.imagesPath+ ".jpg";
-String s2 = Environment.getExternalStorageDirectory().getPath() +"/GRASP/"+formName+"/"+ImageWidget.imagesPath+ ".jpg";
-                    imagePath =s2;
+                    String s2 = Environment.getExternalStorageDirectory().getPath() +"/GRASP/"+formName+"/"+ImageWidget.imagesPath+ ".jpg";
+                String s3 = Environment.getExternalStorageDirectory().getPath() +"/GRASP/"+formName+"/"+ImageWidget.imagesPath+ ".jpg";
+
+                imagePath =s2;
                     if (mCurrentView != null) {
                         ImageWidget.previewPhoto(s2 , FormEntryActivity.this);
+
                        // if(ImageWidget.imageScore)
                         //((ODKView) mCurrentView).setBinaryData(ImageWidget.imagesPath.substring(0,ImageWidget.imagesPath.lastIndexOf("/")));
                       //  roasterRepeatCount=true;
@@ -1493,6 +1496,7 @@ String s2 = Environment.getExternalStorageDirectory().getPath() +"/GRASP/"+formN
         verifica = true;
         radioFirstCheck = true; // controllo sui radioButton
         ImageWidget.prevView=true;
+        ImageWidget.cropsPicturesIndex -=4;
         // TODO: tolto per provare
         // verifica = false;
 //****disabled to allow the user to go back to the previous page even if the current fields are required*******************//

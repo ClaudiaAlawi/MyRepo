@@ -220,6 +220,7 @@ public class SpinnerWidget extends QuestionWidget implements OnItemSelectedListe
 				result = new SelectOneData(new Selection(sc));
 				selectedAnswer = sc.getValue();
 				ImageWidget.picturesIndex =0;
+				ImageWidget.cropsPicturesIndex= -1;
 			}
 		}
 

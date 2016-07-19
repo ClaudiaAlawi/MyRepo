@@ -85,7 +85,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
     private static TextView mErrorTextView;
     public static boolean prevView= false;
-    public static int cropsPicturesIndex= -5;
+    public static int cropsPicturesIndex= -1;
     public static int picturesIndex= 0;
     private double currentScrore= 0;
     public static boolean imageScore = false;
@@ -106,6 +106,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
         mErrorTextView = new TextView(context);
         mErrorTextView.setText("Selected file is not a valid image");
         cropsPicturesIndex+= 2; // for crops walking
+        picturesIndex++;
 //        if (picturesIndex > 5)
 //            picturesIndex = 1;
         Intent i = new Intent(context, ImagePreviewActivity.class);
@@ -352,6 +353,7 @@ if (mFormName.contains("Walking")) {
         scoreBtn.setPadding(20, 20, 20, 20);
         scoreBtn.setEnabled(!prompt.isReadOnly());
         scoreBtn.setBackgroundColor(Color.GREEN);
+        //TODO handle the click listener
         scoreBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v)
             {
@@ -723,7 +725,7 @@ if (mFormName.contains("Walking")) {
 
 
       //  addView(mZeroButton);
-        addView(mImageView);
+        //addView(mImageView);
         addView(mScoreButton);
         addView(mErrorTextView);
 
@@ -755,15 +757,13 @@ if (mFormName.contains("Walking")) {
         else if (mFormName.contains("CropsWalking"))
     {
         //add see more buttons
-        removeView(mImageView);
+     //   removeView(mImageView);
         removeView(mScoreButton);
-       // addView(mImageView);
-        //TODO add "Close Up" image and handle it
+        addView(mImageView);
+
         addView(closeUpBtn);
         addView(scoreBtn);
-        // TODO handle path for images 1 to 9 in one folder for the fad and handlethe close-ups for each one
-        addView(mImageView1);
-        addView(mImageView2);
+
         // add zero score based on condition
         //addView(mZeroButton);
 
