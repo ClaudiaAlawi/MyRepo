@@ -292,6 +292,7 @@
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
     <color name="abc_search_url_text_selected">@android:color/black</color>
+    <color name="between">#c3f0cd</color>
     <color name="bg_err">#000000</color>
     <color name="bg_mand">#FFFFB5</color>
     <color name="bg_readonly">#FFFFFF</color>
@@ -320,6 +321,7 @@
     <color name="result_points">#c099cc00</color>
     <color name="result_text">#ffffffff</color>
     <color name="result_view">#b0000000</color>
+    <color name="score">#7DA93F</color>
     <color name="status_text">#ffffffff</color>
     <color name="transparent">#00000000</color>
     <color name="viewfinder_laser">#ffcc0000</color>

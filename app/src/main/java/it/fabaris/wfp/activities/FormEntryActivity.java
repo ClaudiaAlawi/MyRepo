@@ -228,6 +228,7 @@ public boolean formHasVideos;
     String mCurrentPhotoPath;
 
     Uri imageURI;
+    private boolean done;
     // private static final List<ColorHelper> colorHelper = new
     // ArrayList<ColorHelper>();
 
@@ -1401,6 +1402,8 @@ if (formName.equalsIgnoreCase("CropsDriving")){
      * answers to the data model after checking constraints.
      */
     public void showNextView() {
+        if (ImageWidget.cropsPicturesIndex +1 == 10 || ImageWidget.cropsPicturesIndex +1 == 18 )
+            done =true;
         // verifica = true;
         // TODO: tolto per provare
         verifica = true;
@@ -1492,11 +1495,19 @@ if (formName.equalsIgnoreCase("CropsDriving")){
          * The answer is saved on a back swipe, but question constraints are
          * ignored.
          */
-        ImageWidget.picturesIndex= ImageWidget.picturesIndex- 2;
+
         verifica = true;
         radioFirstCheck = true; // controllo sui radioButton
         ImageWidget.prevView=true;
-        ImageWidget.cropsPicturesIndex -=4;
+        if (done){
+            ImageWidget.cropsPicturesIndex-=2;
+            ImageWidget.picturesIndex-=1;
+            done = false;
+        }
+        else {
+            ImageWidget.picturesIndex = ImageWidget.picturesIndex - 2;
+            ImageWidget.cropsPicturesIndex -= 4;
+        }
         // TODO: tolto per provare
         // verifica = false;
 //****disabled to allow the user to go back to the previous page even if the current fields are required*******************//

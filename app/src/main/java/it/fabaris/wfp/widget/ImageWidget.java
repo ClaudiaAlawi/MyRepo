@@ -74,8 +74,6 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
     private static Button mScoreButton;
     private static Button mZeroButton;
     private static ImageView mImageView;
-    private static ImageView mImageView1;
-    private static ImageView mImageView2;
     private static String mBinaryName;
     public static String imagesPath;
 
@@ -133,7 +131,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
         mScoreButton.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
         mScoreButton.setPadding(20, 20, 20, 20);
         mScoreButton.setEnabled(!prompt.isReadOnly());
-        mScoreButton.setBackgroundColor(colorHelper.getMandatoryBackgroundColor());
+        mScoreButton.setBackgroundColor(getResources().getColor(R.color.score));
 
 
         //-------------------setup for the zero button------------------------//
@@ -153,6 +151,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                 setBinaryData(currentScrore);
                 IAnswerData s = getAnswer();
                 setAnswer(s);
+                mZeroButton.setBackgroundColor(Color.DKGRAY);
             }
         });
         mScoreButton.setOnClickListener(new View.OnClickListener() {
@@ -169,7 +168,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                 IAnswerData s = getAnswer();
                 setAnswer(s);
 
-                mScoreButton.setBackgroundColor(Color.LTGRAY);
+                mScoreButton.setBackgroundColor(Color.DKGRAY);
 
                 //add the score to the arrayList
 
@@ -182,23 +181,23 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 //----------------------------------------------Get the Value of the Select---------------------------------------------------------------//
 
         final String species = SpinnerWidget.selectedAnswer.toString();
-if (mFormName.contains("Walking")) {
+        if (mFormName.contains("Walking")) {
     if (species != null)
         switch (species) {
             case "Camel":
-                imagesPath = "Camels/" + picturesIndex;
+                imagesPath = "Camels/" + cropsPicturesIndex;
                 break;
             case "Cattle":
-                imagesPath = "Cattles/" + picturesIndex;
+                imagesPath = "Cattles/" + cropsPicturesIndex;
                 break;
             case "Goat":
-                imagesPath = "Goats/" + picturesIndex;
+                imagesPath = "Goats/" + cropsPicturesIndex;
                 break;
             case "Long tailed sheep":
-                imagesPath = "Lts/" + picturesIndex;
+                imagesPath = "Lts/" + cropsPicturesIndex;
                 break;
             case "Fat tailed sheep":
-                imagesPath = "Fts/" + picturesIndex;
+                imagesPath = "Fts/" + cropsPicturesIndex;
                 break;
             case "Barley":
                 imagesPath = "Barley/" + cropsPicturesIndex;
@@ -206,7 +205,7 @@ if (mFormName.contains("Walking")) {
             case "Cassava":
                 imagesPath = "Cassava/" + cropsPicturesIndex;
                 break;
-            case "Groundnut":
+            case "Groundnuts":
                 imagesPath = "Groundnut/" + cropsPicturesIndex;
                 break;
             case "Maize":
@@ -272,7 +271,7 @@ if (mFormName.contains("Walking")) {
             case"Cassava":
                 imagesPath ="Cassava";
                 break;
-            case"Groundnut":
+            case"Groundnuts":
                 imagesPath ="Groundnut";
                 break;
             case"Maize":
@@ -352,7 +351,14 @@ if (mFormName.contains("Walking")) {
         scoreBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
         scoreBtn.setPadding(20, 20, 20, 20);
         scoreBtn.setEnabled(!prompt.isReadOnly());
-        scoreBtn.setBackgroundColor(Color.GREEN);
+        scoreBtn.setBackgroundColor(getResources().getColor(R.color.score));
+
+        final Button scoreBetweenBtn = new Button(context);
+        scoreBetweenBtn.setText("Score Between");
+        scoreBetweenBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+        scoreBetweenBtn.setPadding(20, 20, 20, 20);
+        scoreBetweenBtn.setEnabled(!prompt.isReadOnly());
+        scoreBetweenBtn.setBackgroundColor(getResources().getColor(R.color.between));
         //TODO handle the click listener
         scoreBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v)
@@ -360,10 +366,25 @@ if (mFormName.contains("Walking")) {
                 //check selection
                //get the index of the image from the image path
                 // if it dosn't work out just put a checkbox
+
+                scoreBtn.setBackgroundColor(Color.DKGRAY);
+                scoreBetweenBtn.setBackgroundColor(getResources().getColor(R.color.between));
             }
         });;
 
-//--------------------Setup buttons for livestock driving -----------//
+        scoreBetweenBtn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v)
+            {
+
+//                String temp = imagesPath;
+//                setBinaryData(currentScrore);
+//                IAnswerData s = getAnswer();
+//                setAnswer(s);
+                scoreBetweenBtn.setBackgroundColor(Color.DKGRAY);
+                scoreBtn.setBackgroundColor(getResources().getColor(R.color.score));
+            }
+        });;
+//------------------------------------------------------------------------------------Setup buttons for livestock driving -----------------------------------------------//
         final Button CS1Button = new Button(getContext());
         CS1Button.setText("SCORE CS1");
         CS1Button.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
@@ -411,8 +432,12 @@ if (mFormName.contains("Walking")) {
                 IAnswerData s = getAnswer();
                 setAnswer(s);
 
-                CS1Button.setBackgroundColor(Color.LTGRAY);
-
+                CS1Button.setBackgroundColor(Color.DKGRAY);
+                CS2Button.setBackgroundColor(getResources().getColor(R.color.wfp_azure2));
+                CS3Button.setBackgroundColor(Color.YELLOW);
+                CS4Button.setBackgroundColor(getResources().getColor(R.color.light_red));
+                CS5Button.setBackgroundColor(Color.RED);
+                mZeroButton.setBackgroundColor(Color.LTGRAY);
                 //add the score to the arrayList
 
             }
@@ -431,8 +456,12 @@ if (mFormName.contains("Walking")) {
                 IAnswerData s = getAnswer();
                 setAnswer(s);
 
-                CS2Button.setBackgroundColor(Color.LTGRAY);
-
+                CS2Button.setBackgroundColor(Color.DKGRAY);
+                CS1Button.setBackgroundColor(getResources().getColor(R.color.wfp_azure1));
+                CS3Button.setBackgroundColor(Color.YELLOW);
+                CS4Button.setBackgroundColor(getResources().getColor(R.color.light_red));
+                CS5Button.setBackgroundColor(Color.RED);
+                mZeroButton.setBackgroundColor(Color.LTGRAY);
                 //add the score to the arrayList
 
             }
@@ -451,8 +480,12 @@ if (mFormName.contains("Walking")) {
                 IAnswerData s = getAnswer();
                 setAnswer(s);
 
-                CS3Button.setBackgroundColor(Color.LTGRAY);
-
+                CS3Button.setBackgroundColor(Color.DKGRAY);
+                CS1Button.setBackgroundColor(getResources().getColor(R.color.wfp_azure1));
+                CS2Button.setBackgroundColor(getResources().getColor(R.color.wfp_azure2));
+                CS4Button.setBackgroundColor(getResources().getColor(R.color.light_red));
+                CS5Button.setBackgroundColor(Color.RED);
+                mZeroButton.setBackgroundColor(Color.LTGRAY);
                 //add the score to the arrayList
 
             }
@@ -471,8 +504,12 @@ if (mFormName.contains("Walking")) {
                 IAnswerData s = getAnswer();
                 setAnswer(s);
 
-                CS4Button.setBackgroundColor(Color.LTGRAY);
-
+                CS4Button.setBackgroundColor(Color.DKGRAY);
+                CS1Button.setBackgroundColor(getResources().getColor(R.color.wfp_azure1));
+                CS2Button.setBackgroundColor(getResources().getColor(R.color.wfp_azure2));
+                CS3Button.setBackgroundColor(Color.YELLOW);
+                CS5Button.setBackgroundColor(Color.RED);
+                mZeroButton.setBackgroundColor(Color.LTGRAY);
                 //add the score to the arrayList
 
             }
@@ -491,14 +528,17 @@ if (mFormName.contains("Walking")) {
                 IAnswerData s = getAnswer();
                 setAnswer(s);
 
-                CS5Button.setBackgroundColor(Color.LTGRAY);
-
+                CS5Button.setBackgroundColor(Color.DKGRAY);
+                CS4Button.setBackgroundColor(getResources().getColor(R.color.light_red));
+                CS1Button.setBackgroundColor(getResources().getColor(R.color.wfp_azure1));
+                CS2Button.setBackgroundColor(getResources().getColor(R.color.wfp_azure2));
+                CS3Button.setBackgroundColor(Color.YELLOW);
+                mZeroButton.setBackgroundColor(Color.LTGRAY);
                 //add the score to the arrayList
 
             }
         });
-
-        //--------------------Setup Buttons for the crops driving-----------------//
+//-------------------------------------------------------------------------------------Setup Buttons for the crops driving-------------------------------------------------------//
        final Button mRedButton = new Button(getContext());
        mRedButton.setText(getContext().getString(R.string.red));
        mRedButton.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
@@ -579,6 +619,7 @@ if (mFormName.contains("Walking")) {
                 mRedButton.setBackgroundColor(Color.DKGRAY);
                 mYellowButton.setBackgroundColor(Color.YELLOW);
                 mBlueButton.setBackgroundColor(Color.BLUE);
+                mZeroButton.setBackgroundColor(Color.LTGRAY);
                 //add the score to the arrayList
 
             }
@@ -642,6 +683,7 @@ if (mFormName.contains("Walking")) {
                 mBlueButton.setBackgroundColor(Color.DKGRAY);
                 mRedButton.setBackgroundColor(Color.RED);
                 mYellowButton.setBackgroundColor(Color.YELLOW);
+                mZeroButton.setBackgroundColor(Color.LTGRAY);
 
                 //add the score to the arrayList
 
@@ -705,37 +747,54 @@ if (mFormName.contains("Walking")) {
                 mYellowButton.setBackgroundColor(Color.DKGRAY);
                 mRedButton.setBackgroundColor(Color.RED);
                 mBlueButton.setBackgroundColor(Color.BLUE);
+                mZeroButton.setBackgroundColor(Color.LTGRAY);
 
                 //add the score to the arrayList
 
             }
         });
 
+//----------------------------------------------------------------------------------Setup button for the livestock walking -----------------------------------------------------------//
 
+            Button cMoreBtn = new Button(context);
+            cMoreBtn.setText("More Close ups for this Mode");
+            cMoreBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+            cMoreBtn.setPadding(20, 20, 20, 20);
+            cMoreBtn.setEnabled(!prompt.isReadOnly());
+            cMoreBtn.setBackgroundColor(Color.LTGRAY);
+            cMoreBtn.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
 
+                    int closeupIndex = cropsPicturesIndex+ 1;
+                    String closeupPath = imagesPath.substring(0,imagesPath.lastIndexOf("/")) + "/"+closeupIndex;
+                    String imgCu = mainPath +"/"+closeupPath+ ".jpg";
+                    try {
+                        Intent myIntent = new Intent(android.content.Intent.ACTION_VIEW);
+                        File file = new File(imgCu);
+                        String extension = android.webkit.MimeTypeMap.getFileExtensionFromUrl(Uri.fromFile(file).toString());
+                        String mimetype = android.webkit.MimeTypeMap.getSingleton().getMimeTypeFromExtension(extension);
+                        myIntent.setDataAndType(Uri.fromFile(file),mimetype);
+                        //   myIntent.setPackage("com.android.gallery");
+                        context.startActivity(myIntent);
+//                        Uri uri = Uri.parse("file:/"+FormEntryActivity.imagePath);
+//                        context.startActivity(new Intent(Intent.ACTION_VIEW,uri));;
+                    } catch (ActivityNotFoundException e) {
+                        Toast.makeText(context,
+                                context.getString(R.string.activity_not_found, "view image"),
+                                Toast.LENGTH_SHORT);
+                    }
+                                            }}
+            );
 
-
-
-
-        //////////////////////////////////////////////////////////////////////
-
+//----------------------------------------------------------------------------------------End Of Custom Setups------------------------------------------------------------------------//
         mImageView = new ImageView(context);
-        mImageView1 = new ImageView(context);
-        mImageView2 = new ImageView(context);
-
-
-      //  addView(mZeroButton);
-        //addView(mImageView);
-        addView(mScoreButton);
+        addView(mImageView);
         addView(mErrorTextView);
 
 
-
-
-        //*********
-    if (mFormName.contains("CropsDriving"))
+        if (mFormName.contains("CropsDriving"))
     {
-            removeView(mScoreButton);
+
             addView(mRedButton);
             addView(mYellowButton);
             addView(mBlueButton);
@@ -743,6 +802,8 @@ if (mFormName.contains("Walking")) {
     }
         else if (mFormName.contains("LivestockWalking"))
     {
+        addView(cMoreBtn);
+        addView(mScoreButton);
 
     }
         else if (mFormName.contains("LivestockDriving")){
@@ -756,25 +817,17 @@ if (mFormName.contains("Walking")) {
         }
         else if (mFormName.contains("CropsWalking"))
     {
-        //add see more buttons
-     //   removeView(mImageView);
-        removeView(mScoreButton);
+        removeView(mImageView);
+        addView(scoreBetweenBtn);
         addView(mImageView);
-
         addView(closeUpBtn);
         addView(scoreBtn);
 
-        // add zero score based on condition
-        //addView(mZeroButton);
-
     }
-        //*********
 
         mErrorTextView.setVisibility(View.GONE);
-
         // retrieve answer from data model and update ui
         mBinaryName = prompt.getAnswerText();
-
 
     }
 
@@ -926,96 +979,6 @@ if (mFormName.contains("Walking")) {
         Display display = ((WindowManager) context.getSystemService(Context.WINDOW_SERVICE)).getDefaultDisplay();
         int screenWidth = display.getWidth();
         int screenHeight = display.getHeight();
-
-        if(mFormName.contains("LivestockWalking")){
-            final String imgCu1= imageUri.substring(0,imageUri.lastIndexOf(".")) +"cu1.jpg";
-            final String imgCu2= imageUri.substring(0,imageUri.lastIndexOf(".")) +"cu2.jpg";
-            File f1 =new File(imgCu1);
-            File f2 = new File(imgCu2);
-            if (f1.exists()) {
-                Bitmap bmp1 = FileUtils.getBitmapScaledToDisplay(f1, screenHeight, screenWidth);
-                if (bmp1 == null) {
-                    mErrorTextView.setVisibility(View.VISIBLE);
-                }
-                mImageView1.setImageBitmap(bmp1);
-            } else {
-                mImageView1.setImageBitmap(null);
-            }
-
-            mImageView1.setPadding(10, 10, 10, 10);
-            mImageView1.setAdjustViewBounds(true);
-
-            //second
-
-
-            mImageView1.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent i = new Intent("android.intent.action.VIEW");
-
-                    try {
-                        Intent myIntent = new Intent(android.content.Intent.ACTION_VIEW);
-                        File file = new File(imgCu1);
-                        String extension = android.webkit.MimeTypeMap.getFileExtensionFromUrl(Uri.fromFile(file).toString());
-                        String mimetype = android.webkit.MimeTypeMap.getSingleton().getMimeTypeFromExtension(extension);
-                        myIntent.setDataAndType(Uri.fromFile(file),mimetype);
-                        //   myIntent.setPackage("com.android.gallery");
-                        context.startActivity(myIntent);
-//                        Uri uri = Uri.parse("file:/"+FormEntryActivity.imagePath);
-//                        context.startActivity(new Intent(Intent.ACTION_VIEW,uri));;
-                    } catch (ActivityNotFoundException e) {
-                        Toast.makeText(context,
-                                context.getString(R.string.activity_not_found, "view image"),
-                                Toast.LENGTH_SHORT);
-                    }
-//                }
-//                c.close();
-                }
-            });
-            // view close up2
-            if (f2.exists()) {
-                Bitmap bmp2 = FileUtils.getBitmapScaledToDisplay(f2, screenHeight, screenWidth);
-                if (bmp2 == null) {
-                    mErrorTextView.setVisibility(View.VISIBLE);
-                }
-                mImageView2.setImageBitmap(bmp2);
-            } else {
-                mImageView2.setImageBitmap(null);
-            }
-
-            mImageView2.setPadding(10, 10, 10, 10);
-            mImageView2.setAdjustViewBounds(true);
-
-            //second
-
-
-            mImageView2.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent i = new Intent("android.intent.action.VIEW");
-
-                    try {
-                        Intent myIntent = new Intent(android.content.Intent.ACTION_VIEW);
-                        File file = new File(imgCu2);
-                        String extension = android.webkit.MimeTypeMap.getFileExtensionFromUrl(Uri.fromFile(file).toString());
-                        String mimetype = android.webkit.MimeTypeMap.getSingleton().getMimeTypeFromExtension(extension);
-                        myIntent.setDataAndType(Uri.fromFile(file),mimetype);
-                        //   myIntent.setPackage("com.android.gallery");
-                        context.startActivity(myIntent);
-//                        Uri uri = Uri.parse("file:/"+FormEntryActivity.imagePath);
-//                        context.startActivity(new Intent(Intent.ACTION_VIEW,uri));;
-                    } catch (ActivityNotFoundException e) {
-                        Toast.makeText(context,
-                                context.getString(R.string.activity_not_found, "view image"),
-                                Toast.LENGTH_SHORT);
-                    }
-//                }
-//                c.close();
-                }
-            });
-
-
-        }
 
 
         File f = new File(imageUri);//(mInstanceFolder + "/" + mBinaryName);

@@ -685,10 +685,11 @@ containing a value of this type.
         public static final int abc_split_action_bar_is_narrow=0x7f0c0002;
     }
     public static final class color {
-        public static final int abc_search_url_text_holo=0x7f090027;
+        public static final int abc_search_url_text_holo=0x7f090029;
         public static final int abc_search_url_text_normal=0x7f090017;
         public static final int abc_search_url_text_pressed=0x7f090018;
         public static final int abc_search_url_text_selected=0x7f090019;
+        public static final int between=0x7f09001a;
         public static final int bg_err=0x7f090000;
         public static final int bg_mand=0x7f090001;
         public static final int bg_readonly=0x7f090002;
@@ -698,10 +699,10 @@ containing a value of this type.
         public static final int black_1=0x7f090006;
         public static final int black_2=0x7f090007;
         public static final int blue=0x7f090008;
-        public static final int contents_text=0x7f09001a;
+        public static final int contents_text=0x7f09001b;
         public static final int dark_grey=0x7f090009;
-        public static final int dark_red=0x7f09001b;
-        public static final int encode_view=0x7f09001c;
+        public static final int dark_red=0x7f09001c;
+        public static final int encode_view=0x7f09001d;
         public static final int fg_err=0x7f09000a;
         public static final int fg_mand=0x7f09000b;
         public static final int fg_readonly=0x7f09000c;
@@ -710,17 +711,18 @@ containing a value of this type.
         public static final int fg_std=0x7f09000f;
         public static final int gray=0x7f090010;
         public static final int green=0x7f090011;
-        public static final int light_red=0x7f09001d;
-        public static final int possible_result_points=0x7f09001e;
+        public static final int light_red=0x7f09001e;
+        public static final int possible_result_points=0x7f09001f;
         public static final int red=0x7f090012;
-        public static final int result_minor_text=0x7f09001f;
-        public static final int result_points=0x7f090020;
-        public static final int result_text=0x7f090021;
-        public static final int result_view=0x7f090022;
-        public static final int status_text=0x7f090023;
-        public static final int transparent=0x7f090024;
-        public static final int viewfinder_laser=0x7f090025;
-        public static final int viewfinder_mask=0x7f090026;
+        public static final int result_minor_text=0x7f090020;
+        public static final int result_points=0x7f090021;
+        public static final int result_text=0x7f090022;
+        public static final int result_view=0x7f090023;
+        public static final int score=0x7f090024;
+        public static final int status_text=0x7f090025;
+        public static final int transparent=0x7f090026;
+        public static final int viewfinder_laser=0x7f090027;
+        public static final int viewfinder_mask=0x7f090028;
         public static final int wfp_azure1=0x7f090013;
         public static final int wfp_azure2=0x7f090014;
         public static final int white=0x7f090015;
