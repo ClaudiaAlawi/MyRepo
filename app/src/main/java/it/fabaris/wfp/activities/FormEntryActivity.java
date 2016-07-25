@@ -1402,7 +1402,9 @@ if (formName.equalsIgnoreCase("CropsDriving")){
      * answers to the data model after checking constraints.
      */
     public void showNextView() {
-        if (ImageWidget.cropsPicturesIndex +1 == 10 || ImageWidget.cropsPicturesIndex +1 == 18 )
+        if (formName.equalsIgnoreCase("LivestockWalking") && ImageWidget.cropsPicturesIndex +1 == 10 )
+            done =true;
+        if(formName.equalsIgnoreCase("CropsWalking") && ImageWidget.cropsPicturesIndex +1 == 18 )
             done =true;
         // verifica = true;
         // TODO: tolto per provare

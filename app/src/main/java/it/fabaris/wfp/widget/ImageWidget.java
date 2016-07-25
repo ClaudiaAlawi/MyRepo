@@ -55,6 +55,7 @@ import org.javarosa.form.api.FormEntryPrompt;
 
 import java.io.File;
 import java.text.Normalizer;
+import java.util.ArrayList;
 
 import it.fabaris.wfp.activities.FormEntryActivity;
 import it.fabaris.wfp.activities.ImagePreviewActivity;
@@ -105,6 +106,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
         mErrorTextView.setText("Selected file is not a valid image");
         cropsPicturesIndex+= 2; // for crops walking
         picturesIndex++;
+
 //        if (picturesIndex > 5)
 //            picturesIndex = 1;
         Intent i = new Intent(context, ImagePreviewActivity.class);
@@ -363,10 +365,453 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
         scoreBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v)
             {
-                //check selection
-               //get the index of the image from the image path
-                // if it dosn't work out just put a checkbox
+                String temp[] =imagesPath.split("/");
+                String selection = temp[0];
+                String index = temp[1];
+                switch (selection){
+                    case"Barley":
+                        switch (index) {
+                            case "1":
+                                currentScrore = 0.3;
+                                break;
+                            case "3":
+                                currentScrore =  0.5;
+                                break;
+                            case "5":
+                                currentScrore = 0.75;
+                                break;
+                            case "7":
+                                currentScrore = 1.25;
+                                break;
+                            case "9":
+                                currentScrore = 1.85;
+                                break;
+                            case "11":
+                                currentScrore = 2;
+                                break;
+                            case "13":
+                                currentScrore = 2.85;
+                                break;
+                            case "15":
+                                currentScrore = 3.25;
+                                break;
+                            case "17":
+                                currentScrore = 3.5;
+                                break;
+                        }
+                    case"Cassava":
+                        switch (index) {
+                            case "1":
+                                currentScrore = 3.25;
+                                break;
+                            case "3":
+                                currentScrore = 6.99;
+                                break;
+                            case "5":
+                                currentScrore = 10;
+                                break;
+                            case "7":
+                                currentScrore = 15;
+                                break;
+                            case "9":
+                                currentScrore = 20.15;
+                                break;
+                            case "11":
+                                currentScrore = 25.14;
+                                break;
+                            case "13":
+                                currentScrore = 30;
+                                break;
+                            case "15":
+                                currentScrore = 37.6;
+                                break;
+                            case "17":
+                                currentScrore = 41.52;
+                                break;
+                        }
+                        break;
+                    case"Groundnuts":
+                        switch (index) {
+                            case "1":
+                                currentScrore = 0.1;
+                                break;
+                            case "3":
+                                currentScrore = 0.6;
+                                break;
+                            case "5":
+                                currentScrore = 1.25;
+                                break;
+                            case "7":
+                                currentScrore = 1.5;
+                                break;
+                            case "9":
+                                currentScrore = 2;
+                                break;
+                            case "11":
+                                currentScrore = 2.4;
+                                break;
+                            case "13":
+                                currentScrore = 2.6;
+                                break;
+                            case "15":
+                                currentScrore = 3;
+                                break;
+                            case "17":
+                                currentScrore = 3.55;
+                                break;
+                        }
+                        break;
+                    case"Maize":
+                        switch (index) {
+                            case "1":
+                                currentScrore = 0.25;
+                                break;
+                            case "3":
+                                currentScrore = 0.6;
+                                break;
+                            case "5":
+                                currentScrore = 1.3;
+                                break;
+                            case "7":
+                                currentScrore = 1.9;
+                                break;
+                            case "9":
+                                currentScrore = 2.25;
+                                break;
+                            case "11":
+                                currentScrore = 3.85;
+                                break;
+                            case "13":
+                                currentScrore = 4.5;
+                                break;
+                            case "15":
+                                currentScrore =  6;
+                                break;
+                            case "17":
+                                currentScrore = 7;
+                                break;
+                        }
+                        break;
+                    case"Teff":
+                        switch (index) {
+                            case "1":
+                                currentScrore =  0.25;
+                                break;
+                            case "3":
+                                currentScrore = 0.5;
+                                break;
+                            case "5":
+                                currentScrore = 0.77;
+                                break;
+                            case "7":
+                                currentScrore = 1;
+                                break;
+                            case "9":
+                                currentScrore = 1.25;
+                                break;
+                            case "11":
+                                currentScrore = 1.5;
+                                break;
+                            case "13":
+                                currentScrore =  2;
+                                break;
+                            case "15":
+                                currentScrore = 2.4;
+                                break;
+                            case "17":
+                                currentScrore = 2.7;
+                                break;
+                        }
+                        break;
+                    case"Sunflowers":
+                        switch (index) {
+                            case "1":
+                                currentScrore =  0.42;
+                                break;
+                            case "3":
+                                currentScrore =  0.85;
+                                break;
+                            case "5":
+                                currentScrore = 1;
+                                break;
+                            case "7":
+                                currentScrore = 1.25;
+                                break;
+                            case "9":
+                                currentScrore =  1.8;
+                                break;
+                            case "11":
+                                currentScrore =  2;
+                                break;
+                            case "13":
+                                currentScrore =  2.10;
+                                break;
+                            case "15":
+                                currentScrore =  2.66;
+                                break;
+                            case "17":
+                                currentScrore =  2.85;
+                                break;
+                        }
+                        break;
+                    case"Wheat Irrigated":
+                        switch (index) {
+                            case "1":
+                                currentScrore =  0.6;
+                                break;
+                            case "3":
+                                currentScrore = 1.5;
+                                break;
+                            case "5":
+                                currentScrore = 2.5;
+                                break;
+                            case "7":
+                                currentScrore = 3.1;
+                                break;
+                            case "9":
+                                currentScrore = 3.85;
+                                break;
+                            case "11":
+                                currentScrore =  4.7;
+                                break;
+                            case "13":
+                                currentScrore = 5.35;
+                                break;
+                            case "15":
+                                currentScrore = 6.35;
+                                break;
+                            case "17":
+                                currentScrore = 7.5;
+                                break;
+                        }
+                        break;
+                    case"Wheat Rainfed":
+                        switch (index) {
+                            case "1":
+                                currentScrore =  0.5;
+                                break;
+                            case "3":
+                                currentScrore =  0.85;
+                                break;
+                            case "5":
+                                currentScrore = 1.5;
+                                break;
+                            case "7":
+                                currentScrore = 2;
+                                break;
+                            case "9":
+                                currentScrore = 2.5;
+                                break;
+                            case "11":
+                                currentScrore = 3.5;
+                                break;
+                            case "13":
+                                currentScrore =  4.7;
+                                break;
+                            case "15":
+                                currentScrore =  5.5;
+                                break;
+                            case "17":
+                                currentScrore = 7.6;
+                                break;
+                        }
+                        break;
+                    case"Upland Rice":
+                        imagesPath ="Uplandrice";
+                        switch (index) {
+                            case "1":
+                                currentScrore =  0.1;
+                                break;
+                            case "3":
+                                currentScrore = 0.9;
+                                break;
+                            case "5":
+                                currentScrore = 1.45;
+                                break;
+                            case "7":
+                                currentScrore =  1.5;
+                                break;
+                            case "9":
+                                currentScrore =  2.2;
+                                break;
+                            case "11":
+                                currentScrore =   3.05;
+                                break;
+                            case "13":
+                                currentScrore = 3.8;
+                                break;
+                            case "15":
+                                currentScrore =  4.75;
+                                break;
+                            case "17":
+                                currentScrore =  6.12;
+                                break;
+                        }
+                        break;
+                    case"Pearl Millet":
+                        switch (index) {
+                            case "1":
+                                currentScrore =0.14;
+                                break;
+                            case "3":
+                                currentScrore =0.59;
+                                break;
+                            case "5":
+                                currentScrore =0.85;
+                                break;
+                            case "7":
+                                currentScrore = 1;
+                                break;
+                            case "9":
+                                currentScrore = 1.25;
+                                break;
+                            case "11":
+                                currentScrore =1.65;
+                                break;
+                            case "13":
+                                currentScrore =1.92;
+                                break;
+                            case "15":
+                                currentScrore = 2;
+                                break;
+                            case "17":
+                                currentScrore = 2.40;
+                                break;
+                        }
+                        break;
+                    case"Early Main Sorghum Rainfed":
 
+                        switch (index) {
+                            case "1":
+                                currentScrore =  0.25;
+                                break;
+                            case "3":
+                                currentScrore =  0.7;
+                                break;
+                            case "5":
+                                currentScrore =  1.2;
+                                break;
+                            case "7":
+                                currentScrore =  1.45;
+                                break;
+                            case "9":
+                                currentScrore =  2;
+                                break;
+                            case "11":
+                                currentScrore =   2.75;
+                                break;
+                            case "13":
+                                currentScrore =   3.6;
+                                break;
+                            case "15":
+                                currentScrore =   4.7;
+                                break;
+                            case "17":
+                                currentScrore = 6;
+                                break;
+                        }
+                        break;
+                    case"Early Main Sorghum Irrigated":
+                        switch (index) {
+                            case "1":
+                                currentScrore = 0.7;
+                                break;
+                            case "3":
+                                currentScrore = 1.43;
+                                break;
+                            case "5":
+                                currentScrore = 2.25;
+                                break;
+                            case "7":
+                                currentScrore = 2.75;
+                                break;
+                            case "9":
+                                currentScrore = 3.25;
+                                break;
+                            case "11":
+                                currentScrore =  3.75;
+                                break;
+                            case "13":
+                                currentScrore =  4.6;
+                                break;
+                            case "15":
+                                currentScrore = 5.8;
+                                break;
+                            case "17":
+                                currentScrore = 7.7;
+                                break;
+                        }
+                        break;
+                    case"Late Maturing Sorghum":
+                        switch (index) {
+                            case "1":
+                                currentScrore =   0.2;
+                                break;
+                            case "3":
+                                currentScrore =   0.5;
+                                break;
+                            case "5":
+                                currentScrore =  1;
+                                break;
+                            case "7":
+                                currentScrore =  1.10;
+                                break;
+                            case "9":
+                                currentScrore =  1.7;
+                                break;
+                            case "11":
+                                currentScrore = 1.9;
+                                break;
+                            case "13":
+                                currentScrore =  2.10;
+                                break;
+                            case "15":
+                                currentScrore = 2.64;
+                                break;
+                            case "17":
+                                currentScrore =  3.35;
+                                break;
+
+                        }
+                        break;
+                    case"Finger Millet":
+                        switch (index) {
+                            case "1":
+                                currentScrore =0.25;
+                                break;
+                            case "3":
+                                currentScrore = 0.5;
+                                break;
+                            case "5":
+                                currentScrore =0.72;
+                                break;
+                            case "7":
+                                currentScrore =0.94;
+                                break;
+                            case "9":
+                                currentScrore = 1.51;
+                                break;
+                            case "11":
+                                currentScrore =2.15;
+                                break;
+                            case "13":
+                                currentScrore = 2.52;
+                                break;
+                            case "15":
+                                currentScrore =2.99;
+                                break;
+                            case "17":
+                                currentScrore =3.30;
+                                break;
+
+
+                        }
+                        break;
+
+                }
+                setBinaryData(currentScrore);
+                IAnswerData s = getAnswer();
+                setAnswer(s);
                 scoreBtn.setBackgroundColor(Color.DKGRAY);
                 scoreBetweenBtn.setBackgroundColor(getResources().getColor(R.color.between));
             }
@@ -376,10 +821,453 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
             public void onClick(View v)
             {
 
-//                String temp = imagesPath;
-//                setBinaryData(currentScrore);
-//                IAnswerData s = getAnswer();
-//                setAnswer(s);
+                String temp[] =imagesPath.split("/");
+                String selection = temp[0];
+                String index = temp[1];
+                switch (selection){
+                    case"Barley":
+                       switch (index) {
+                           case "1":
+                            currentScrore = 0.3;
+                               break;
+                           case "3":
+                               currentScrore =  0.5;
+                               break;
+                           case "5":
+                               currentScrore = 0.75;
+                               break;
+                           case "7":
+                               currentScrore = 1.25;
+                               break;
+                           case "9":
+                               currentScrore = 1.85;
+                               break;
+                           case "11":
+                               currentScrore = 2;
+                               break;
+                           case "13":
+                               currentScrore = 2.85;
+                               break;
+                           case "15":
+                               currentScrore = 3.25;
+                               break;
+                           case "17":
+                               currentScrore = 3.5;
+                               break;
+                       }
+                    case"Cassava":
+                        switch (index) {
+                            case "1":
+                                currentScrore = 1.63;
+                                break;
+                            case "3":
+                                currentScrore = 5.12;
+                                break;
+                            case "5":
+                                currentScrore = 8.5;
+                                break;
+                            case "7":
+                                currentScrore = 12.5;
+                                break;
+                            case "9":
+                                currentScrore = 17.58;
+                                break;
+                            case "11":
+                                currentScrore = 22.65;
+                                break;
+                            case "13":
+                                currentScrore = 27.57;
+                                break;
+                            case "15":
+                                currentScrore = 33.8;
+                                break;
+                            case "17":
+                                currentScrore = 39.56;
+                                break;
+                        }
+                        break;
+                    case"Groundnuts":
+                        switch (index) {
+                            case "1":
+                                currentScrore = 0.05;
+                                break;
+                            case "3":
+                                currentScrore = 0.35;
+                                break;
+                            case "5":
+                                currentScrore = 0.93;
+                                break;
+                            case "7":
+                                currentScrore = 1.38;
+                                break;
+                            case "9":
+                                currentScrore = 1.75;
+                                break;
+                            case "11":
+                                currentScrore = 2.2;
+                                break;
+                            case "13":
+                                currentScrore = 2.5;
+                                break;
+                            case "15":
+                                currentScrore = 2.8;
+                                break;
+                            case "17":
+                                currentScrore = 3.28;
+                                break;
+                        }
+                        break;
+                    case"Maize":
+                        switch (index) {
+                            case "1":
+                                currentScrore = 0.13;
+                                break;
+                            case "3":
+                                currentScrore = 0.43;
+                                break;
+                            case "5":
+                                currentScrore = 0.95;
+                                break;
+                            case "7":
+                                currentScrore = 1.6;
+                                break;
+                            case "9":
+                                currentScrore = 2.08;
+                                break;
+                            case "11":
+                                currentScrore = 3.05;
+                                break;
+                            case "13":
+                                currentScrore = 4.18;
+                                break;
+                            case "15":
+                                currentScrore =  5.25;
+                                break;
+                            case "17":
+                                currentScrore = 6.5;
+                                break;
+                        }
+                        break;
+                    case"Teff":
+                        switch (index) {
+                            case "1":
+                                currentScrore =  0.13;
+                                break;
+                            case "3":
+                                currentScrore = 0.38;
+                                break;
+                            case "5":
+                                currentScrore = 0.64;
+                                break;
+                            case "7":
+                                currentScrore = 0.89;
+                                break;
+                            case "9":
+                                currentScrore = 1.13;
+                                break;
+                            case "11":
+                                currentScrore = 1.38;
+                                break;
+                            case "13":
+                                currentScrore =  1.75;
+                                break;
+                            case "15":
+                                currentScrore = 2.2;
+                                break;
+                            case "17":
+                                currentScrore = 2.55;
+                                break;
+                        }
+                        break;
+                    case"Sunflowers":
+                        switch (index) {
+                            case "1":
+                                currentScrore =  0.21;
+                                break;
+                            case "3":
+                                currentScrore =  0.64;
+                                break;
+                            case "5":
+                                currentScrore = 0.93;
+                                break;
+                            case "7":
+                                currentScrore = 1.13;
+                                break;
+                            case "9":
+                                currentScrore =  1.53;
+                                break;
+                            case "11":
+                                currentScrore =  1.9;
+                                break;
+                            case "13":
+                                currentScrore =  2.05;
+                                break;
+                            case "15":
+                                currentScrore =  2.38;
+                                break;
+                            case "17":
+                                currentScrore =  2.76;
+                                break;
+                        }
+                        break;
+                    case"Wheat Irrigated":
+                        switch (index) {
+                            case "1":
+                                currentScrore =  0.3;
+                                break;
+                            case "3":
+                                currentScrore = 1.05;
+                                break;
+                            case "5":
+                                currentScrore = 2;
+                                break;
+                            case "7":
+                                currentScrore = 2.8;
+                                break;
+                            case "9":
+                                currentScrore = 3.48;
+                                break;
+                            case "11":
+                                currentScrore =  4.28;
+                                break;
+                            case "13":
+                                currentScrore = 5.03;
+                                break;
+                            case "15":
+                                currentScrore = 5.85;
+                                break;
+                            case "17":
+                                currentScrore = 6.93;
+                                break;
+                        }
+                        break;
+                    case"Wheat Rainfed":
+                        switch (index) {
+                            case "1":
+                                currentScrore =  0.25;
+                                break;
+                            case "3":
+                                currentScrore =  0.68;
+                                break;
+                            case "5":
+                                currentScrore = 1.18;
+                                break;
+                            case "7":
+                                currentScrore = 1.75;
+                                break;
+                            case "9":
+                                currentScrore = 2.25;
+                                break;
+                            case "11":
+                                currentScrore = 3;
+                                break;
+                            case "13":
+                                currentScrore =  4.1;
+                                break;
+                            case "15":
+                                currentScrore =  5.1;
+                                break;
+                            case "17":
+                                currentScrore = 6.55;
+                                break;
+                        }
+                        break;
+                    case"Upland Rice":
+                        imagesPath ="Uplandrice";
+                        switch (index) {
+                            case "1":
+                                currentScrore =  0.05;
+                                break;
+                            case "3":
+                                currentScrore = 0.5;
+                                break;
+                            case "5":
+                                currentScrore = 1.18;
+                                break;
+                            case "7":
+                                currentScrore =  1.48;
+                                break;
+                            case "9":
+                                currentScrore =  1.85;
+                                break;
+                            case "11":
+                                currentScrore =   2.63;
+                                break;
+                            case "13":
+                                currentScrore = 3.43;
+                                break;
+                            case "15":
+                                currentScrore =  4.28;
+                                break;
+                            case "17":
+                                currentScrore =  5.44;
+                                break;
+                        }
+                        break;
+                    case"Pearl Millet":
+                        switch (index) {
+                            case "1":
+                                currentScrore =0.07;
+                                break;
+                            case "3":
+                                currentScrore =0.37;
+                                break;
+                            case "5":
+                                currentScrore =0.72;
+                                break;
+                            case "7":
+                                currentScrore = 0.93;
+                                break;
+                            case "9":
+                                currentScrore = 1.13;
+                                break;
+                            case "11":
+                                currentScrore =1.45;
+                                break;
+                            case "13":
+                                currentScrore =1.79;
+                                break;
+                            case "15":
+                                currentScrore = 1.96;
+                                break;
+                            case "17":
+                                currentScrore = 2.2;
+                                break;
+                        }
+                        break;
+                    case"Early Main Sorghum Rainfed":
+
+                        switch (index) {
+                            case "1":
+                                currentScrore =  0.13;
+                                break;
+                            case "3":
+                                currentScrore =  0.48;
+                                break;
+                            case "5":
+                                currentScrore =  0.95;
+                                break;
+                            case "7":
+                                currentScrore =  1.33;
+                                break;
+                            case "9":
+                                currentScrore =  1.73;
+                                break;
+                            case "11":
+                                currentScrore =   2.38;
+                                break;
+                            case "13":
+                                currentScrore =   3.18;
+                                break;
+                            case "15":
+                                currentScrore =   4.15;
+                                break;
+                            case "17":
+                                currentScrore = 5.35;
+                                break;
+                        }
+                        break;
+                    case"Early Main Sorghum Irrigated":
+                        switch (index) {
+                            case "1":
+                                currentScrore = 0.35;
+                                break;
+                            case "3":
+                                currentScrore = 1.07;
+                                break;
+                            case "5":
+                                currentScrore = 1.84;
+                                break;
+                            case "7":
+                                currentScrore = 2.5;
+                                break;
+                            case "9":
+                                currentScrore = 3;
+                                break;
+                            case "11":
+                                currentScrore =  3.5;
+                                break;
+                            case "13":
+                                currentScrore =  4.18;
+                                break;
+                            case "15":
+                                currentScrore = 5.2;
+                                break;
+                            case "17":
+                                currentScrore = 6.75;
+                                break;
+                        }
+                        break;
+                    case"Late Maturing Sorghum":
+                        switch (index) {
+                            case "1":
+                                currentScrore =   0.1;
+                                break;
+                            case "3":
+                                currentScrore =   0.35;
+                                break;
+                            case "5":
+                                currentScrore =  0.75;
+                                break;
+                            case "7":
+                                currentScrore =  1.05;
+                                break;
+                            case "9":
+                                currentScrore =  1.4;
+                                break;
+                            case "11":
+                                currentScrore = 1.8;
+                                break;
+                            case "13":
+                                currentScrore =  2;
+                                break;
+                            case "15":
+                                currentScrore = 2.37;
+                                break;
+                            case "17":
+                                currentScrore =  3;
+                                break;
+
+                        }
+                        break;
+                    case"Finger Millet":
+                        switch (index) {
+                            case "1":
+                                currentScrore =0.13;
+                                break;
+                            case "3":
+                                currentScrore = 0.38;
+                                break;
+                            case "5":
+                                currentScrore =0.61;
+                                break;
+                            case "7":
+                                currentScrore =0.83;
+                                break;
+                            case "9":
+                                currentScrore = 1.23;
+                                break;
+                            case "11":
+                                currentScrore =1.83;
+                                break;
+                            case "13":
+                                currentScrore = 2.34;
+                                break;
+                            case "15":
+                                currentScrore =2.76;
+                                break;
+                            case "17":
+                                currentScrore =3.15;
+                                break;
+
+
+                        }
+                        break;
+
+                }
+                setBinaryData(currentScrore);
+                IAnswerData s = getAnswer();
+                setAnswer(s);
                 scoreBetweenBtn.setBackgroundColor(Color.DKGRAY);
                 scoreBtn.setBackgroundColor(getResources().getColor(R.color.score));
             }
