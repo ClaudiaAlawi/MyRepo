@@ -828,31 +828,31 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                     case"Barley":
                        switch (index) {
                            case "1":
-                            currentScrore = 0.3;
+                            currentScrore = 0.15;
                                break;
                            case "3":
-                               currentScrore =  0.5;
+                               currentScrore =  0.4;
                                break;
                            case "5":
-                               currentScrore = 0.75;
+                               currentScrore = 0.63;
                                break;
                            case "7":
-                               currentScrore = 1.25;
+                               currentScrore = 1;
                                break;
                            case "9":
-                               currentScrore = 1.85;
+                               currentScrore = 1.55;
                                break;
                            case "11":
-                               currentScrore = 2;
+                               currentScrore = 1.93;
                                break;
                            case "13":
-                               currentScrore = 2.85;
+                               currentScrore = 2.43;
                                break;
                            case "15":
-                               currentScrore = 3.25;
+                               currentScrore = 3.05;
                                break;
                            case "17":
-                               currentScrore = 3.5;
+                               currentScrore = 3.38;
                                break;
                        }
                     case"Cassava":
