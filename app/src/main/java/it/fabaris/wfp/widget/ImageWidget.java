@@ -827,6 +827,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                 String index = temp[1];
                 switch (selection){
                     case"Barley":
+
                         switch (index) {
                             case "1":
                                 currentScrore = 0.15;
