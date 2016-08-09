@@ -138,46 +138,47 @@ public class FormListNewActivity extends Activity
             }
         });
 
-        listview.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
-            @Override
-            public boolean onItemLongClick(AdapterView<?> parent, View v, final int position, long id) {
-                AlertDialog.Builder builder = new AlertDialog.Builder(FormListNewActivity.this);
-                builder.setMessage(getString(R.string.delete_form))
-                        .setCancelable(false)
-                        .setPositiveButton(R.string.confirm,
-                                new DialogInterface.OnClickListener(){
-                                    public void onClick(DialogInterface dialog, int id)
-                                    {
-							/*LL 14-05-2014 eliminato per dismissione del db grasp
-							//int positionSalvati = getRightCompletedParcelableObject(saved.get(position).getFormName()); LL eliminato per dismissione del db grasp
-							ApplicationExt.getDatabaseAdapter().open().delete("SAVED", saved.get(position).getFormName());
-							ApplicationExt.getDatabaseAdapter().close();
-							*/
-                                        dialog.dismiss();
-                                        FormProvider.DatabaseHelper dbh = new FormProvider.DatabaseHelper("forms.db");
-                                        String query1 = "DELETE FROM forms WHERE displayName = '"
-                                                + nuove.get(position).getFormName()+"'";
-                                               // + "' AND status='new',status='completed,status='saved'";
-
-                                        dbh.getWritableDatabase().execSQL(query1);
-                                        dbh.close();
-
-                                        Toast.makeText(FormListNewActivity.this, getString(R.string.cancelform) + " " +nuove.get(position).getFormName(), Toast.LENGTH_LONG).show();
-                                        finish();
-                                    }
-                                })
-                        .setNegativeButton(getString(R.string.negative_choise),	new DialogInterface.OnClickListener()
-                        {
-                            public void onClick(DialogInterface dialog,	int id)
-                            {
-                                dialog.dismiss();
-                            }
-                        }).show();
-
-
-                return false;
-            }
-        });
+   //-----------------***     disable the delete in the new list   8/10/2016  ***---------------------//
+//        listview.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+//            @Override
+//            public boolean onItemLongClick(AdapterView<?> parent, View v, final int position, long id) {
+//                AlertDialog.Builder builder = new AlertDialog.Builder(FormListNewActivity.this);
+//                builder.setMessage(getString(R.string.delete_form))
+//                        .setCancelable(false)
+//                        .setPositiveButton(R.string.confirm,
+//                                new DialogInterface.OnClickListener(){
+//                                    public void onClick(DialogInterface dialog, int id)
+//                                    {
+//							/*LL 14-05-2014 eliminato per dismissione del db grasp
+//							//int positionSalvati = getRightCompletedParcelableObject(saved.get(position).getFormName()); LL eliminato per dismissione del db grasp
+//							ApplicationExt.getDatabaseAdapter().open().delete("SAVED", saved.get(position).getFormName());
+//							ApplicationExt.getDatabaseAdapter().close();
+//							*/
+//                                        dialog.dismiss();
+//                                        FormProvider.DatabaseHelper dbh = new FormProvider.DatabaseHelper("forms.db");
+//                                        String query1 = "DELETE FROM forms WHERE displayName = '"
+//                                                + nuove.get(position).getFormName()+"'";
+//                                               // + "' AND status='new',status='completed,status='saved'";
+//
+//                                        dbh.getWritableDatabase().execSQL(query1);
+//                                        dbh.close();
+//
+//                                        Toast.makeText(FormListNewActivity.this, getString(R.string.cancelform) + " " +nuove.get(position).getFormName(), Toast.LENGTH_LONG).show();
+//                                        finish();
+//                                    }
+//                                })
+//                        .setNegativeButton(getString(R.string.negative_choise),	new DialogInterface.OnClickListener()
+//                        {
+//                            public void onClick(DialogInterface dialog,	int id)
+//                            {
+//                                dialog.dismiss();
+//                            }
+//                        }).show();
+//
+//
+//                return false;
+//            }
+//        });
     }
 
     public void onResume()

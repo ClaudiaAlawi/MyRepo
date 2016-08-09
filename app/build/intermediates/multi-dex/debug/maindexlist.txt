@@ -28,7 +28,6 @@ it/fabaris/wfp/activities/FormListFinalizedActivity.class
 it/fabaris/wfp/activities/FormListFinalizedActivity$2.class
 it/fabaris/wfp/activities/userPreferencesActivity$DownloadFile.class
 com/google/zxing/client/result/EmailAddressParsedResult.class
-it/fabaris/wfp/activities/FormListNewActivity$2.class
 android/support/annotation/LayoutRes.class
 android/support/v4/app/ActionBarDrawerToggle.class
 it/fabaris/wfp/activities/ControlActivity$2.class
