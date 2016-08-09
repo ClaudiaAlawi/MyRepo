@@ -4,7 +4,7 @@
  * are made available under the terms of the GNU Lesser Public License v2.1
  * which accompanies this distribution, and is available at
  * http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
- * 
+ *
  * Contributors:
  *     Fabaris SRL - initial API and implementation
  ******************************************************************************/
@@ -95,8 +95,8 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
         mWaitingForData = false;
         mInstanceFolder =
-            FormEntryActivity.mInstancePath.substring(0,
-                FormEntryActivity.mInstancePath.lastIndexOf("/") + 1);
+                FormEntryActivity.mInstancePath.substring(0,
+                        FormEntryActivity.mInstancePath.lastIndexOf("/") + 1);
         mFormName = FormEntryActivity.formName;
         final String mainPath =Environment.getExternalStorageDirectory().getPath() +"/GRASP/"+mFormName;
 
@@ -184,135 +184,135 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
         final String species = SpinnerWidget.selectedAnswer.toString();
         if (mFormName.contains("Walking")) {
-    if (species != null)
-        switch (species) {
-            case "Camel":
-                imagesPath = "Camels/" + cropsPicturesIndex;
-                break;
-            case "Cattle":
-                imagesPath = "Cattles/" + cropsPicturesIndex;
-                break;
-            case "Goat":
-                imagesPath = "Goats/" + cropsPicturesIndex;
-                break;
-            case "Long tailed sheep":
-                imagesPath = "Lts/" + cropsPicturesIndex;
-                break;
-            case "Fat tailed sheep":
-                imagesPath = "Fts/" + cropsPicturesIndex;
-                break;
-            case "Barley":
-                imagesPath = "Barley/" + cropsPicturesIndex;
-                break;
-            case "Cassava":
-                imagesPath = "Cassava/" + cropsPicturesIndex;
-                break;
-            case "Groundnuts":
-                imagesPath = "Groundnut/" + cropsPicturesIndex;
-                break;
-            case "Maize":
-                imagesPath = "Maize/" + cropsPicturesIndex;
-                break;
-            case "Teff":
-                imagesPath = "Teff/" + cropsPicturesIndex;
-                break;
-            case "Sunflowers":
-                imagesPath = "Sunflowers/" + cropsPicturesIndex;
-                break;
-            case "Wheat Irrigated":
-                imagesPath = "WheatI/" + cropsPicturesIndex;
-                break;
-            case "Wheat Rainfed":
-                imagesPath = "WheatR/" + cropsPicturesIndex;
-                break;
-            case "Upland Rice":
-                imagesPath = "Uplandrice/" + cropsPicturesIndex;
-                break;
-            case "Pearl Millet":
-                imagesPath = "Pearlmillet/" + cropsPicturesIndex;
-                break;
-            case "Early Main Sorghum Rainfed":
-                imagesPath = "Earlymaindrf/" + cropsPicturesIndex;
-                break;
-            case "Early Main Sorghum Irrigated":
-                imagesPath = "EarlymainI/" + cropsPicturesIndex;
-                break;
-            case "Late Maturing Sorghum":
-                imagesPath = "Latesorg/" + cropsPicturesIndex;
-                break;
-            case "Finger Millet":
-                imagesPath = "Fingermillet/" + cropsPicturesIndex;
-                break;
-            default:
-                break;
+            if (species != null)
+                switch (species) {
+                    case "Camel":
+                        imagesPath = "Camels/" + cropsPicturesIndex;
+                        break;
+                    case "Cattle":
+                        imagesPath = "Cattles/" + cropsPicturesIndex;
+                        break;
+                    case "Goat":
+                        imagesPath = "Goats/" + cropsPicturesIndex;
+                        break;
+                    case "Long tailed sheep":
+                        imagesPath = "Lts/" + cropsPicturesIndex;
+                        break;
+                    case "Fat tailed sheep":
+                        imagesPath = "Fts/" + cropsPicturesIndex;
+                        break;
+                    case "Barley":
+                        imagesPath = "Barley/" + cropsPicturesIndex;
+                        break;
+                    case "Cassava":
+                        imagesPath = "Cassava/" + cropsPicturesIndex;
+                        break;
+                    case "Groundnuts":
+                        imagesPath = "Groundnut/" + cropsPicturesIndex;
+                        break;
+                    case "Maize":
+                        imagesPath = "Maize/" + cropsPicturesIndex;
+                        break;
+                    case "Teff":
+                        imagesPath = "Teff/" + cropsPicturesIndex;
+                        break;
+                    case "Sunflowers":
+                        imagesPath = "Sunflowers/" + cropsPicturesIndex;
+                        break;
+                    case "Wheat Irrigated":
+                        imagesPath = "WheatI/" + cropsPicturesIndex;
+                        break;
+                    case "Wheat Rainfed":
+                        imagesPath = "WheatR/" + cropsPicturesIndex;
+                        break;
+                    case "Upland Rice":
+                        imagesPath = "Uplandrice/" + cropsPicturesIndex;
+                        break;
+                    case "Pearl Millet":
+                        imagesPath = "Pearlmillet/" + cropsPicturesIndex;
+                        break;
+                    case "Early Main Sorghum Rainfed":
+                        imagesPath = "Earlymaindrf/" + cropsPicturesIndex;
+                        break;
+                    case "Early Main Sorghum Irrigated":
+                        imagesPath = "EarlymainI/" + cropsPicturesIndex;
+                        break;
+                    case "Late Maturing Sorghum":
+                        imagesPath = "Latesorg/" + cropsPicturesIndex;
+                        break;
+                    case "Finger Millet":
+                        imagesPath = "Fingermillet/" + cropsPicturesIndex;
+                        break;
+                    default:
+                        break;
 
+                }
         }
-}
         else{
 
-    if(species != null)
-        switch (species) {
-            case "Camel":
-                imagesPath = "Camels";
-                break;
-            case "Cattle":
-                imagesPath = "Cattles";
-                break;
-            case "Goat":
-                imagesPath = "Goats";
-                break;
-            case "Long tailed sheep":
-                imagesPath = "Lts" ;
-                break;
-            case "Fat tailed sheep":
-                imagesPath = "Fts" ;
-                break;
-            case"Barley":
-                imagesPath ="Barley";
-                break;
-            case"Cassava":
-                imagesPath ="Cassava";
-                break;
-            case"Groundnuts":
-                imagesPath ="Groundnut";
-                break;
-            case"Maize":
-                imagesPath ="Maize";
-                break;
-            case"Teff":
-                imagesPath ="Teff";
-                break;
-            case"Sunflowers":
-                imagesPath ="Sunflowers";
-                break;
-            case"Wheat Irrigated":
-                imagesPath ="WheatI";
-                break;
-            case"Wheat Rainfed":
-                imagesPath ="WheatR";
-                break;
-            case"Upland Rice":
-                imagesPath ="Uplandrice";
-                break;
-            case"Pearl Millet":
-                imagesPath ="Pearlmillet";
-                break;
-            case"Early Main Sorghum Rainfed":
-                imagesPath ="Earlymaindrf";
-                break;
-            case"Early Main Sorghum Irrigated":
-                imagesPath ="EarlymainI";
-                break;
-            case"Late Maturing Sorghum":
-                imagesPath ="Latesorg";
-                break;
-            case"Finger Millet":
-                imagesPath ="Fingermillet";
-                break;
-            default:
-                break;
+            if(species != null)
+                switch (species) {
+                    case "Camel":
+                        imagesPath = "Camels";
+                        break;
+                    case "Cattle":
+                        imagesPath = "Cattles";
+                        break;
+                    case "Goat":
+                        imagesPath = "Goats";
+                        break;
+                    case "Long tailed sheep":
+                        imagesPath = "Lts" ;
+                        break;
+                    case "Fat tailed sheep":
+                        imagesPath = "Fts" ;
+                        break;
+                    case"Barley":
+                        imagesPath ="Barley";
+                        break;
+                    case"Cassava":
+                        imagesPath ="Cassava";
+                        break;
+                    case"Groundnuts":
+                        imagesPath ="Groundnut";
+                        break;
+                    case"Maize":
+                        imagesPath ="Maize";
+                        break;
+                    case"Teff":
+                        imagesPath ="Teff";
+                        break;
+                    case"Sunflowers":
+                        imagesPath ="Sunflowers";
+                        break;
+                    case"Wheat Irrigated":
+                        imagesPath ="WheatI";
+                        break;
+                    case"Wheat Rainfed":
+                        imagesPath ="WheatR";
+                        break;
+                    case"Upland Rice":
+                        imagesPath ="Uplandrice";
+                        break;
+                    case"Pearl Millet":
+                        imagesPath ="Pearlmillet";
+                        break;
+                    case"Early Main Sorghum Rainfed":
+                        imagesPath ="Earlymaindrf";
+                        break;
+                    case"Early Main Sorghum Irrigated":
+                        imagesPath ="EarlymainI";
+                        break;
+                    case"Late Maturing Sorghum":
+                        imagesPath ="Latesorg";
+                        break;
+                    case"Finger Millet":
+                        imagesPath ="Fingermillet";
+                        break;
+                    default:
+                        break;
 
-        }
+                }
         }
 //---------------------------------------------------------------------------------------End of getting selection --------------------------------------------------------------//
 //------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
@@ -399,6 +399,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 currentScrore = 3.5;
                                 break;
                         }
+                        break;
                     case"Cassava":
                         switch (index) {
                             case "1":
@@ -554,7 +555,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 break;
                         }
                         break;
-                    case"Wheat Irrigated":
+                    case"WheatI":
                         switch (index) {
                             case "1":
                                 currentScrore =  0.6;
@@ -585,7 +586,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 break;
                         }
                         break;
-                    case"Wheat Rainfed":
+                    case"WheatR":
                         switch (index) {
                             case "1":
                                 currentScrore =  0.5;
@@ -616,7 +617,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 break;
                         }
                         break;
-                    case"Upland Rice":
+                    case"Uplandrice":
                         imagesPath ="Uplandrice";
                         switch (index) {
                             case "1":
@@ -648,7 +649,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 break;
                         }
                         break;
-                    case"Pearl Millet":
+                    case"Pearlmillet":
                         switch (index) {
                             case "1":
                                 currentScrore =0.14;
@@ -679,7 +680,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 break;
                         }
                         break;
-                    case"Early Main Sorghum Rainfed":
+                    case"Earlymaindrf":
 
                         switch (index) {
                             case "1":
@@ -711,7 +712,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 break;
                         }
                         break;
-                    case"Early Main Sorghum Irrigated":
+                    case"EarlymainI":
                         switch (index) {
                             case "1":
                                 currentScrore = 0.7;
@@ -742,7 +743,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 break;
                         }
                         break;
-                    case"Late Maturing Sorghum":
+                    case"Latesorg":
                         switch (index) {
                             case "1":
                                 currentScrore =   0.2;
@@ -774,7 +775,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
                         }
                         break;
-                    case"Finger Millet":
+                    case"Fingermillet":
                         switch (index) {
                             case "1":
                                 currentScrore =0.25;
@@ -826,35 +827,37 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                 String index = temp[1];
                 switch (selection){
                     case"Barley":
-                       switch (index) {
-                           case "1":
-                            currentScrore = 0.15;
-                               break;
-                           case "3":
-                               currentScrore =  0.4;
-                               break;
-                           case "5":
-                               currentScrore = 0.63;
-                               break;
-                           case "7":
-                               currentScrore = 1;
-                               break;
-                           case "9":
-                               currentScrore = 1.55;
-                               break;
-                           case "11":
-                               currentScrore = 1.93;
-                               break;
-                           case "13":
-                               currentScrore = 2.43;
-                               break;
-                           case "15":
-                               currentScrore = 3.05;
-                               break;
-                           case "17":
-                               currentScrore = 3.38;
-                               break;
-                       }
+
+                        switch (index) {
+                            case "1":
+                                currentScrore = 0.15;
+                                break;
+                            case "3":
+                                currentScrore =  0.4;
+                                break;
+                            case "5":
+                                currentScrore = 0.63;
+                                break;
+                            case "7":
+                                currentScrore = 1;
+                                break;
+                            case "9":
+                                currentScrore = 1.55;
+                                break;
+                            case "11":
+                                currentScrore = 1.93;
+                                break;
+                            case "13":
+                                currentScrore = 2.43;
+                                break;
+                            case "15":
+                                currentScrore = 3.05;
+                                break;
+                            case "17":
+                                currentScrore = 3.38;
+                                break;
+                        }
+                        break;
                     case"Cassava":
                         switch (index) {
                             case "1":
@@ -1010,7 +1013,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 break;
                         }
                         break;
-                    case"Wheat Irrigated":
+                    case"WheatI":
                         switch (index) {
                             case "1":
                                 currentScrore =  0.3;
@@ -1041,7 +1044,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 break;
                         }
                         break;
-                    case"Wheat Rainfed":
+                    case"WheatR":
                         switch (index) {
                             case "1":
                                 currentScrore =  0.25;
@@ -1072,8 +1075,8 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 break;
                         }
                         break;
-                    case"Upland Rice":
-                        imagesPath ="Uplandrice";
+                    case"Uplandrice":
+
                         switch (index) {
                             case "1":
                                 currentScrore =  0.05;
@@ -1104,7 +1107,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 break;
                         }
                         break;
-                    case"Pearl Millet":
+                    case"Pearlmillet":
                         switch (index) {
                             case "1":
                                 currentScrore =0.07;
@@ -1135,7 +1138,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 break;
                         }
                         break;
-                    case"Early Main Sorghum Rainfed":
+                    case"Earlymainrdf":
 
                         switch (index) {
                             case "1":
@@ -1167,7 +1170,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 break;
                         }
                         break;
-                    case"Early Main Sorghum Irrigated":
+                    case"EarlymainI":
                         switch (index) {
                             case "1":
                                 currentScrore = 0.35;
@@ -1198,7 +1201,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 break;
                         }
                         break;
-                    case"Late Maturing Sorghum":
+                    case"Latesorg":
                         switch (index) {
                             case "1":
                                 currentScrore =   0.1;
@@ -1230,7 +1233,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
                         }
                         break;
-                    case"Finger Millet":
+                    case"Fingermillet":
                         switch (index) {
                             case "1":
                                 currentScrore =0.13;
@@ -1427,9 +1430,9 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
             }
         });
 //-------------------------------------------------------------------------------------Setup Buttons for the crops driving-------------------------------------------------------//
-       final Button mRedButton = new Button(getContext());
-       mRedButton.setText(getContext().getString(R.string.red));
-       mRedButton.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+        final Button mRedButton = new Button(getContext());
+        mRedButton.setText(getContext().getString(R.string.red));
+        mRedButton.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
         mRedButton.setPadding(20, 20, 20, 20);
         mRedButton.setEnabled(!prompt.isReadOnly());
         mRedButton.setBackgroundColor(Color.RED);
@@ -1644,35 +1647,35 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
 //----------------------------------------------------------------------------------Setup button for the livestock walking -----------------------------------------------------------//
 
-            Button cMoreBtn = new Button(context);
-            cMoreBtn.setText("More Close ups for this Mode");
-            cMoreBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
-            cMoreBtn.setPadding(20, 20, 20, 20);
-            cMoreBtn.setEnabled(!prompt.isReadOnly());
-            cMoreBtn.setBackgroundColor(Color.LTGRAY);
-            cMoreBtn.setOnClickListener(new View.OnClickListener() {
-                public void onClick(View v) {
+        Button cMoreBtn = new Button(context);
+        cMoreBtn.setText("More Close ups for this Mode");
+        cMoreBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+        cMoreBtn.setPadding(20, 20, 20, 20);
+        cMoreBtn.setEnabled(!prompt.isReadOnly());
+        cMoreBtn.setBackgroundColor(Color.LTGRAY);
+        cMoreBtn.setOnClickListener(new View.OnClickListener() {
+                                        public void onClick(View v) {
 
-                    int closeupIndex = cropsPicturesIndex+ 1;
-                    String closeupPath = imagesPath.substring(0,imagesPath.lastIndexOf("/")) + "/"+closeupIndex;
-                    String imgCu = mainPath +"/"+closeupPath+ ".jpg";
-                    try {
-                        Intent myIntent = new Intent(android.content.Intent.ACTION_VIEW);
-                        File file = new File(imgCu);
-                        String extension = android.webkit.MimeTypeMap.getFileExtensionFromUrl(Uri.fromFile(file).toString());
-                        String mimetype = android.webkit.MimeTypeMap.getSingleton().getMimeTypeFromExtension(extension);
-                        myIntent.setDataAndType(Uri.fromFile(file),mimetype);
-                        //   myIntent.setPackage("com.android.gallery");
-                        context.startActivity(myIntent);
+                                            int closeupIndex = cropsPicturesIndex+ 1;
+                                            String closeupPath = imagesPath.substring(0,imagesPath.lastIndexOf("/")) + "/"+closeupIndex;
+                                            String imgCu = mainPath +"/"+closeupPath+ ".jpg";
+                                            try {
+                                                Intent myIntent = new Intent(android.content.Intent.ACTION_VIEW);
+                                                File file = new File(imgCu);
+                                                String extension = android.webkit.MimeTypeMap.getFileExtensionFromUrl(Uri.fromFile(file).toString());
+                                                String mimetype = android.webkit.MimeTypeMap.getSingleton().getMimeTypeFromExtension(extension);
+                                                myIntent.setDataAndType(Uri.fromFile(file),mimetype);
+                                                //   myIntent.setPackage("com.android.gallery");
+                                                context.startActivity(myIntent);
 //                        Uri uri = Uri.parse("file:/"+FormEntryActivity.imagePath);
 //                        context.startActivity(new Intent(Intent.ACTION_VIEW,uri));;
-                    } catch (ActivityNotFoundException e) {
-                        Toast.makeText(context,
-                                context.getString(R.string.activity_not_found, "view image"),
-                                Toast.LENGTH_SHORT);
-                    }
-                                            }}
-            );
+                                            } catch (ActivityNotFoundException e) {
+                                                Toast.makeText(context,
+                                                        context.getString(R.string.activity_not_found, "view image"),
+                                                        Toast.LENGTH_SHORT);
+                                            }
+                                        }}
+        );
 
 //----------------------------------------------------------------------------------------End Of Custom Setups------------------------------------------------------------------------//
         mImageView = new ImageView(context);
@@ -1681,19 +1684,19 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
 
         if (mFormName.contains("CropsDriving"))
-    {
+        {
 
             addView(mRedButton);
             addView(mYellowButton);
             addView(mBlueButton);
             addView(mZeroButton);
-    }
+        }
         else if (mFormName.contains("LivestockWalking"))
-    {
-        addView(cMoreBtn);
-        addView(mScoreButton);
+        {
+            addView(cMoreBtn);
+            addView(mScoreButton);
 
-    }
+        }
         else if (mFormName.contains("LivestockDriving")){
             removeView(mScoreButton);
             addView(CS1Button);
@@ -1704,14 +1707,14 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
             addView(mZeroButton);
         }
         else if (mFormName.contains("CropsWalking"))
-    {
-        removeView(mImageView);
-        addView(scoreBetweenBtn);
-        addView(mImageView);
-        addView(closeUpBtn);
-        addView(scoreBtn);
+        {
+            removeView(mImageView);
+            addView(scoreBetweenBtn);
+            addView(mImageView);
+            addView(closeUpBtn);
+            addView(scoreBtn);
 
-    }
+        }
 
         mErrorTextView.setVisibility(View.GONE);
         // retrieve answer from data model and update ui
@@ -1719,37 +1722,37 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
     }
 
-	/**
-	 * get the file path and delete the file
-	 */
+    /**
+     * get the file path and delete the file
+     */
     private void deleteMedia() {
-        
+
 
         // There's only 1 in this case, but android 1.6 doesn't implement delete on
         // android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI only on
         // android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI + a #
         String[] projection = {
-            Images.ImageColumns._ID
+                Images.ImageColumns._ID
         };
         Cursor c =
-            getContext().getContentResolver().query(
-                android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI, projection,
-                "_data='" + mInstanceFolder + mBinaryName + "'", null, null);
+                getContext().getContentResolver().query(
+                        android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI, projection,
+                        "_data='" + mInstanceFolder + mBinaryName + "'", null, null);
         int del = 0;
         if (c.getCount() > 0) {
             c.moveToFirst();
             String id = c.getString(c.getColumnIndex(Images.ImageColumns._ID));
 
             Log.i(
-                t,
-                "attempting to delete: "
-                        + Uri.withAppendedPath(
+                    t,
+                    "attempting to delete: "
+                            + Uri.withAppendedPath(
                             android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI, id));
             del =
-                getContext().getContentResolver().delete(
-                    Uri.withAppendedPath(
-                        android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI, id), null,
-                    null);
+                    getContext().getContentResolver().delete(
+                            Uri.withAppendedPath(
+                                    android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI, id), null,
+                            null);
         }
         c.close();
 
@@ -1779,7 +1782,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
         if (mBinaryName != null) {
 //            mCaptureButton.setBackgroundColor(colorHelper.getReadOnlyBackgroundColor());
 //            mChooseButton.setBackgroundColor(colorHelper.getReadOnlyBackgroundColor());
-        	return new StringData(mBinaryName.toString());
+            return new StringData(mBinaryName.toString());
         } else {
             return null;
         }
@@ -1812,7 +1815,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 //        if (mBinaryName != null) {
 //
 //        }
-;
+        ;
         mBinaryName = currentScrore + "";
         Log.i(t, "Setting current answer to " + currentScrore);
 
@@ -1827,7 +1830,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
     public void setFocus(Context context) {
         // Hide the soft keyboard if it's showing.
         InputMethodManager inputManager =
-            (InputMethodManager) context.getSystemService(Context.INPUT_METHOD_SERVICE);
+                (InputMethodManager) context.getSystemService(Context.INPUT_METHOD_SERVICE);
         inputManager.hideSoftInputFromWindow(this.getWindowToken(), 0);
     }
 
@@ -1856,14 +1859,14 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
     }
 
 
-	@Override
-	public IAnswerData setAnswer(IAnswerData a) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+    @Override
+    public IAnswerData setAnswer(IAnswerData a) {
+        // TODO Auto-generated method stub
+        return null;
+    }
 
-	public static void previewPhoto(String imageUri, final Context context)
-	{
+    public static void previewPhoto(String imageUri, final Context context)
+    {
         Display display = ((WindowManager) context.getSystemService(Context.WINDOW_SERVICE)).getDefaultDisplay();
         int screenWidth = display.getWidth();
         int screenHeight = display.getHeight();
@@ -1892,21 +1895,21 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
             public void onClick(View v) {
                 Intent i = new Intent("android.intent.action.VIEW");
 
-                    try {
-                        Intent myIntent = new Intent(android.content.Intent.ACTION_VIEW);
-                        File file = new File(FormEntryActivity.imagePath);
-                        String extension = android.webkit.MimeTypeMap.getFileExtensionFromUrl(Uri.fromFile(file).toString());
-                        String mimetype = android.webkit.MimeTypeMap.getSingleton().getMimeTypeFromExtension(extension);
-                        myIntent.setDataAndType(Uri.fromFile(file),mimetype);
-                     //   myIntent.setPackage("com.android.gallery");
-                        context.startActivity(myIntent);
+                try {
+                    Intent myIntent = new Intent(android.content.Intent.ACTION_VIEW);
+                    File file = new File(FormEntryActivity.imagePath);
+                    String extension = android.webkit.MimeTypeMap.getFileExtensionFromUrl(Uri.fromFile(file).toString());
+                    String mimetype = android.webkit.MimeTypeMap.getSingleton().getMimeTypeFromExtension(extension);
+                    myIntent.setDataAndType(Uri.fromFile(file),mimetype);
+                    //   myIntent.setPackage("com.android.gallery");
+                    context.startActivity(myIntent);
 //                        Uri uri = Uri.parse("file:/"+FormEntryActivity.imagePath);
 //                        context.startActivity(new Intent(Intent.ACTION_VIEW,uri));;
-                    } catch (ActivityNotFoundException e) {
-                        Toast.makeText(context,
+                } catch (ActivityNotFoundException e) {
+                    Toast.makeText(context,
                             context.getString(R.string.activity_not_found, "view image"),
                             Toast.LENGTH_SHORT);
-                    }
+                }
 //                }
 //                c.close();
             }
@@ -1915,7 +1918,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
 
 
-	}
+    }
 
 
 
