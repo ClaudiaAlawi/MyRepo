@@ -431,7 +431,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 break;
                         }
                         break;
-                    case"Groundnuts":
+                    case"Groundnut":
                         switch (index) {
                             case "1":
                                 currentScrore = 0.1;
@@ -889,7 +889,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 break;
                         }
                         break;
-                    case"Groundnuts":
+                    case"Groundnut":
                         switch (index) {
                             case "1":
                                 currentScrore = 0.05;
@@ -1138,7 +1138,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 break;
                         }
                         break;
-                    case"Earlymainrdf":
+                    case"Earlymaindrf":
 
                         switch (index) {
                             case "1":
