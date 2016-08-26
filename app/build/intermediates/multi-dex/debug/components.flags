@@ -1,7 +1,7 @@
--injars 'C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
--outjars 'C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\multi-dex\debug\componentClasses.jar'
+-injars 'C:\Projects\MyRepo\app\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
+-outjars 'C:\Projects\MyRepo\app\build\intermediates\multi-dex\debug\componentClasses.jar'
 
--libraryjars 'C:\sdk\build-tools\21.1.2\lib\shrinkedAndroid.jar'
+-libraryjars 'C:\Users\claudia.alawi\AppData\Local\Android\sdk1\build-tools\21.1.2\lib\shrinkedAndroid.jar'
 
 -forceprocessing
 -dontoptimize
@@ -10,7 +10,7 @@
 -dontpreverify
 -dontnote **,com.android.tools.fd.**,android.support.multidex.MultiDexExtractor
 -dontwarn **
--printconfiguration 'C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\multi-dex\debug\components.flags'
+-printconfiguration 'C:\Projects\MyRepo\app\build\intermediates\multi-dex\debug\components.flags'
 
 
 -keep class utils.ApplicationExt {

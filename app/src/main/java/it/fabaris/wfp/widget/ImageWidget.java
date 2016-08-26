@@ -138,11 +138,11 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
         //-------------------setup for the zero button------------------------//
         mZeroButton = new Button(getContext());
-        mZeroButton.setText(getContext().getString(R.string.zeroButton));
+        mZeroButton.setText("Score Zero if crop has been planted but has failed to give a product");
         mZeroButton.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
         mZeroButton.setPadding(20, 20, 20, 20);
         mZeroButton.setEnabled(!prompt.isReadOnly());
-        mZeroButton.setBackgroundColor(Color.LTGRAY);
+        mZeroButton.setBackgroundColor(getResources().getColor(R.color.bg_mand));
 
         mZeroButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -156,6 +156,9 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                 mZeroButton.setBackgroundColor(Color.DKGRAY);
             }
         });
+
+        if (picturesIndex==1 && mFormName.contains("CropsWalking"))
+            addView(mZeroButton);
         mScoreButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v)
             {
@@ -182,7 +185,9 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
 //----------------------------------------------Get the Value of the Select---------------------------------------------------------------//
 
-        final String species = SpinnerWidget.selectedAnswer.toString();
+        final String sel = SpinnerWidget.selectedAnswer.toString();
+        String temp[] = sel.split(" ");
+        final String species = temp[0];
         if (mFormName.contains("Walking")) {
             if (species != null)
                 switch (species) {
@@ -355,13 +360,29 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
         scoreBtn.setEnabled(!prompt.isReadOnly());
         scoreBtn.setBackgroundColor(getResources().getColor(R.color.score));
 
+//        final Button scoreMidBtn = new Button(context);
+//        scoreMidBtn.setText("Score");
+//        scoreMidBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+//        scoreMidBtn.setPadding(20, 20, 20, 20);
+//        scoreMidBtn.setEnabled(!prompt.isReadOnly());
+//        scoreMidBtn.setBackgroundColor(getResources().getColor(R.color.mid));
+//
+//
+//        final Button scoreHighBtn = new Button(context);
+//        scoreHighBtn.setText("Score");
+//        scoreHighBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+//        scoreHighBtn.setPadding(20, 20, 20, 20);
+//        scoreHighBtn.setEnabled(!prompt.isReadOnly());
+//        scoreHighBtn.setBackgroundColor(getResources().getColor(R.color.high));
+
+
         final Button scoreBetweenBtn = new Button(context);
         scoreBetweenBtn.setText("Score Between");
         scoreBetweenBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
         scoreBetweenBtn.setPadding(20, 20, 20, 20);
         scoreBetweenBtn.setEnabled(!prompt.isReadOnly());
         scoreBetweenBtn.setBackgroundColor(getResources().getColor(R.color.between));
-        //TODO handle the click listener
+
         scoreBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v)
             {
@@ -813,7 +834,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                 setBinaryData(currentScrore);
                 IAnswerData s = getAnswer();
                 setAnswer(s);
-                scoreBtn.setBackgroundColor(Color.DKGRAY);
+              //  scoreBtn.setBackgroundColor(Color.DKGRAY);
                 scoreBetweenBtn.setBackgroundColor(getResources().getColor(R.color.between));
             }
         });;
@@ -1275,6 +1296,75 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                 scoreBtn.setBackgroundColor(getResources().getColor(R.color.score));
             }
         });;
+
+
+//---------------------------------------------------------------------------------------score above red button-----------------------------------------------------------//
+        final Button abvRedBtn = new Button(context);
+        abvRedBtn.setText("Score above Red");
+        abvRedBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+        abvRedBtn.setPadding(20, 20, 20, 20);
+        abvRedBtn.setEnabled(!prompt.isReadOnly());
+        abvRedBtn.setBackgroundColor(Color.RED);
+        if(cropsPicturesIndex == 17 && mFormName.contains("CropsWalking") )
+            addView(abvRedBtn);
+        abvRedBtn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                String temp[] =imagesPath.split("/");
+                String selection = temp[0];
+                String index = temp[1];
+                switch (selection) {
+                    case"Barley":
+                        currentScrore =4.2 ;
+                        break;
+                    case"Cassava":
+                        currentScrore = 49.82;
+                        break;
+                    case"Groundnut":
+                        currentScrore = 4.26 ;
+                        break;
+                    case"Maize":
+                        currentScrore = 8.4;
+                        break;
+                    case"Teff":
+                        currentScrore = 3.24;
+                        break;
+                    case"Sunflowers":
+                        currentScrore = 3.42 ;
+                        break;
+                    case"WheatI":
+                        currentScrore = 9;
+                        break;
+                    case"WheatR":
+                        currentScrore = 9.12 ;
+                        break;
+                    case"Uplandrice":
+                        currentScrore =7.34 ;
+                        break;
+                    case"Pearlmillet":
+                        currentScrore =2.88 ;
+                        break;
+                    case"Earlymaindrf":
+                        currentScrore =7.2 ;
+                        break;
+                    case"EarlymainI":
+                        currentScrore =9.24 ;
+                        break;
+                    case"Latesorg":
+                        currentScrore =4.02 ;
+                        break;
+                    case"Fingermillet":
+                        currentScrore = 3.96 ;
+                        break;
+
+                }
+                setBinaryData(currentScrore);
+                IAnswerData s = getAnswer();
+                setAnswer(s);
+                //scoreBtn.setBackgroundColor(Color.DKGRAY);
+                }
+
+            });
+
 //------------------------------------------------------------------------------------Setup buttons for livestock driving -----------------------------------------------//
         final Button CS1Button = new Button(getContext());
         CS1Button.setText("SCORE CS1");
@@ -1704,7 +1794,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
             addView(CS3Button);
             addView(CS4Button);
             addView(CS5Button);
-            addView(mZeroButton);
+            //addView(mZeroButton);
         }
         else if (mFormName.contains("CropsWalking"))
         {

@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="8dp"
         android:orientation="vertical" >
 
         <TextView
@@ -25,14 +25,14 @@
             android:paddingLeft="5dp"
             android:paddingRight="5dp"
             android:paddingTop="5dp"
-            android:text="Pictorial Evaluation Tools (PET) is an app for RAPID FOOD SECURITY assessments using photo-indicator images developed by AAI Ltd"
-            android:textSize="12sp" />
+            android:text="Pictorial Evaluation Tools (PET) is an app available under license, for RAPID FOOD SECURITY assessments using photo-indicator images developed by AAI Ltd"
+            android:textSize="13sp" />
 
 
         <ImageView
             android:id="@+id/imageView0"
             android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_height="100dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:contentDescription="@string/todo"
@@ -101,12 +101,12 @@
             android:paddingRight="5dp"
             android:paddingTop="5dp"
             android:text="@string/grasp"
-            android:textSize="13sp" />
+            android:textSize="12sp" />
 
         <ImageView
             android:id="@+id/imageView1"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:contentDescription="@string/todo"
@@ -156,8 +156,8 @@
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
             android:src="@drawable/ic_logo" />
 
         <TextView
@@ -173,7 +173,7 @@
             android:paddingRight="5dp"
             android:paddingTop="5dp"
             android:text="A Word Food Programme Information System"
-            android:textSize="13sp" />
+            android:textSize="12sp" />
 
     </RelativeLayout>
 

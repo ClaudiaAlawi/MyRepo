@@ -292,7 +292,7 @@
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
     <color name="abc_search_url_text_selected">@android:color/black</color>
-    <color name="between">#c3f0cd</color>
+    <color name="between">#ccefdd</color>
     <color name="bg_err">#000000</color>
     <color name="bg_mand">#FFFFB5</color>
     <color name="bg_readonly">#FFFFFF</color>
@@ -314,7 +314,10 @@
     <color name="fg_std">#FFFFFF</color>
     <color name="gray">#808080</color>
     <color name="green">#008000</color>
+    <color name="high">#006533</color>
     <color name="light_red">#FF6961</color>
+    <color name="low">#4cc88a</color>
+    <color name="mid">#00984c</color>
     <color name="possible_result_points">#c0ffbd21</color>
     <color name="red">#FF0000</color>
     <color name="result_minor_text">#ffc0c0c0</color>

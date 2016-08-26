@@ -1404,7 +1404,7 @@ if (formName.equalsIgnoreCase("CropsDriving")){
     public void showNextView() {
         if (formName.equalsIgnoreCase("LivestockWalking") && ImageWidget.cropsPicturesIndex +1 == 10 )
             done =true;
-        if(formName.equalsIgnoreCase("CropsWalking") && ImageWidget.cropsPicturesIndex +1 == 18 )
+        if(formName.equalsIgnoreCase("CropsWalking") && ImageWidget.cropsPicturesIndex +1 == 18 ) //from 18 to 6
             done =true;
         // verifica = true;
         // TODO: tolto per provare

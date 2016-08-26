@@ -19,7 +19,10 @@
     <color name="fg_err">#FF0000</color>
     <color name="bg_err">#000000</color>
     <color name="score">#7DA93F</color>
-    <color name="between">#c3f0cd</color>
+    <color name="low">#4cc88a</color>
+    <color name="mid">#00984c</color>
+    <color name="high">#006533</color>
+    <color name="between">#ccefdd</color>
     <color name="fg_readonly">#666666</color>
     <color name="bg_readonly">#FFFFFF</color>
     
