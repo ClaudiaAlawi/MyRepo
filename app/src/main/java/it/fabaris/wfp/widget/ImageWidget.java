@@ -191,19 +191,19 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
         if (mFormName.contains("Walking")) {
             if (species != null)
                 switch (species) {
-                    case "Camel":
+                    case "Camels":
                         imagesPath = "Camels/" + cropsPicturesIndex;
                         break;
                     case "Cattle":
                         imagesPath = "Cattles/" + cropsPicturesIndex;
                         break;
-                    case "Goat":
+                    case "Goats":
                         imagesPath = "Goats/" + cropsPicturesIndex;
                         break;
-                    case "Long tailed sheep":
+                    case "Long-tailed":
                         imagesPath = "Lts/" + cropsPicturesIndex;
                         break;
-                    case "Fat tailed sheep":
+                    case "Fat-tailed":
                         imagesPath = "Fts/" + cropsPicturesIndex;
                         break;
                     case "Barley":
@@ -257,7 +257,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
             if(species != null)
                 switch (species) {
-                    case "Camel":
+                    case "Camels":
                         imagesPath = "Camels";
                         break;
                     case "Cattle":
@@ -360,30 +360,224 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
         scoreBtn.setEnabled(!prompt.isReadOnly());
         scoreBtn.setBackgroundColor(getResources().getColor(R.color.score));
 
-//        final Button scoreMidBtn = new Button(context);
-//        scoreMidBtn.setText("Score");
-//        scoreMidBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
-//        scoreMidBtn.setPadding(20, 20, 20, 20);
-//        scoreMidBtn.setEnabled(!prompt.isReadOnly());
-//        scoreMidBtn.setBackgroundColor(getResources().getColor(R.color.mid));
-//
-//
-//        final Button scoreHighBtn = new Button(context);
-//        scoreHighBtn.setText("Score");
-//        scoreHighBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
-//        scoreHighBtn.setPadding(20, 20, 20, 20);
-//        scoreHighBtn.setEnabled(!prompt.isReadOnly());
-//        scoreHighBtn.setBackgroundColor(getResources().getColor(R.color.high));
 
+        final Button scoreMidBtn = new Button(context);
+        scoreMidBtn.setText("Score Mid");
+        scoreMidBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+        scoreMidBtn.setPadding(20, 20, 20, 20);
+        scoreMidBtn.setEnabled(!prompt.isReadOnly());
+        scoreMidBtn.setBackgroundColor(getResources().getColor(R.color.mid));
+        scoreMidBtn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v)
+            {
+                String temp[] =imagesPath.split("/");
+                String selection = temp[0];
+                String index = temp[1];
+                switch (selection){
+                    case"Barley":
+                        switch (index) {
+                            case "1": //blue mid
+                                currentScrore =  0.5;
+                                break;
+                            case "3":
+                                currentScrore = 1.85;
+                                break;
+                            case "5":
+                                currentScrore = 3.25;
+                                break;
+                        }
+                        break;
+                    case"Cassava":
+                        switch (index) {
+                            case "1":
+                                currentScrore = 6.99;
+                                break;
+                            case "3":
+                                currentScrore = 20.15;
+                                break;
+                            case "5":
+                                currentScrore = 37.6;
+                                break;
 
-        final Button scoreBetweenBtn = new Button(context);
-        scoreBetweenBtn.setText("Score Between");
-        scoreBetweenBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
-        scoreBetweenBtn.setPadding(20, 20, 20, 20);
-        scoreBetweenBtn.setEnabled(!prompt.isReadOnly());
-        scoreBetweenBtn.setBackgroundColor(getResources().getColor(R.color.between));
+                        }
+                        break;
+                    case"Groundnut":
+                        switch (index) {
+                            case "1":
+                                currentScrore = 0.6;
+                                break;
+                            case "3":
+                                currentScrore = 2;
+                                break;
+                            case "5":
+                                currentScrore = 3;
+                                break;
+                        }
+                        break;
+                    case"Maize":
+                        switch (index) {
+                            case "1":
+                                currentScrore = 0.6;
+                                break;
+                            case "3":
+                                currentScrore = 2.25;
+                                break;
+                            case "5":
+                                currentScrore =  6;
+                                break;
+                        }
+                        break;
+                    case"Teff":
+                        switch (index) {
+                            case "1":
+                                currentScrore = 0.5;
+                                break;
+                            case "3":
+                                currentScrore = 1.25;
+                                break;
+                            case "5":
+                                currentScrore = 2.4;
+                                break;
+                        }
+                        break;
+                    case"Sunflowers":
+                        switch (index) {
+                            case "1":
+                                currentScrore =  0.85;
+                                break;
+                            case "3":
+                                currentScrore =  1.8;
+                                break;
+                            case "5":
+                                currentScrore =  2.66;
+                                break;
+                        }
+                        break;
+                    case"WheatI":
+                        switch (index) {
+                            case "1":
+                                currentScrore = 1.5;
+                                break;
+                            case "3":
+                                currentScrore = 3.85;
+                                break;
+                            case "5":
+                                currentScrore = 6.35;
+                                break;
 
-        scoreBtn.setOnClickListener(new View.OnClickListener() {
+                        }
+                        break;
+                    case"WheatR":
+                        switch (index) {
+                            case "1":
+                                currentScrore =  0.85;
+                                break;
+                            case "3":
+                                currentScrore = 2.5;
+                                break;
+                            case "5":
+                                currentScrore =  5.5;
+                                break;
+                        }
+                        break;
+                    case"Uplandrice":
+                        imagesPath ="Uplandrice";
+                        switch (index) {
+                            case "1":
+                                currentScrore = 0.9;
+                                break;
+                            case "3":
+                                currentScrore =  2.2;
+                                break;
+                            case "5":
+                                currentScrore =  4.75;
+                                break;
+                        }
+                        break;
+                    case"Pearlmillet":
+                        switch (index) {
+                            case "1":
+                                currentScrore =0.59;
+                                break;
+                            case "3":
+                                currentScrore = 1.25;
+                                break;
+                            case "5":
+                                currentScrore = 2;
+                                break;
+                        }
+                        break;
+                    case"Earlymaindrf":
+
+                        switch (index) {
+                            case "1":
+                                currentScrore =  0.7;
+                                break;
+                            case "3":
+                                currentScrore =  2;
+                                break;
+                            case "5":
+                                currentScrore =   4.7;
+                                break;
+                        }
+                        break;
+                    case"EarlymainI":
+                        switch (index) {
+                            case "1":
+                                currentScrore = 1.43;
+                                break;
+                            case "3":
+                                currentScrore = 3.25;
+                                break;
+                            case "5":
+                                currentScrore = 5.8;
+                                break;
+                        }
+                        break;
+                    case"Latesorg":
+                        switch (index) {
+                            case "1":
+                                currentScrore =   0.5;
+                                break;
+                            case "3":
+                                currentScrore =  1.7;
+                                break;
+                            case "5":
+                                currentScrore = 2.64;
+                                break;
+
+                        }
+                        break;
+                    case"Fingermillet":
+                        switch (index) {
+                            case "1":
+                                currentScrore = 0.5;
+                                break;
+                            case "3":
+                                currentScrore = 1.51;
+                                break;
+                            case "5":
+                                currentScrore =2.99;
+                                break;
+
+                        }
+                        break;
+
+                }
+                setBinaryData(currentScrore);
+                IAnswerData s = getAnswer();
+                setAnswer(s);
+                //  scoreBtn.setBackgroundColor(Color.DKGRAY);
+           }
+        });;
+
+        final Button scoreLowBtn = new Button(context);
+        scoreLowBtn.setText("Score Low");
+        scoreLowBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+        scoreLowBtn.setPadding(20, 20, 20, 20);
+        scoreLowBtn.setEnabled(!prompt.isReadOnly());
+        scoreLowBtn.setBackgroundColor(getResources().getColor(R.color.low));
+        scoreLowBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v)
             {
                 String temp[] =imagesPath.split("/");
@@ -396,29 +590,12 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 currentScrore = 0.3;
                                 break;
                             case "3":
-                                currentScrore =  0.5;
-                                break;
-                            case "5":
-                                currentScrore = 0.75;
-                                break;
-                            case "7":
                                 currentScrore = 1.25;
                                 break;
-                            case "9":
-                                currentScrore = 1.85;
-                                break;
-                            case "11":
-                                currentScrore = 2;
-                                break;
-                            case "13":
+                            case "5":
                                 currentScrore = 2.85;
                                 break;
-                            case "15":
-                                currentScrore = 3.25;
-                                break;
-                            case "17":
-                                currentScrore = 3.5;
-                                break;
+
                         }
                         break;
                     case"Cassava":
@@ -427,29 +604,12 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 currentScrore = 3.25;
                                 break;
                             case "3":
-                                currentScrore = 6.99;
-                                break;
-                            case "5":
-                                currentScrore = 10;
-                                break;
-                            case "7":
                                 currentScrore = 15;
                                 break;
-                            case "9":
-                                currentScrore = 20.15;
-                                break;
-                            case "11":
-                                currentScrore = 25.14;
-                                break;
-                            case "13":
+                            case "5":
                                 currentScrore = 30;
                                 break;
-                            case "15":
-                                currentScrore = 37.6;
-                                break;
-                            case "17":
-                                currentScrore = 41.52;
-                                break;
+
                         }
                         break;
                     case"Groundnut":
@@ -458,29 +618,12 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 currentScrore = 0.1;
                                 break;
                             case "3":
-                                currentScrore = 0.6;
-                                break;
-                            case "5":
-                                currentScrore = 1.25;
-                                break;
-                            case "7":
                                 currentScrore = 1.5;
                                 break;
-                            case "9":
-                                currentScrore = 2;
-                                break;
-                            case "11":
-                                currentScrore = 2.4;
-                                break;
-                            case "13":
+                            case "5":
                                 currentScrore = 2.6;
                                 break;
-                            case "15":
-                                currentScrore = 3;
-                                break;
-                            case "17":
-                                currentScrore = 3.55;
-                                break;
+
                         }
                         break;
                     case"Maize":
@@ -489,29 +632,12 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 currentScrore = 0.25;
                                 break;
                             case "3":
-                                currentScrore = 0.6;
-                                break;
-                            case "5":
-                                currentScrore = 1.3;
-                                break;
-                            case "7":
                                 currentScrore = 1.9;
                                 break;
-                            case "9":
-                                currentScrore = 2.25;
-                                break;
-                            case "11":
-                                currentScrore = 3.85;
-                                break;
-                            case "13":
+                            case "5":
                                 currentScrore = 4.5;
                                 break;
-                            case "15":
-                                currentScrore =  6;
-                                break;
-                            case "17":
-                                currentScrore = 7;
-                                break;
+
                         }
                         break;
                     case"Teff":
@@ -520,29 +646,12 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 currentScrore =  0.25;
                                 break;
                             case "3":
-                                currentScrore = 0.5;
-                                break;
-                            case "5":
-                                currentScrore = 0.77;
-                                break;
-                            case "7":
                                 currentScrore = 1;
                                 break;
-                            case "9":
-                                currentScrore = 1.25;
-                                break;
-                            case "11":
-                                currentScrore = 1.5;
-                                break;
-                            case "13":
+                            case "5":
                                 currentScrore =  2;
                                 break;
-                            case "15":
-                                currentScrore = 2.4;
-                                break;
-                            case "17":
-                                currentScrore = 2.7;
-                                break;
+
                         }
                         break;
                     case"Sunflowers":
@@ -551,29 +660,13 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 currentScrore =  0.42;
                                 break;
                             case "3":
-                                currentScrore =  0.85;
-                                break;
-                            case "5":
-                                currentScrore = 1;
-                                break;
-                            case "7":
                                 currentScrore = 1.25;
                                 break;
-                            case "9":
-                                currentScrore =  1.8;
-                                break;
-                            case "11":
-                                currentScrore =  2;
-                                break;
-                            case "13":
+                            case "5":
                                 currentScrore =  2.10;
                                 break;
-                            case "15":
-                                currentScrore =  2.66;
-                                break;
-                            case "17":
-                                currentScrore =  2.85;
-                                break;
+
+
                         }
                         break;
                     case"WheatI":
@@ -582,29 +675,12 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 currentScrore =  0.6;
                                 break;
                             case "3":
-                                currentScrore = 1.5;
-                                break;
-                            case "5":
-                                currentScrore = 2.5;
-                                break;
-                            case "7":
                                 currentScrore = 3.1;
                                 break;
-                            case "9":
-                                currentScrore = 3.85;
-                                break;
-                            case "11":
-                                currentScrore =  4.7;
-                                break;
-                            case "13":
+                            case "5":
                                 currentScrore = 5.35;
                                 break;
-                            case "15":
-                                currentScrore = 6.35;
-                                break;
-                            case "17":
-                                currentScrore = 7.5;
-                                break;
+
                         }
                         break;
                     case"WheatR":
@@ -613,29 +689,12 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 currentScrore =  0.5;
                                 break;
                             case "3":
-                                currentScrore =  0.85;
-                                break;
-                            case "5":
-                                currentScrore = 1.5;
-                                break;
-                            case "7":
                                 currentScrore = 2;
                                 break;
-                            case "9":
-                                currentScrore = 2.5;
-                                break;
-                            case "11":
-                                currentScrore = 3.5;
-                                break;
-                            case "13":
+                            case "5":
                                 currentScrore =  4.7;
                                 break;
-                            case "15":
-                                currentScrore =  5.5;
-                                break;
-                            case "17":
-                                currentScrore = 7.6;
-                                break;
+
                         }
                         break;
                     case"Uplandrice":
@@ -645,29 +704,12 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 currentScrore =  0.1;
                                 break;
                             case "3":
-                                currentScrore = 0.9;
-                                break;
-                            case "5":
-                                currentScrore = 1.45;
-                                break;
-                            case "7":
                                 currentScrore =  1.5;
                                 break;
-                            case "9":
-                                currentScrore =  2.2;
-                                break;
-                            case "11":
-                                currentScrore =   3.05;
-                                break;
-                            case "13":
+                            case "5":
                                 currentScrore = 3.8;
                                 break;
-                            case "15":
-                                currentScrore =  4.75;
-                                break;
-                            case "17":
-                                currentScrore =  6.12;
-                                break;
+
                         }
                         break;
                     case"Pearlmillet":
@@ -676,28 +718,10 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 currentScrore =0.14;
                                 break;
                             case "3":
-                                currentScrore =0.59;
-                                break;
-                            case "5":
-                                currentScrore =0.85;
-                                break;
-                            case "7":
                                 currentScrore = 1;
                                 break;
-                            case "9":
-                                currentScrore = 1.25;
-                                break;
-                            case "11":
-                                currentScrore =1.65;
-                                break;
-                            case "13":
+                            case "5":
                                 currentScrore =1.92;
-                                break;
-                            case "15":
-                                currentScrore = 2;
-                                break;
-                            case "17":
-                                currentScrore = 2.40;
                                 break;
                         }
                         break;
@@ -708,28 +732,10 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 currentScrore =  0.25;
                                 break;
                             case "3":
-                                currentScrore =  0.7;
-                                break;
-                            case "5":
-                                currentScrore =  1.2;
-                                break;
-                            case "7":
                                 currentScrore =  1.45;
                                 break;
-                            case "9":
-                                currentScrore =  2;
-                                break;
-                            case "11":
-                                currentScrore =   2.75;
-                                break;
-                            case "13":
+                            case "5":
                                 currentScrore =   3.6;
-                                break;
-                            case "15":
-                                currentScrore =   4.7;
-                                break;
-                            case "17":
-                                currentScrore = 6;
                                 break;
                         }
                         break;
@@ -739,28 +745,10 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 currentScrore = 0.7;
                                 break;
                             case "3":
-                                currentScrore = 1.43;
-                                break;
-                            case "5":
-                                currentScrore = 2.25;
-                                break;
-                            case "7":
                                 currentScrore = 2.75;
                                 break;
-                            case "9":
-                                currentScrore = 3.25;
-                                break;
-                            case "11":
-                                currentScrore =  3.75;
-                                break;
-                            case "13":
+                            case "5":
                                 currentScrore =  4.6;
-                                break;
-                            case "15":
-                                currentScrore = 5.8;
-                                break;
-                            case "17":
-                                currentScrore = 7.7;
                                 break;
                         }
                         break;
@@ -770,30 +758,11 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 currentScrore =   0.2;
                                 break;
                             case "3":
-                                currentScrore =   0.5;
-                                break;
-                            case "5":
-                                currentScrore =  1;
-                                break;
-                            case "7":
                                 currentScrore =  1.10;
                                 break;
-                            case "9":
-                                currentScrore =  1.7;
-                                break;
-                            case "11":
-                                currentScrore = 1.9;
-                                break;
-                            case "13":
+                            case "5":
                                 currentScrore =  2.10;
                                 break;
-                            case "15":
-                                currentScrore = 2.64;
-                                break;
-                            case "17":
-                                currentScrore =  3.35;
-                                break;
-
                         }
                         break;
                     case"Fingermillet":
@@ -802,28 +771,739 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 currentScrore =0.25;
                                 break;
                             case "3":
-                                currentScrore = 0.5;
-                                break;
-                            case "5":
-                                currentScrore =0.72;
-                                break;
-                            case "7":
                                 currentScrore =0.94;
                                 break;
-                            case "9":
-                                currentScrore = 1.51;
-                                break;
-                            case "11":
-                                currentScrore =2.15;
-                                break;
-                            case "13":
+                            case "5":
                                 currentScrore = 2.52;
                                 break;
-                            case "15":
-                                currentScrore =2.99;
+                        }
+                        break;
+
+                }
+                setBinaryData(currentScrore);
+                IAnswerData s = getAnswer();
+                setAnswer(s);
+                //  scoreBtn.setBackgroundColor(Color.DKGRAY);
+            }
+        });;
+
+        final Button scoreHighBtn = new Button(context);
+        scoreHighBtn.setText("Score High");
+        scoreHighBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+        scoreHighBtn.setPadding(20, 20, 20, 20);
+        scoreHighBtn.setEnabled(!prompt.isReadOnly());
+        scoreHighBtn.setBackgroundColor(getResources().getColor(R.color.high));
+        scoreHighBtn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v)
+            {
+
+                String temp[] =imagesPath.split("/");
+                String selection = temp[0];
+                String index = temp[1];
+                switch (selection){
+                    case"Barley":
+
+                        switch (index) {
+                            case "1":
+                                currentScrore = 0.63;
                                 break;
-                            case "17":
-                                currentScrore =3.30;
+                            case "3":
+                                currentScrore = 1.93;
+                                break;
+                            case "5":
+                                currentScrore = 3.38;
+                                break;
+                        }
+                        break;
+                    case"Cassava":
+                        switch (index) {
+                            case "1":
+                                currentScrore = 8.5;
+                                break;
+                            case "3":
+                                currentScrore = 22.65;
+                                break;
+                            case "5":
+                                currentScrore = 39.56;
+                                break;
+                        }
+                        break;
+                    case"Groundnut":
+                        switch (index) {
+                            case "1":
+                                currentScrore = 0.93;
+                                break;
+                            case "3":
+                                currentScrore = 2.2;
+                                break;
+                            case "5":
+                                currentScrore = 3.28;
+                                break;
+                        }
+                        break;
+                    case"Maize":
+                        switch (index) {
+                            case "1":
+                                currentScrore = 0.95;
+                                break;
+                            case "3":
+                                currentScrore = 3.05;
+                                break;
+                            case "5":
+                             currentScrore = 6.5;
+                                break;
+                        }
+                        break;
+                    case"Teff":
+                        switch (index) {
+                            case "1":
+                                currentScrore = 0.64;
+                                break;
+                            case "3":
+                                currentScrore = 1.38;
+                                break;
+                            case "5":
+                                currentScrore = 2.55;
+                                break;
+                        }
+                        break;
+                    case"Sunflowers":
+                        switch (index) {
+                            case "1":
+                                currentScrore = 0.93;
+                                break;
+                            case "3":
+                                currentScrore =  1.9;
+                                break;
+                            case "5":
+                                currentScrore =  2.76;
+                                break;
+                        }
+                        break;
+                    case"WheatI":
+                        switch (index) {
+                            case "1":
+                                currentScrore = 2;
+                                break;
+                            case "3":
+                                currentScrore =  4.28;
+                                break;
+                            case "5":
+                                currentScrore = 6.93;
+                                break;
+                        }
+                        break;
+                    case"WheatR":
+                        switch (index) {
+                            case "1":
+                                currentScrore = 1.18;
+                                break;
+                            case "3":
+                                currentScrore = 3;
+                                break;
+                            case "5":
+                                currentScrore = 6.55;
+                                break;
+                        }
+                        break;
+                    case"Uplandrice":
+
+                        switch (index) {
+                            case "1":
+                                currentScrore = 1.18;
+                                break;
+                            case "3":
+                                currentScrore =   2.63;
+                                break;
+                            case "5":
+                                currentScrore =  5.44;
+                                break;
+                        }
+                        break;
+                    case"Pearlmillet":
+                        switch (index) {
+                            case "1":
+                                currentScrore =0.72;
+                                break;
+                            case "3":
+                                currentScrore =1.45;
+                                break;
+                            case "5":
+                                currentScrore = 2.2;
+                                break;
+                        }
+                        break;
+                    case"Earlymaindrf":
+
+                        switch (index) {
+                            case "1":
+                                currentScrore =  0.95;
+                                break;
+                            case "3":
+                                currentScrore =   2.38;
+                                break;
+                            case "5":
+                                currentScrore = 5.35;
+                                break;
+                        }
+                        break;
+                    case"EarlymainI":
+                        switch (index) {
+                            case "1":
+                                currentScrore = 1.84;
+                                break;
+                            case "3":
+                                currentScrore =  3.5;
+                                break;
+                            case "5":
+                                currentScrore = 6.75;
+                                break;
+                        }
+                        break;
+                    case"Latesorg":
+                        switch (index) {
+                            case "1":
+                                currentScrore =  0.75;
+                                break;
+                            case "3":
+                                currentScrore = 1.8;
+                                break;
+                            case "5":
+                                currentScrore =  3;
+                                break;
+
+                        }
+                        break;
+                    case"Fingermillet":
+                        switch (index) {
+                            case "1":
+                                currentScrore =0.61;
+                                break;
+                            case "3":
+                                currentScrore =1.83;
+                                break;
+                            case "5":
+                                currentScrore =3.15;
+                                break;
+
+                        }
+                        break;
+
+                }
+                setBinaryData(currentScrore);
+                IAnswerData s = getAnswer();
+                setAnswer(s);
+
+            }
+        });;
+
+
+        final Button scoreBetweenLMBtn = new Button(context);
+        scoreBetweenLMBtn.setText("Score Between");
+        scoreBetweenLMBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+        scoreBetweenLMBtn.setPadding(20, 20, 20, 20);
+        scoreBetweenLMBtn.setEnabled(!prompt.isReadOnly());
+        scoreBetweenLMBtn.setBackgroundColor(getResources().getColor(R.color.low));
+        scoreBetweenLMBtn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v)
+            {
+
+                String temp[] =imagesPath.split("/");
+                String selection = temp[0];
+                String index = temp[1];
+                switch (selection){
+                    case"Barley":
+
+                        switch (index) {
+
+                            case "1":
+                                currentScrore =  0.4;
+                                break;
+
+                            case "3":
+                                currentScrore = 1.55;
+                                break;
+
+                            case "5":
+                                currentScrore = 3.05;
+                                break;
+
+                        }
+                        break;
+                    case"Cassava":
+                        switch (index) {
+
+                            case "1":
+                                currentScrore = 5.12;
+                                break;
+
+                            case "3":
+                                currentScrore = 17.58;
+                                break;
+
+                            case "5":
+                                currentScrore = 33.8;
+                                break;
+
+                        }
+                        break;
+                    case"Groundnut":
+                        switch (index) {
+
+                            case "1":
+                                currentScrore = 0.35;
+                                break;
+
+                            case "3":
+                                currentScrore = 1.75;
+                                break;
+
+                            case "5":
+                                currentScrore = 2.8;
+                                break;
+
+                        }
+                        break;
+                    case"Maize":
+                        switch (index) {
+
+                            case "1":
+                                currentScrore = 0.43;
+                                break;
+
+                            case "3":
+                                currentScrore = 2.08;
+                                break;
+
+                            case "5":
+                                currentScrore =  5.25;
+                                break;
+
+                        }
+                        break;
+                    case"Teff":
+                        switch (index) {
+
+                            case "1":
+                                currentScrore = 0.38;
+                                break;
+
+                            case "3":
+                                currentScrore = 1.13;
+                                break;
+
+                            case "5":
+                                currentScrore = 2.2;
+                                break;
+
+                        }
+                        break;
+                    case"Sunflowers":
+                        switch (index) {
+
+                            case "1":
+                                currentScrore =  0.64;
+                                break;
+
+                            case "3":
+                                currentScrore =  1.53;
+                                break;
+
+                            case "5":
+                                currentScrore =  2.38;
+                                break;
+
+                        }
+                        break;
+                    case"WheatI":
+                        switch (index) {
+
+                            case "1":
+                                currentScrore = 1.05;
+                                break;
+
+                            case "3":
+                                currentScrore = 3.48;
+                                break;
+
+                            case "5":
+                                currentScrore = 5.85;
+                                break;
+
+                        }
+                        break;
+                    case"WheatR":
+                        switch (index) {
+
+                            case "1":
+                                currentScrore =  0.68;
+                                break;
+
+                            case "3":
+                                currentScrore = 2.25;
+                                break;
+
+                            case "5":
+                                currentScrore =  5.1;
+                                break;
+
+                        }
+                        break;
+                    case"Uplandrice":
+
+                        switch (index) {
+
+                            case "1":
+                                currentScrore = 0.5;
+                                break;
+
+                            case "3":
+                                currentScrore =  1.85;
+                                break;
+
+                            case "5":
+                                currentScrore =  4.28;
+                                break;
+
+                        }
+                        break;
+                    case"Pearlmillet":
+                        switch (index) {
+
+                            case "1":
+                                currentScrore =0.37;
+                                break;
+
+                            case "3":
+                                currentScrore = 1.13;
+                                break;
+
+                            case "5":
+                                currentScrore = 1.96;
+                                break;
+
+                        }
+                        break;
+                    case"Earlymaindrf":
+
+                        switch (index) {
+
+                            case "1":
+                                currentScrore =  0.48;
+                                break;
+
+                            case "3":
+                                currentScrore =  1.73;
+                                break;
+
+                            case "5":
+                                currentScrore =   4.15;
+                                break;
+
+                        }
+                        break;
+                    case"EarlymainI":
+                        switch (index) {
+
+                            case "1":
+                                currentScrore = 1.07;
+                                break;
+
+                            case "3":
+                                currentScrore = 3;
+                                break;
+
+                            case "5":
+                                currentScrore = 5.2;
+                                break;
+
+                        }
+                        break;
+                    case"Latesorg":
+                        switch (index) {
+
+                            case "1":
+                                currentScrore =   0.35;
+                                break;
+
+                            case "3":
+                                currentScrore =  1.4;
+                                break;
+
+                            case "5":
+                                currentScrore = 2.37;
+                                break;
+
+
+                        }
+                        break;
+                    case"Fingermillet":
+                        switch (index) {
+
+                            case "1":
+                                currentScrore = 0.38;
+                                break;
+
+                            case "3":
+                                currentScrore = 1.23;
+                                break;
+
+                            case "5":
+                                currentScrore =2.76;
+                                break;
+
+
+
+                        }
+                        break;
+
+                }
+                setBinaryData(currentScrore);
+                IAnswerData s = getAnswer();
+                setAnswer(s);
+
+            }
+        });
+
+        final Button scoreBetweenMHBtn = new Button(context);
+        scoreBetweenMHBtn.setText("Score Between");
+        scoreBetweenMHBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+        scoreBetweenMHBtn.setPadding(20, 20, 20, 20);
+        scoreBetweenMHBtn.setEnabled(!prompt.isReadOnly());
+        scoreBetweenMHBtn.setBackgroundColor(getResources().getColor(R.color.low));
+        scoreBetweenMHBtn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v)
+            {
+
+                String temp[] =imagesPath.split("/");
+                String selection = temp[0];
+                String index = temp[1];
+                switch (selection){
+                    case"Barley":
+
+                        switch (index) {
+
+                            case "1":
+                                currentScrore = 0.63;
+                                break;
+
+                            case "3":
+                                currentScrore = 1.93;
+                                break;
+
+                            case "5":
+                                currentScrore = 3.38;
+                                break;
+                        }
+                        break;
+                    case"Cassava":
+                        switch (index) {
+
+                            case "1":
+                                currentScrore = 8.5;
+                                break;
+
+                            case "3":
+                                currentScrore = 22.65;
+                                break;
+
+                            case "5":
+                                currentScrore = 39.56;
+                                break;
+                        }
+                        break;
+                    case"Groundnut":
+                        switch (index) {
+
+                            case "1":
+                                currentScrore = 0.93;
+                                break;
+
+                            case "3":
+                                currentScrore = 2.2;
+                                break;
+
+                            case "5":
+                                currentScrore = 3.28;
+                                break;
+                        }
+                        break;
+                    case"Maize":
+                        switch (index) {
+
+                            case "1":
+                                currentScrore = 0.95;
+                                break;
+
+                            case "3":
+                                currentScrore = 3.05;
+                                break;
+
+                            case "5":
+                                currentScrore = 6.5;
+                                break;
+                        }
+                        break;
+                    case"Teff":
+                        switch (index) {
+
+                            case "1":
+                                currentScrore = 0.64;
+                                break;
+
+                            case "3":
+                                currentScrore = 1.38;
+                                break;
+
+                            case "5":
+                                currentScrore = 2.55;
+                                break;
+                        }
+                        break;
+                    case"Sunflowers":
+                        switch (index) {
+
+                            case "1":
+                                currentScrore = 0.93;
+                                break;
+
+                            case "3":
+                                currentScrore =  1.9;
+                                break;
+
+                            case "5":
+                                currentScrore =  2.76;
+                                break;
+                        }
+                        break;
+                    case"WheatI":
+                        switch (index) {
+
+                            case "1":
+                                currentScrore = 2;
+                                break;
+
+                            case "3":
+                                currentScrore =  4.28;
+                                break;
+
+                            case "5":
+                                currentScrore = 6.93;
+                                break;
+                        }
+                        break;
+                    case"WheatR":
+                        switch (index) {
+
+                            case "1":
+                                currentScrore = 1.18;
+                                break;
+
+                            case "3":
+                                currentScrore = 3;
+                                break;
+
+                            case "5":
+                                currentScrore = 6.55;
+                                break;
+                        }
+                        break;
+                    case"Uplandrice":
+
+                        switch (index) {
+
+                            case "1":
+                                currentScrore = 1.18;
+                                break;
+
+                            case "3":
+                                currentScrore =   2.63;
+                                break;
+
+                            case "5":
+                                currentScrore =  5.44;
+                                break;
+                        }
+                        break;
+                    case"Pearlmillet":
+                        switch (index) {
+
+                            case "1":
+                                currentScrore =0.72;
+                                break;
+
+                            case "3":
+                                currentScrore =1.45;
+                                break;
+
+                            case "5":
+                                currentScrore = 2.2;
+                                break;
+                        }
+                        break;
+                    case"Earlymaindrf":
+
+                        switch (index) {
+
+                            case "1":
+                                currentScrore =  0.95;
+                                break;
+
+                            case "3":
+                                currentScrore =   2.38;
+                                break;
+
+                            case "5":
+                                currentScrore = 5.35;
+                                break;
+                        }
+                        break;
+                    case"EarlymainI":
+                        switch (index) {
+
+                            case "1":
+                                currentScrore = 1.84;
+                                break;
+
+                            case "3":
+                                currentScrore =  3.5;
+                                break;
+
+                            case "5":
+                                currentScrore = 6.75;
+                                break;
+                        }
+                        break;
+                    case"Latesorg":
+                        switch (index) {
+
+                            case "1":
+                                currentScrore =  0.75;
+                                break;
+
+                            case "3":
+                                currentScrore = 1.8;
+                                break;
+
+                            case "5":
+                                currentScrore =  3;
+                                break;
+
+                        }
+                        break;
+                    case"Fingermillet":
+                        switch (index) {
+
+                            case "1":
+                                currentScrore =0.61;
+                                break;
+
+                            case "3":
+                                currentScrore =1.83;
+                                break;
+
+                            case "5":
+                                currentScrore =3.15;
                                 break;
 
 
@@ -834,10 +1514,17 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                 setBinaryData(currentScrore);
                 IAnswerData s = getAnswer();
                 setAnswer(s);
-              //  scoreBtn.setBackgroundColor(Color.DKGRAY);
-                scoreBetweenBtn.setBackgroundColor(getResources().getColor(R.color.between));
+
             }
         });;
+
+        final Button scoreBetweenBtn = new Button(context);
+        scoreBetweenBtn.setText("Score Between");
+        scoreBetweenBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+        scoreBetweenBtn.setPadding(20, 20, 20, 20);
+        scoreBetweenBtn.setEnabled(!prompt.isReadOnly());
+        scoreBetweenBtn.setBackgroundColor(getResources().getColor(R.color.between));
+
 
         scoreBetweenBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v)
@@ -853,30 +1540,15 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                             case "1":
                                 currentScrore = 0.15;
                                 break;
+
                             case "3":
-                                currentScrore =  0.4;
-                                break;
-                            case "5":
-                                currentScrore = 0.63;
-                                break;
-                            case "7":
                                 currentScrore = 1;
                                 break;
-                            case "9":
-                                currentScrore = 1.55;
-                                break;
-                            case "11":
-                                currentScrore = 1.93;
-                                break;
-                            case "13":
+
+                            case "5":
                                 currentScrore = 2.43;
                                 break;
-                            case "15":
-                                currentScrore = 3.05;
-                                break;
-                            case "17":
-                                currentScrore = 3.38;
-                                break;
+
                         }
                         break;
                     case"Cassava":
@@ -884,30 +1556,15 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                             case "1":
                                 currentScrore = 1.63;
                                 break;
+
                             case "3":
-                                currentScrore = 5.12;
-                                break;
-                            case "5":
-                                currentScrore = 8.5;
-                                break;
-                            case "7":
                                 currentScrore = 12.5;
                                 break;
-                            case "9":
-                                currentScrore = 17.58;
-                                break;
-                            case "11":
-                                currentScrore = 22.65;
-                                break;
-                            case "13":
+
+                            case "5":
                                 currentScrore = 27.57;
                                 break;
-                            case "15":
-                                currentScrore = 33.8;
-                                break;
-                            case "17":
-                                currentScrore = 39.56;
-                                break;
+
                         }
                         break;
                     case"Groundnut":
@@ -915,30 +1572,15 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                             case "1":
                                 currentScrore = 0.05;
                                 break;
+
                             case "3":
-                                currentScrore = 0.35;
-                                break;
-                            case "5":
-                                currentScrore = 0.93;
-                                break;
-                            case "7":
                                 currentScrore = 1.38;
                                 break;
-                            case "9":
-                                currentScrore = 1.75;
-                                break;
-                            case "11":
-                                currentScrore = 2.2;
-                                break;
-                            case "13":
+
+                            case "5":
                                 currentScrore = 2.5;
                                 break;
-                            case "15":
-                                currentScrore = 2.8;
-                                break;
-                            case "17":
-                                currentScrore = 3.28;
-                                break;
+
                         }
                         break;
                     case"Maize":
@@ -947,29 +1589,12 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 currentScrore = 0.13;
                                 break;
                             case "3":
-                                currentScrore = 0.43;
-                                break;
-                            case "5":
-                                currentScrore = 0.95;
-                                break;
-                            case "7":
                                 currentScrore = 1.6;
                                 break;
-                            case "9":
-                                currentScrore = 2.08;
-                                break;
-                            case "11":
-                                currentScrore = 3.05;
-                                break;
-                            case "13":
+                            case "5":
                                 currentScrore = 4.18;
                                 break;
-                            case "15":
-                                currentScrore =  5.25;
-                                break;
-                            case "17":
-                                currentScrore = 6.5;
-                                break;
+
                         }
                         break;
                     case"Teff":
@@ -978,28 +1603,11 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 currentScrore =  0.13;
                                 break;
                             case "3":
-                                currentScrore = 0.38;
-                                break;
-                            case "5":
-                                currentScrore = 0.64;
-                                break;
-                            case "7":
                                 currentScrore = 0.89;
                                 break;
-                            case "9":
-                                currentScrore = 1.13;
-                                break;
-                            case "11":
-                                currentScrore = 1.38;
-                                break;
-                            case "13":
+
+                            case "5":
                                 currentScrore =  1.75;
-                                break;
-                            case "15":
-                                currentScrore = 2.2;
-                                break;
-                            case "17":
-                                currentScrore = 2.55;
                                 break;
                         }
                         break;
@@ -1009,29 +1617,13 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 currentScrore =  0.21;
                                 break;
                             case "3":
-                                currentScrore =  0.64;
-                                break;
-                            case "5":
-                                currentScrore = 0.93;
-                                break;
-                            case "7":
                                 currentScrore = 1.13;
                                 break;
-                            case "9":
-                                currentScrore =  1.53;
-                                break;
-                            case "11":
-                                currentScrore =  1.9;
-                                break;
-                            case "13":
+
+                            case "5":
                                 currentScrore =  2.05;
                                 break;
-                            case "15":
-                                currentScrore =  2.38;
-                                break;
-                            case "17":
-                                currentScrore =  2.76;
-                                break;
+
                         }
                         break;
                     case"WheatI":
@@ -1040,29 +1632,14 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 currentScrore =  0.3;
                                 break;
                             case "3":
-                                currentScrore = 1.05;
-                                break;
-                            case "5":
-                                currentScrore = 2;
-                                break;
-                            case "7":
+
                                 currentScrore = 2.8;
                                 break;
-                            case "9":
-                                currentScrore = 3.48;
-                                break;
-                            case "11":
-                                currentScrore =  4.28;
-                                break;
-                            case "13":
+
+                            case "5":
                                 currentScrore = 5.03;
                                 break;
-                            case "15":
-                                currentScrore = 5.85;
-                                break;
-                            case "17":
-                                currentScrore = 6.93;
-                                break;
+
                         }
                         break;
                     case"WheatR":
@@ -1071,29 +1648,12 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 currentScrore =  0.25;
                                 break;
                             case "3":
-                                currentScrore =  0.68;
-                                break;
-                            case "5":
-                                currentScrore = 1.18;
-                                break;
-                            case "7":
                                 currentScrore = 1.75;
                                 break;
-                            case "9":
-                                currentScrore = 2.25;
-                                break;
-                            case "11":
-                                currentScrore = 3;
-                                break;
-                            case "13":
+                            case "5":
                                 currentScrore =  4.1;
                                 break;
-                            case "15":
-                                currentScrore =  5.1;
-                                break;
-                            case "17":
-                                currentScrore = 6.55;
-                                break;
+
                         }
                         break;
                     case"Uplandrice":
@@ -1103,29 +1663,12 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 currentScrore =  0.05;
                                 break;
                             case "3":
-                                currentScrore = 0.5;
-                                break;
-                            case "5":
-                                currentScrore = 1.18;
-                                break;
-                            case "7":
                                 currentScrore =  1.48;
                                 break;
-                            case "9":
-                                currentScrore =  1.85;
-                                break;
-                            case "11":
-                                currentScrore =   2.63;
-                                break;
-                            case "13":
+                            case "5":
                                 currentScrore = 3.43;
                                 break;
-                            case "15":
-                                currentScrore =  4.28;
-                                break;
-                            case "17":
-                                currentScrore =  5.44;
-                                break;
+
                         }
                         break;
                     case"Pearlmillet":
@@ -1134,29 +1677,14 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 currentScrore =0.07;
                                 break;
                             case "3":
-                                currentScrore =0.37;
-                                break;
-                            case "5":
-                                currentScrore =0.72;
-                                break;
-                            case "7":
+
                                 currentScrore = 0.93;
                                 break;
-                            case "9":
-                                currentScrore = 1.13;
-                                break;
-                            case "11":
-                                currentScrore =1.45;
-                                break;
-                            case "13":
+
+                            case "5":
                                 currentScrore =1.79;
                                 break;
-                            case "15":
-                                currentScrore = 1.96;
-                                break;
-                            case "17":
-                                currentScrore = 2.2;
-                                break;
+
                         }
                         break;
                     case"Earlymaindrf":
@@ -1166,28 +1694,10 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 currentScrore =  0.13;
                                 break;
                             case "3":
-                                currentScrore =  0.48;
-                                break;
-                            case "5":
-                                currentScrore =  0.95;
-                                break;
-                            case "7":
                                 currentScrore =  1.33;
                                 break;
-                            case "9":
-                                currentScrore =  1.73;
-                                break;
-                            case "11":
-                                currentScrore =   2.38;
-                                break;
-                            case "13":
+                            case "5":
                                 currentScrore =   3.18;
-                                break;
-                            case "15":
-                                currentScrore =   4.15;
-                                break;
-                            case "17":
-                                currentScrore = 5.35;
                                 break;
                         }
                         break;
@@ -1197,28 +1707,11 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 currentScrore = 0.35;
                                 break;
                             case "3":
-                                currentScrore = 1.07;
-                                break;
-                            case "5":
-                                currentScrore = 1.84;
-                                break;
-                            case "7":
                                 currentScrore = 2.5;
                                 break;
-                            case "9":
-                                currentScrore = 3;
-                                break;
-                            case "11":
-                                currentScrore =  3.5;
-                                break;
-                            case "13":
+
+                            case "5":
                                 currentScrore =  4.18;
-                                break;
-                            case "15":
-                                currentScrore = 5.2;
-                                break;
-                            case "17":
-                                currentScrore = 6.75;
                                 break;
                         }
                         break;
@@ -1228,30 +1721,11 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 currentScrore =   0.1;
                                 break;
                             case "3":
-                                currentScrore =   0.35;
-                                break;
-                            case "5":
-                                currentScrore =  0.75;
-                                break;
-                            case "7":
                                 currentScrore =  1.05;
                                 break;
-                            case "9":
-                                currentScrore =  1.4;
-                                break;
-                            case "11":
-                                currentScrore = 1.8;
-                                break;
-                            case "13":
+                            case "5":
                                 currentScrore =  2;
                                 break;
-                            case "15":
-                                currentScrore = 2.37;
-                                break;
-                            case "17":
-                                currentScrore =  3;
-                                break;
-
                         }
                         break;
                     case"Fingermillet":
@@ -1260,30 +1734,12 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 currentScrore =0.13;
                                 break;
                             case "3":
-                                currentScrore = 0.38;
-                                break;
-                            case "5":
-                                currentScrore =0.61;
-                                break;
-                            case "7":
                                 currentScrore =0.83;
                                 break;
-                            case "9":
-                                currentScrore = 1.23;
-                                break;
-                            case "11":
-                                currentScrore =1.83;
-                                break;
-                            case "13":
+
+                            case "5":
                                 currentScrore = 2.34;
                                 break;
-                            case "15":
-                                currentScrore =2.76;
-                                break;
-                            case "17":
-                                currentScrore =3.15;
-                                break;
-
 
                         }
                         break;
@@ -1292,10 +1748,9 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                 setBinaryData(currentScrore);
                 IAnswerData s = getAnswer();
                 setAnswer(s);
-                scoreBetweenBtn.setBackgroundColor(Color.DKGRAY);
-                scoreBtn.setBackgroundColor(getResources().getColor(R.color.score));
+
             }
-        });;
+        });
 
 
 //---------------------------------------------------------------------------------------score above red button-----------------------------------------------------------//
