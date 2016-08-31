@@ -224,28 +224,28 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                     case "Sunflowers":
                         imagesPath = "Sunflowers/" + cropsPicturesIndex;
                         break;
-                    case "Wheat Irrigated":
+                    case "Wheat-Irrigated":
                         imagesPath = "WheatI/" + cropsPicturesIndex;
                         break;
-                    case "Wheat Rainfed":
+                    case "Wheat-Rainfed":
                         imagesPath = "WheatR/" + cropsPicturesIndex;
                         break;
-                    case "Upland Rice":
+                    case "Upland":
                         imagesPath = "Uplandrice/" + cropsPicturesIndex;
                         break;
-                    case "Pearl Millet":
+                    case "Pearl":
                         imagesPath = "Pearlmillet/" + cropsPicturesIndex;
                         break;
-                    case "Early Main Sorghum Rainfed":
+                    case "EarlyMainSorghum-Rainfed":
                         imagesPath = "Earlymaindrf/" + cropsPicturesIndex;
                         break;
-                    case "Early Main Sorghum Irrigated":
+                    case "EarlyMainSorghum-Irrigated":
                         imagesPath = "EarlymainI/" + cropsPicturesIndex;
                         break;
-                    case "Late Maturing Sorghum":
+                    case "Late":
                         imagesPath = "Latesorg/" + cropsPicturesIndex;
                         break;
-                    case "Finger Millet":
+                    case "Finger":
                         imagesPath = "Fingermillet/" + cropsPicturesIndex;
                         break;
                     default:
@@ -266,10 +266,10 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                     case "Goat":
                         imagesPath = "Goats";
                         break;
-                    case "Long tailed sheep":
+                    case "Long":
                         imagesPath = "Lts" ;
                         break;
-                    case "Fat tailed sheep":
+                    case "Fat":
                         imagesPath = "Fts" ;
                         break;
                     case"Barley":
@@ -290,28 +290,28 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                     case"Sunflowers":
                         imagesPath ="Sunflowers";
                         break;
-                    case"Wheat Irrigated":
+                    case"Wheat-Irrigated":
                         imagesPath ="WheatI";
                         break;
-                    case"Wheat Rainfed":
+                    case"Wheat-Rainfed":
                         imagesPath ="WheatR";
                         break;
-                    case"Upland Rice":
+                    case"Upland":
                         imagesPath ="Uplandrice";
                         break;
-                    case"Pearl Millet":
+                    case"Pearl":
                         imagesPath ="Pearlmillet";
                         break;
-                    case"Early Main Sorghum Rainfed":
+                    case"EarlyMainSorghum-Rainfed":
                         imagesPath ="Earlymaindrf";
                         break;
-                    case"Early Main Sorghum Irrigated":
+                    case"EarlyMainSorghum-Irrigated":
                         imagesPath ="EarlymainI";
                         break;
-                    case"Late Maturing Sorghum":
+                    case"Late":
                         imagesPath ="Latesorg";
                         break;
-                    case"Finger Millet":
+                    case"Finger":
                         imagesPath ="Fingermillet";
                         break;
                     default:
@@ -331,17 +331,16 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
         closeUpBtn.setEnabled(!prompt.isReadOnly());
         closeUpBtn.setBackgroundColor(Color.LTGRAY);
         closeUpBtn.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v)
-            {
-                int closeupIndex = cropsPicturesIndex+ 1;
-                String closeupPath = imagesPath.substring(0,imagesPath.lastIndexOf("/")) + "/"+closeupIndex;
-                String imgCu = mainPath +"/"+closeupPath+ ".jpg";
+            public void onClick(View v) {
+                int closeupIndex = cropsPicturesIndex + 1;
+                String closeupPath = imagesPath.substring(0, imagesPath.lastIndexOf("/")) + "/" + closeupIndex;
+                String imgCu = mainPath + "/" + closeupPath + ".jpg";
                 try {
                     Intent myIntent = new Intent(android.content.Intent.ACTION_VIEW);
                     File file = new File(imgCu);
                     String extension = android.webkit.MimeTypeMap.getFileExtensionFromUrl(Uri.fromFile(file).toString());
                     String mimetype = android.webkit.MimeTypeMap.getSingleton().getMimeTypeFromExtension(extension);
-                    myIntent.setDataAndType(Uri.fromFile(file),mimetype);
+                    myIntent.setDataAndType(Uri.fromFile(file), mimetype);
                     //   myIntent.setPackage("com.android.gallery");
                     context.startActivity(myIntent);
 //                        Uri uri = Uri.parse("file:/"+FormEntryActivity.imagePath);
@@ -353,6 +352,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                 }
             }
         });;
+
         final Button scoreBtn = new Button(context);
         scoreBtn.setText("Score");
         scoreBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
@@ -360,24 +360,52 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
         scoreBtn.setEnabled(!prompt.isReadOnly());
         scoreBtn.setBackgroundColor(getResources().getColor(R.color.score));
 
-
+//********************************************************************************//
+        final Button scoreLowBtn = new Button(context);
+        scoreLowBtn.setText("Score Low");
+        scoreLowBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+        scoreLowBtn.setPadding(20, 20, 20, 20);
+        scoreLowBtn.setEnabled(!prompt.isReadOnly());
+        scoreLowBtn.setBackgroundColor(getResources().getColor(R.color.low));
+//*********************************************************************************//
         final Button scoreMidBtn = new Button(context);
         scoreMidBtn.setText("Score Mid");
         scoreMidBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
         scoreMidBtn.setPadding(20, 20, 20, 20);
         scoreMidBtn.setEnabled(!prompt.isReadOnly());
         scoreMidBtn.setBackgroundColor(getResources().getColor(R.color.mid));
+//*********************************************************************************//
+        final Button scoreHighBtn = new Button(context);
+        scoreHighBtn.setText("Score High");
+        scoreHighBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+        scoreHighBtn.setPadding(20, 20, 20, 20);
+        scoreHighBtn.setEnabled(!prompt.isReadOnly());
+        scoreHighBtn.setBackgroundColor(getResources().getColor(R.color.high));
+//************************************************************************************//
+        final Button scoreBetweenMHBtn = new Button(context);
+        scoreBetweenMHBtn.setText("Score Between");
+        scoreBetweenMHBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+        scoreBetweenMHBtn.setPadding(20, 20, 20, 20);
+        scoreBetweenMHBtn.setEnabled(!prompt.isReadOnly());
+        scoreBetweenMHBtn.setBackgroundColor(getResources().getColor(R.color.hm));
+//**************************************************************************************//
+        final Button scoreBetweenLMBtn = new Button(context);
+        scoreBetweenLMBtn.setText("Score Between");
+        scoreBetweenLMBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+        scoreBetweenLMBtn.setPadding(20, 20, 20, 20);
+        scoreBetweenLMBtn.setEnabled(!prompt.isReadOnly());
+        scoreBetweenLMBtn.setBackgroundColor(getResources().getColor(R.color.ml));
+ //**********************************Click Listener******************************************//
         scoreMidBtn.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v)
-            {
-                String temp[] =imagesPath.split("/");
+            public void onClick(View v) {
+                String temp[] = imagesPath.split("/");
                 String selection = temp[0];
                 String index = temp[1];
-                switch (selection){
-                    case"Barley":
+                switch (selection) {
+                    case "Barley":
                         switch (index) {
                             case "1": //blue mid
-                                currentScrore =  0.5;
+                                currentScrore = 0.5;
                                 break;
                             case "3":
                                 currentScrore = 1.85;
@@ -387,7 +415,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 break;
                         }
                         break;
-                    case"Cassava":
+                    case "Cassava":
                         switch (index) {
                             case "1":
                                 currentScrore = 6.99;
@@ -401,7 +429,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
                         }
                         break;
-                    case"Groundnut":
+                    case "Groundnut":
                         switch (index) {
                             case "1":
                                 currentScrore = 0.6;
@@ -414,7 +442,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 break;
                         }
                         break;
-                    case"Maize":
+                    case "Maize":
                         switch (index) {
                             case "1":
                                 currentScrore = 0.6;
@@ -423,11 +451,11 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 currentScrore = 2.25;
                                 break;
                             case "5":
-                                currentScrore =  6;
+                                currentScrore = 6;
                                 break;
                         }
                         break;
-                    case"Teff":
+                    case "Teff":
                         switch (index) {
                             case "1":
                                 currentScrore = 0.5;
@@ -440,20 +468,20 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 break;
                         }
                         break;
-                    case"Sunflowers":
+                    case "Sunflowers":
                         switch (index) {
                             case "1":
-                                currentScrore =  0.85;
+                                currentScrore = 0.85;
                                 break;
                             case "3":
-                                currentScrore =  1.8;
+                                currentScrore = 1.8;
                                 break;
                             case "5":
-                                currentScrore =  2.66;
+                                currentScrore = 2.66;
                                 break;
                         }
                         break;
-                    case"WheatI":
+                    case "WheatI":
                         switch (index) {
                             case "1":
                                 currentScrore = 1.5;
@@ -467,37 +495,37 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
                         }
                         break;
-                    case"WheatR":
+                    case "WheatR":
                         switch (index) {
                             case "1":
-                                currentScrore =  0.85;
+                                currentScrore = 0.85;
                                 break;
                             case "3":
                                 currentScrore = 2.5;
                                 break;
                             case "5":
-                                currentScrore =  5.5;
+                                currentScrore = 5.5;
                                 break;
                         }
                         break;
-                    case"Uplandrice":
-                        imagesPath ="Uplandrice";
+                    case "Uplandrice":
+                        imagesPath = "Uplandrice";
                         switch (index) {
                             case "1":
                                 currentScrore = 0.9;
                                 break;
                             case "3":
-                                currentScrore =  2.2;
+                                currentScrore = 2.2;
                                 break;
                             case "5":
-                                currentScrore =  4.75;
+                                currentScrore = 4.75;
                                 break;
                         }
                         break;
-                    case"Pearlmillet":
+                    case "Pearlmillet":
                         switch (index) {
                             case "1":
-                                currentScrore =0.59;
+                                currentScrore = 0.59;
                                 break;
                             case "3":
                                 currentScrore = 1.25;
@@ -507,21 +535,21 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 break;
                         }
                         break;
-                    case"Earlymaindrf":
+                    case "Earlymaindrf":
 
                         switch (index) {
                             case "1":
-                                currentScrore =  0.7;
+                                currentScrore = 0.7;
                                 break;
                             case "3":
-                                currentScrore =  2;
+                                currentScrore = 2;
                                 break;
                             case "5":
-                                currentScrore =   4.7;
+                                currentScrore = 4.7;
                                 break;
                         }
                         break;
-                    case"EarlymainI":
+                    case "EarlymainI":
                         switch (index) {
                             case "1":
                                 currentScrore = 1.43;
@@ -534,13 +562,13 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 break;
                         }
                         break;
-                    case"Latesorg":
+                    case "Latesorg":
                         switch (index) {
                             case "1":
-                                currentScrore =   0.5;
+                                currentScrore = 0.5;
                                 break;
                             case "3":
-                                currentScrore =  1.7;
+                                currentScrore = 1.7;
                                 break;
                             case "5":
                                 currentScrore = 2.64;
@@ -548,7 +576,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
                         }
                         break;
-                    case"Fingermillet":
+                    case "Fingermillet":
                         switch (index) {
                             case "1":
                                 currentScrore = 0.5;
@@ -557,7 +585,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 currentScrore = 1.51;
                                 break;
                             case "5":
-                                currentScrore =2.99;
+                                currentScrore = 2.99;
                                 break;
 
                         }
@@ -567,24 +595,23 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                 setBinaryData(currentScrore);
                 IAnswerData s = getAnswer();
                 setAnswer(s);
-                //  scoreBtn.setBackgroundColor(Color.DKGRAY);
-           }
+                scoreMidBtn.setBackgroundColor(Color.DKGRAY);
+                scoreBetweenLMBtn.setBackgroundColor(getResources().getColor(R.color.ml));
+                scoreBetweenMHBtn.setBackgroundColor(getResources().getColor(R.color.hm));
+                scoreLowBtn.setBackgroundColor(getResources().getColor(R.color.low));
+                scoreHighBtn.setBackgroundColor(getResources().getColor(R.color.high));
+
+            }
         });;
 
-        final Button scoreLowBtn = new Button(context);
-        scoreLowBtn.setText("Score Low");
-        scoreLowBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
-        scoreLowBtn.setPadding(20, 20, 20, 20);
-        scoreLowBtn.setEnabled(!prompt.isReadOnly());
-        scoreLowBtn.setBackgroundColor(getResources().getColor(R.color.low));
+
         scoreLowBtn.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v)
-            {
-                String temp[] =imagesPath.split("/");
+            public void onClick(View v) {
+                String temp[] = imagesPath.split("/");
                 String selection = temp[0];
                 String index = temp[1];
-                switch (selection){
-                    case"Barley":
+                switch (selection) {
+                    case "Barley":
                         switch (index) {
                             case "1":
                                 currentScrore = 0.3;
@@ -598,7 +625,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
                         }
                         break;
-                    case"Cassava":
+                    case "Cassava":
                         switch (index) {
                             case "1":
                                 currentScrore = 3.25;
@@ -612,7 +639,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
                         }
                         break;
-                    case"Groundnut":
+                    case "Groundnut":
                         switch (index) {
                             case "1":
                                 currentScrore = 0.1;
@@ -626,7 +653,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
                         }
                         break;
-                    case"Maize":
+                    case "Maize":
                         switch (index) {
                             case "1":
                                 currentScrore = 0.25;
@@ -640,39 +667,39 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
                         }
                         break;
-                    case"Teff":
+                    case "Teff":
                         switch (index) {
                             case "1":
-                                currentScrore =  0.25;
+                                currentScrore = 0.25;
                                 break;
                             case "3":
                                 currentScrore = 1;
                                 break;
                             case "5":
-                                currentScrore =  2;
+                                currentScrore = 2;
                                 break;
 
                         }
                         break;
-                    case"Sunflowers":
+                    case "Sunflowers":
                         switch (index) {
                             case "1":
-                                currentScrore =  0.42;
+                                currentScrore = 0.42;
                                 break;
                             case "3":
                                 currentScrore = 1.25;
                                 break;
                             case "5":
-                                currentScrore =  2.10;
+                                currentScrore = 2.10;
                                 break;
 
 
                         }
                         break;
-                    case"WheatI":
+                    case "WheatI":
                         switch (index) {
                             case "1":
-                                currentScrore =  0.6;
+                                currentScrore = 0.6;
                                 break;
                             case "3":
                                 currentScrore = 3.1;
@@ -683,28 +710,28 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
                         }
                         break;
-                    case"WheatR":
+                    case "WheatR":
                         switch (index) {
                             case "1":
-                                currentScrore =  0.5;
+                                currentScrore = 0.5;
                                 break;
                             case "3":
                                 currentScrore = 2;
                                 break;
                             case "5":
-                                currentScrore =  4.7;
+                                currentScrore = 4.7;
                                 break;
 
                         }
                         break;
-                    case"Uplandrice":
-                        imagesPath ="Uplandrice";
+                    case "Uplandrice":
+                        imagesPath = "Uplandrice";
                         switch (index) {
                             case "1":
-                                currentScrore =  0.1;
+                                currentScrore = 0.1;
                                 break;
                             case "3":
-                                currentScrore =  1.5;
+                                currentScrore = 1.5;
                                 break;
                             case "5":
                                 currentScrore = 3.8;
@@ -712,34 +739,34 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
                         }
                         break;
-                    case"Pearlmillet":
+                    case "Pearlmillet":
                         switch (index) {
                             case "1":
-                                currentScrore =0.14;
+                                currentScrore = 0.14;
                                 break;
                             case "3":
                                 currentScrore = 1;
                                 break;
                             case "5":
-                                currentScrore =1.92;
+                                currentScrore = 1.92;
                                 break;
                         }
                         break;
-                    case"Earlymaindrf":
+                    case "Earlymaindrf":
 
                         switch (index) {
                             case "1":
-                                currentScrore =  0.25;
+                                currentScrore = 0.25;
                                 break;
                             case "3":
-                                currentScrore =  1.45;
+                                currentScrore = 1.45;
                                 break;
                             case "5":
-                                currentScrore =   3.6;
+                                currentScrore = 3.6;
                                 break;
                         }
                         break;
-                    case"EarlymainI":
+                    case "EarlymainI":
                         switch (index) {
                             case "1":
                                 currentScrore = 0.7;
@@ -748,30 +775,30 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 currentScrore = 2.75;
                                 break;
                             case "5":
-                                currentScrore =  4.6;
+                                currentScrore = 4.6;
                                 break;
                         }
                         break;
-                    case"Latesorg":
+                    case "Latesorg":
                         switch (index) {
                             case "1":
-                                currentScrore =   0.2;
+                                currentScrore = 0.2;
                                 break;
                             case "3":
-                                currentScrore =  1.10;
+                                currentScrore = 1.10;
                                 break;
                             case "5":
-                                currentScrore =  2.10;
+                                currentScrore = 2.10;
                                 break;
                         }
                         break;
-                    case"Fingermillet":
+                    case "Fingermillet":
                         switch (index) {
                             case "1":
-                                currentScrore =0.25;
+                                currentScrore = 0.25;
                                 break;
                             case "3":
-                                currentScrore =0.94;
+                                currentScrore = 0.94;
                                 break;
                             case "5":
                                 currentScrore = 2.52;
@@ -783,16 +810,15 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                 setBinaryData(currentScrore);
                 IAnswerData s = getAnswer();
                 setAnswer(s);
-                //  scoreBtn.setBackgroundColor(Color.DKGRAY);
+                scoreLowBtn.setBackgroundColor(Color.DKGRAY);
+                scoreBetweenLMBtn.setBackgroundColor(getResources().getColor(R.color.ml));
+                scoreBetweenMHBtn.setBackgroundColor(getResources().getColor(R.color.hm));
+                scoreHighBtn.setBackgroundColor(getResources().getColor(R.color.high));
+                scoreMidBtn.setBackgroundColor(getResources().getColor(R.color.mid));
             }
         });;
 
-        final Button scoreHighBtn = new Button(context);
-        scoreHighBtn.setText("Score High");
-        scoreHighBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
-        scoreHighBtn.setPadding(20, 20, 20, 20);
-        scoreHighBtn.setEnabled(!prompt.isReadOnly());
-        scoreHighBtn.setBackgroundColor(getResources().getColor(R.color.high));
+
         scoreHighBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v)
             {
@@ -993,31 +1019,27 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                 setBinaryData(currentScrore);
                 IAnswerData s = getAnswer();
                 setAnswer(s);
-
+                scoreHighBtn.setBackgroundColor(Color.DKGRAY);
+                scoreBetweenLMBtn.setBackgroundColor(getResources().getColor(R.color.ml));
+                scoreBetweenMHBtn.setBackgroundColor(getResources().getColor(R.color.hm));
+                scoreLowBtn.setBackgroundColor(getResources().getColor(R.color.low));
+                scoreMidBtn.setBackgroundColor(getResources().getColor(R.color.mid));
             }
         });;
 
-
-        final Button scoreBetweenLMBtn = new Button(context);
-        scoreBetweenLMBtn.setText("Score Between");
-        scoreBetweenLMBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
-        scoreBetweenLMBtn.setPadding(20, 20, 20, 20);
-        scoreBetweenLMBtn.setEnabled(!prompt.isReadOnly());
-        scoreBetweenLMBtn.setBackgroundColor(getResources().getColor(R.color.low));
         scoreBetweenLMBtn.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v)
-            {
+            public void onClick(View v) {
 
-                String temp[] =imagesPath.split("/");
+                String temp[] = imagesPath.split("/");
                 String selection = temp[0];
                 String index = temp[1];
-                switch (selection){
-                    case"Barley":
+                switch (selection) {
+                    case "Barley":
 
                         switch (index) {
 
                             case "1":
-                                currentScrore =  0.4;
+                                currentScrore = 0.4;
                                 break;
 
                             case "3":
@@ -1030,7 +1052,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
                         }
                         break;
-                    case"Cassava":
+                    case "Cassava":
                         switch (index) {
 
                             case "1":
@@ -1047,7 +1069,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
                         }
                         break;
-                    case"Groundnut":
+                    case "Groundnut":
                         switch (index) {
 
                             case "1":
@@ -1064,7 +1086,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
                         }
                         break;
-                    case"Maize":
+                    case "Maize":
                         switch (index) {
 
                             case "1":
@@ -1076,12 +1098,12 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 break;
 
                             case "5":
-                                currentScrore =  5.25;
+                                currentScrore = 5.25;
                                 break;
 
                         }
                         break;
-                    case"Teff":
+                    case "Teff":
                         switch (index) {
 
                             case "1":
@@ -1098,24 +1120,24 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
                         }
                         break;
-                    case"Sunflowers":
+                    case "Sunflowers":
                         switch (index) {
 
                             case "1":
-                                currentScrore =  0.64;
+                                currentScrore = 0.64;
                                 break;
 
                             case "3":
-                                currentScrore =  1.53;
+                                currentScrore = 1.53;
                                 break;
 
                             case "5":
-                                currentScrore =  2.38;
+                                currentScrore = 2.38;
                                 break;
 
                         }
                         break;
-                    case"WheatI":
+                    case "WheatI":
                         switch (index) {
 
                             case "1":
@@ -1132,11 +1154,11 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
                         }
                         break;
-                    case"WheatR":
+                    case "WheatR":
                         switch (index) {
 
                             case "1":
-                                currentScrore =  0.68;
+                                currentScrore = 0.68;
                                 break;
 
                             case "3":
@@ -1144,12 +1166,12 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 break;
 
                             case "5":
-                                currentScrore =  5.1;
+                                currentScrore = 5.1;
                                 break;
 
                         }
                         break;
-                    case"Uplandrice":
+                    case "Uplandrice":
 
                         switch (index) {
 
@@ -1158,20 +1180,20 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 break;
 
                             case "3":
-                                currentScrore =  1.85;
+                                currentScrore = 1.85;
                                 break;
 
                             case "5":
-                                currentScrore =  4.28;
+                                currentScrore = 4.28;
                                 break;
 
                         }
                         break;
-                    case"Pearlmillet":
+                    case "Pearlmillet":
                         switch (index) {
 
                             case "1":
-                                currentScrore =0.37;
+                                currentScrore = 0.37;
                                 break;
 
                             case "3":
@@ -1184,25 +1206,25 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
                         }
                         break;
-                    case"Earlymaindrf":
+                    case "Earlymaindrf":
 
                         switch (index) {
 
                             case "1":
-                                currentScrore =  0.48;
+                                currentScrore = 0.48;
                                 break;
 
                             case "3":
-                                currentScrore =  1.73;
+                                currentScrore = 1.73;
                                 break;
 
                             case "5":
-                                currentScrore =   4.15;
+                                currentScrore = 4.15;
                                 break;
 
                         }
                         break;
-                    case"EarlymainI":
+                    case "EarlymainI":
                         switch (index) {
 
                             case "1":
@@ -1219,15 +1241,15 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
                         }
                         break;
-                    case"Latesorg":
+                    case "Latesorg":
                         switch (index) {
 
                             case "1":
-                                currentScrore =   0.35;
+                                currentScrore = 0.35;
                                 break;
 
                             case "3":
-                                currentScrore =  1.4;
+                                currentScrore = 1.4;
                                 break;
 
                             case "5":
@@ -1237,7 +1259,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
                         }
                         break;
-                    case"Fingermillet":
+                    case "Fingermillet":
                         switch (index) {
 
                             case "1":
@@ -1249,9 +1271,8 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 break;
 
                             case "5":
-                                currentScrore =2.76;
+                                currentScrore = 2.76;
                                 break;
-
 
 
                         }
@@ -1261,16 +1282,15 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                 setBinaryData(currentScrore);
                 IAnswerData s = getAnswer();
                 setAnswer(s);
-
+                scoreBetweenLMBtn.setBackgroundColor(Color.DKGRAY);
+                scoreBetweenMHBtn.setBackgroundColor(getResources().getColor(R.color.hm));
+                scoreLowBtn.setBackgroundColor(getResources().getColor(R.color.low));
+                scoreHighBtn.setBackgroundColor(getResources().getColor(R.color.high));
+                scoreMidBtn.setBackgroundColor(getResources().getColor(R.color.mid));
             }
         });
 
-        final Button scoreBetweenMHBtn = new Button(context);
-        scoreBetweenMHBtn.setText("Score Between");
-        scoreBetweenMHBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
-        scoreBetweenMHBtn.setPadding(20, 20, 20, 20);
-        scoreBetweenMHBtn.setEnabled(!prompt.isReadOnly());
-        scoreBetweenMHBtn.setBackgroundColor(getResources().getColor(R.color.low));
+
         scoreBetweenMHBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v)
             {
@@ -1748,7 +1768,12 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                 setBinaryData(currentScrore);
                 IAnswerData s = getAnswer();
                 setAnswer(s);
-
+                scoreBetweenBtn.setBackgroundColor(Color.DKGRAY);
+                scoreBetweenLMBtn.setBackgroundColor(getResources().getColor(R.color.ml));
+                scoreBetweenMHBtn.setBackgroundColor(getResources().getColor(R.color.hm));
+                scoreLowBtn.setBackgroundColor(getResources().getColor(R.color.low));
+                scoreHighBtn.setBackgroundColor(getResources().getColor(R.color.high));
+                scoreMidBtn.setBackgroundColor(getResources().getColor(R.color.mid));
             }
         });
 
@@ -1760,7 +1785,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
         abvRedBtn.setPadding(20, 20, 20, 20);
         abvRedBtn.setEnabled(!prompt.isReadOnly());
         abvRedBtn.setBackgroundColor(Color.RED);
-        if(cropsPicturesIndex == 17 && mFormName.contains("CropsWalking") )
+        if(cropsPicturesIndex == 5 && mFormName.contains("CropsWalking") )
             addView(abvRedBtn);
         abvRedBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -1815,7 +1840,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                 setBinaryData(currentScrore);
                 IAnswerData s = getAnswer();
                 setAnswer(s);
-                //scoreBtn.setBackgroundColor(Color.DKGRAY);
+                abvRedBtn.setBackgroundColor(Color.DKGRAY);
                 }
 
             });
@@ -2257,7 +2282,11 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
             addView(scoreBetweenBtn);
             addView(mImageView);
             addView(closeUpBtn);
-            addView(scoreBtn);
+            addView(scoreLowBtn);
+            addView(scoreBetweenLMBtn);
+            addView(scoreMidBtn);
+            addView(scoreBetweenMHBtn);
+            addView(scoreHighBtn);
 
         }
 

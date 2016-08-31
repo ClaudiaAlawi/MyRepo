@@ -1,369 +1,369 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:11:1-152:12
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:11:1-152:12
 	xmlns:android
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:11:11-69
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:11:11-69
 	package
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:12:5-40
-		INJECTED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:12:5-40
+		INJECTED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:14:5-30
-		INJECTED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:14:5-30
+		INJECTED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:13:5-28
-		INJECTED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:13:5-28
+		INJECTED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml
 uses-sdk
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:16:5-18:41
-MERGED from [com.android.support:multidex:1.0.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:multidex:1.0.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
-MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:23:3-70
-MERGED from [com.android.support:support-v4:21.0.3] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml:15:5-42
-MERGED from [com.android.support:appcompat-v7:18.0.0] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:21.0.3] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml:15:5-42
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:16:5-18:41
+MERGED from [com.android.support:multidex:1.0.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:multidex:1.0.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
+MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:23:3-70
+MERGED from [com.android.support:support-v4:21.0.3] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:appcompat-v7:18.0.0] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:21.0.3] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml:15:5-42
 	android:targetSdkVersion
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:18:9-38
-		INJECTED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:18:9-38
+		INJECTED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:17:9-34
-		INJECTED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:17:9-34
+		INJECTED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:20:5-75
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:20:5-75
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:20:22-72
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:20:22-72
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:21:5-79
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:21:5-79
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:21:22-76
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:21:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:22:5-81
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:22:5-81
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:22:22-78
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:22:22-78
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:23:5-71
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:23:5-71
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:23:22-68
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:23:22-68
 uses-permission#android.permission.USE_CREDENTIALS
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:24:5-74
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:24:5-74
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:24:22-71
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:24:22-71
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:25:5-79
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:25:5-79
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:25:22-76
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:25:22-76
 uses-permission#android.permission.WRITE_SMS
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:26:5-68
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:26:5-68
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:26:22-65
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:26:22-65
 uses-permission#android.permission.READ_SMS
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:27:5-67
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:27:5-67
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:27:22-64
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:27:22-64
 uses-permission#android.permission.SEND_SMS
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:28:5-67
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:28:5-67
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:28:22-64
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:28:22-64
 uses-permission#android.permission.RECEIVE_SMS
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:29:5-70
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:29:5-70
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:29:22-67
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:29:22-67
 uses-permission#android.permission.VIBRATE
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:30:5-66
-MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:20:3-63
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:30:5-66
+MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:20:3-63
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:30:22-63
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:30:22-63
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:31:5-67
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:31:5-67
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:31:22-64
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:31:22-64
 uses-permission#android.permission.GET_TASKS
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:32:5-68
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:32:5-68
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:32:22-65
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:32:22-65
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:33:5-65
-MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:19:3-62
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:33:5-65
+MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:19:3-62
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:33:22-62
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:33:22-62
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:34:5-78
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:34:5-78
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:34:22-75
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:34:22-75
 supports-screens
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:38:5-51
-MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:37:3-41:48
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:38:5-51
+MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:37:3-41:48
 	android:largeScreens
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:38:21-48
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:38:21-48
 	android:anyDensity
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:38:23-48
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:38:23-48
 	android:normalScreens
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:39:21-49
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:39:21-49
 	android:xlargeScreens
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:37:21-49
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:37:21-49
 	android:smallScreens
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:40:21-48
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:40:21-48
 uses-feature#android.hardware.camera
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:40:5-60
-MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:26:3-82
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:40:5-60
+MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:26:3-82
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:40:19-57
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:40:19-57
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:42:5-44:38
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:42:5-44:38
 	android:maxSdkVersion
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:44:9-35
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:44:9-35
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:43:9-64
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:43:9-64
 application
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:46:5-150:19
-MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:43:3-46:17
-MERGED from [com.android.support:support-v4:21.0.3] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml:16:5-19
-MERGED from [com.android.support:appcompat-v7:18.0.0] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\AndroidManifest.xml:19:5-20
-MERGED from [com.android.support:support-v4:21.0.3] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml:16:5-19
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:46:5-150:19
+MERGED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:43:3-46:17
+MERGED from [com.android.support:support-v4:21.0.3] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:appcompat-v7:18.0.0] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\AndroidManifest.xml:19:5-20
+MERGED from [com.android.support:support-v4:21.0.3] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml:16:5-19
 	android:label
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:49:9-41
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:49:9-41
 	android:icon
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:48:9-47
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:48:9-47
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:47:9-44
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:47:9-44
 activity#it.fabaris.wfp.activities.SplashScreenActivity
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:53:9-61:20
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:53:9-61:20
 	android:label
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:55:13-45
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:55:13-45
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:54:13-49
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:54:13-49
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:56:13-60:29
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:56:13-60:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:57:17-69
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:57:17-69
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:57:25-66
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:57:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:59:17-77
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:59:17-77
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:59:27-74
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:59:27-74
 activity#it.fabaris.wfp.activities.FormListActivity
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:62:9-64:64
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:62:9-64:64
 	android:configChanges
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:64:13-61
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:64:13-61
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:63:13-45
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:63:13-45
 activity#it.fabaris.wfp.activities.FormListNewActivity
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:65:9-68:48
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:65:9-68:48
 	android:label
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:68:13-45
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:68:13-45
 	android:configChanges
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:67:13-61
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:67:13-61
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:66:13-48
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:66:13-48
 activity#it.fabaris.wfp.activities.FormListSavedActivity
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:69:9-72:48
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:69:9-72:48
 	android:label
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:72:13-45
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:72:13-45
 	android:configChanges
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:71:13-61
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:71:13-61
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:70:13-50
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:70:13-50
 activity#it.fabaris.wfp.activities.FormListCompletedActivity
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:73:9-76:48
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:73:9-76:48
 	android:label
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:76:13-45
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:76:13-45
 	android:configChanges
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:75:13-61
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:75:13-61
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:74:13-54
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:74:13-54
 activity#it.fabaris.wfp.activities.FormListSubmittedActivity
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:77:9-80:52
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:77:9-80:52
 	android:screenOrientation
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:80:13-49
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:80:13-49
 	android:label
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:79:13-45
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:79:13-45
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:78:13-54
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:78:13-54
 activity#it.fabaris.wfp.activities.FormListFinalizedActivity
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:81:9-84:48
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:81:9-84:48
 	android:label
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:84:13-45
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:84:13-45
 	android:configChanges
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:83:13-61
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:83:13-61
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:82:13-54
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:82:13-54
 activity#it.fabaris.wfp.activities.SmsListActivity
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:85:9-87:48
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:85:9-87:48
 	android:label
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:87:13-45
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:87:13-45
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:86:13-44
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:86:13-44
 activity#it.fabaris.wfp.activities.GeoPointActivity
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:88:9-54
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:88:9-54
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:88:19-51
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:88:19-51
 activity#it.fabaris.wfp.activities.MenuActivity
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:90:9-93:52
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:90:9-93:52
 	android:screenOrientation
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:93:13-49
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:93:13-49
 	android:label
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:92:13-45
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:92:13-45
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:91:13-41
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:91:13-41
 activity#it.fabaris.wfp.activities.PreferencesActivity
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:94:9-96:48
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:94:9-96:48
 	android:label
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:96:13-45
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:96:13-45
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:95:13-48
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:95:13-48
 activity#it.fabaris.wfp.activities.FormHierarchyActivity
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:97:9-99:48
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:97:9-99:48
 	android:label
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:99:13-45
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:99:13-45
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:98:13-50
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:98:13-50
 activity#it.fabaris.wfp.activities.CreditsActivity
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:100:9-102:48
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:100:9-102:48
 	android:label
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:102:13-45
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:102:13-45
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:101:13-44
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:101:13-44
 activity#it.fabaris.wfp.activities.HelpActivity
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:103:9-105:48
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:103:9-105:48
 	android:label
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:105:13-45
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:105:13-45
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:104:13-41
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:104:13-41
 activity#it.fabaris.wfp.activities.ControlActivity
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:106:9-108:48
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:106:9-108:48
 	android:label
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:108:13-45
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:108:13-45
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:107:13-44
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:107:13-44
 activity#it.fabaris.wfp.activities.userPreferencesActivity
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:109:9-111:48
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:109:9-111:48
 	android:label
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:111:13-45
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:111:13-45
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:110:13-52
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:110:13-52
 activity#it.fabaris.wfp.activities.FormEntryActivity
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:112:9-128:20
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:112:9-128:20
 	android:windowSoftInputMode
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:117:13-70
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:117:13-70
 	android:screenOrientation
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:116:13-49
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:116:13-49
 	android:label
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:115:13-45
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:115:13-45
 	android:configChanges
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:114:13-61
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:114:13-61
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:113:13-46
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:113:13-46
 intent-filter#android.intent.action.EDIT+android.intent.action.VIEW
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:118:13-127:29
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:118:13-127:29
 action#android.intent.action.VIEW
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:119:17-69
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:119:17-69
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:119:25-66
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:119:25-66
 action#android.intent.action.EDIT
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:120:17-69
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:120:17-69
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:120:25-66
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:120:25-66
 data
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:125:17-81
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:125:17-81
 	android:mimeType
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:125:23-78
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:125:23-78
 provider#it.fabaris.wfp.provider.FormProvider
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:130:9-132:65
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:130:9-132:65
 	android:authorities
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:132:13-62
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:132:13-62
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:131:13-64
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:131:13-64
 provider#it.fabaris.wfp.provider.MessageProvider
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:133:9-135:67
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:133:9-135:67
 	android:authorities
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:135:13-64
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:135:13-64
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:134:13-67
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:134:13-67
 provider#it.fabaris.wfp.provider.InstanceProvider
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:136:9-138:59
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:136:9-138:59
 	android:authorities
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:138:13-56
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:138:13-56
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:137:13-68
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:137:13-68
 receiver#it.fabaris.wfp.broadcast.SmsReceiverBroadcast
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:140:9-144:20
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:140:9-144:20
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:140:19-79
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:140:19-79
 intent-filter#android.provider.Telephony.SMS_RECEIVED
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:141:13-143:29
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:141:13-143:29
 	android:priority
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:141:28-52
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:141:28-52
 action#android.provider.Telephony.SMS_RECEIVED
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:142:17-82
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:142:17-82
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:142:25-79
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:142:25-79
 activity#it.fabaris.wfp.activities.MapActivity
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:146:9-58
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:146:9-58
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:146:19-46
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:146:19-46
 activity#it.fabaris.wfp.activities.ImagePreviewActivity
-ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:147:9-149:20
+ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:147:9-149:20
 	android:theme
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:147:56-94
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:147:56-94
 	android:name
-		ADDED from C:\Users\ihab\Desktop\Claudia\projects\PET\app\src\main\AndroidManifest.xml:147:19-55
+		ADDED from C:\Projects\MyRepo\app\src\main\AndroidManifest.xml:147:19-55
 uses-permission#android.permission.FLASHLIGHT
-ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:21:3-66
+ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:21:3-66
 	android:name
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:21:20-64
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:21:20-64
 uses-feature#android.hardware.camera.front
-ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:27:3-88
+ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:27:3-88
 	android:required
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:27:62-86
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:27:62-86
 	android:name
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:27:17-61
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:27:17-61
 uses-feature#android.hardware.camera.autofocus
-ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:30:3-92
+ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:30:3-92
 	android:required
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:30:66-90
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:30:66-90
 	android:name
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:30:17-65
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:30:17-65
 uses-feature#android.hardware.camera.flash
-ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:31:3-88
+ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:31:3-88
 	android:required
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:31:62-86
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:31:62-86
 	android:name
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:31:17-61
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:31:17-61
 uses-feature#android.hardware.screen.landscape
-ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:32:3-93
+ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:32:3-93
 	android:required
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:32:66-90
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:32:66-90
 	android:name
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:32:17-65
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:32:17-65
 uses-feature#android.hardware.wifi
-ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:33:3-80
+ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:33:3-80
 	android:required
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:33:54-78
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:33:54-78
 	android:name
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:33:17-53
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:33:17-53
 activity#com.google.zxing.client.android.CaptureActivity
-ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:44:7-340
+ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:44:7-340
 	android:windowSoftInputMode
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:44:291-338
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:44:291-338
 	android:screenOrientation
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:44:164-201
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:44:164-201
 	android:configChanges
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:44:50-100
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:44:50-100
 	android:theme
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:44:232-290
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:44:232-290
 	android:stateNotNeeded
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:44:202-231
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:44:202-231
 	android:clearTaskOnLaunch
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:44:17-49
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:44:17-49
 	android:name
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:44:101-163
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:44:101-163
 activity#com.google.zxing.client.android.HelpActivity
-ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:45:7-111
+ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:45:7-111
 	android:screenOrientation
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:45:77-109
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:45:77-109
 	android:name
-		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Users\ihab\Desktop\Claudia\projects\PET\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:45:17-76
+		ADDED from [com.embarkmobile:zxing-android-minimal:1.2.1] C:\Projects\MyRepo\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\1.2.1\AndroidManifest.xml:45:17-76
