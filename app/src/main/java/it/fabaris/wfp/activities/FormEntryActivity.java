@@ -1402,10 +1402,10 @@ if (formName.equalsIgnoreCase("CropsDriving")){
      * answers to the data model after checking constraints.
      */
     public void showNextView() {
-        if (formName.equalsIgnoreCase("LivestockWalking") && ImageWidget.cropsPicturesIndex +1 == 10 )
-            done =true;
-        if(formName.equalsIgnoreCase("CropsWalking") && ImageWidget.cropsPicturesIndex +1 == 18 ) //from 18 to 6
-            done =true;
+//        if (formName.equalsIgnoreCase("LivestockWalking") && ImageWidget.cropsPicturesIndex +1 == 10 )
+//            done =true;
+//        if(formName.equalsIgnoreCase("CropsWalking") && ImageWidget.cropsPicturesIndex +1 == 18 ) //from 18 to 6
+//            done =true;
         // verifica = true;
         // TODO: tolto per provare
         verifica = true;
@@ -1501,15 +1501,15 @@ if (formName.equalsIgnoreCase("CropsDriving")){
         verifica = true;
         radioFirstCheck = true; // controllo sui radioButton
         ImageWidget.prevView=true;
-        if (done){
-            ImageWidget.cropsPicturesIndex-=2;
-            ImageWidget.picturesIndex-=1;
-            done = false;
-        }
-        else {
-            ImageWidget.picturesIndex = ImageWidget.picturesIndex - 2;
-            ImageWidget.cropsPicturesIndex -= 4;
-        }
+//        if (done){
+            ImageWidget.cropsPicturesIndex-=4;
+            ImageWidget.picturesIndex-=2;
+//            done = false;
+//        }
+      //  else {
+//            ImageWidget.picturesIndex = ImageWidget.picturesIndex - 2;
+//            ImageWidget.cropsPicturesIndex -= 4;
+//        }
         // TODO: tolto per provare
         // verifica = false;
 //****disabled to allow the user to go back to the previous page even if the current fields are required*******************//
