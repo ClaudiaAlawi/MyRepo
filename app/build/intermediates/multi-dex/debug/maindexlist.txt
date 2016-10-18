@@ -59,7 +59,6 @@ android/support/annotation/BoolRes.class
 org/w3c/dom/NamedNodeMap.class
 android/support/v4/widget/DrawerLayout$LockMode.class
 android/support/v4/view/ViewCompat$AccessibilityLiveRegion.class
-it/fabaris/wfp/activities/FormEntryActivity$19.class
 android/support/annotation/InterpolatorRes.class
 android/support/v4/widget/MaterialProgressDrawable$ProgressDrawableSize.class
 android/support/annotation/DrawableRes.class
@@ -190,7 +189,6 @@ it/fabaris/wfp/activities/SmsListActivity$1.class
 org/osmdroid/util/constants/GeoConstants.class
 it/fabaris/wfp/activities/SmsListActivity$2.class
 android/support/v4/app/LoaderManager.class
-it/fabaris/wfp/activities/FormEntryActivity$18.class
 android/support/v4/app/FragmentActivity$2.class
 it/fabaris/wfp/activities/FormEntryActivity$9.class
 it/fabaris/wfp/provider/InstanceProviderAPI.class
@@ -227,8 +225,8 @@ org/osmdroid/util/GeoPoint.class
 it/fabaris/wfp/activities/FormListCompletedActivity$FormListHandlerCompleted.class
 android/support/v4/widget/ResourceCursorAdapter.class
 com/google/zxing/client/android/DecodeFormatManager.class
-it/fabaris/wfp/activities/PreferencesActivity$2.class
 android/support/annotation/AttrRes.class
+it/fabaris/wfp/activities/PreferencesActivity$2.class
 android/support/v4/app/ActivityCompat.class
 android/support/v7/view/ActionMode$Callback.class
 org/joda/time/base/AbstractPeriod.class

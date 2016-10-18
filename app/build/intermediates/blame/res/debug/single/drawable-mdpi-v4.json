@@ -24,6 +24,10 @@
         "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ic_voice_search_api_holo_light.png"
     },
     {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\inst.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\drawable-mdpi\\inst.png"
+    },
+    {
         "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_commit_search_api_holo_dark.png",
         "source": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ic_commit_search_api_holo_dark.png"
     },
@@ -226,6 +230,10 @@
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_bottom_transparent_light_holo.9.png",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ab_bottom_transparent_light_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\guide.jpg",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\drawable-mdpi\\guide.jpg"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\splash_color.xml",
@@ -728,6 +736,10 @@
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_spinner_ab_disabled_holo_dark.9.png"
     },
     {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\guides.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\drawable-mdpi\\guides.png"
+    },
+    {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_menu_send.png",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\drawable-mdpi\\ic_menu_send.png"
     },
@@ -772,6 +784,10 @@
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\ic_formlist.png"
     },
     {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\gu.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\drawable-mdpi\\gu.png"
+    },
+    {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_go_search_api_holo_light.png",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_ic_go_search_api_holo_light.png"
     },
@@ -782,6 +798,10 @@
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icontab_submit.png",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\drawable-mdpi\\icontab_submit.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\cover.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\drawable-mdpi\\cover.png"
     },
     {
         "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\expander_ic_right.png",
@@ -896,12 +916,12 @@
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_tab_selected_holo.9.png"
     },
     {
-        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\logo_wfp_v.png",
-        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\drawable-mdpi\\logo_wfp_v.png"
-    },
-    {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_tab_unselected_pressed_holo.9.png",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-mdpi\\abc_tab_unselected_pressed_holo.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\logo_wfp_v.png",
+        "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\drawable-mdpi\\logo_wfp_v.png"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_stacked_transparent_light_holo.9.png",
@@ -1042,6 +1062,10 @@
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\swipe.png",
         "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\GRASPMobilePal_PCD\\app\\src\\main\\res\\drawable-mdpi\\swipe.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notebook.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\drawable-mdpi\\notebook.png"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\expander_ic_maximized.png",
@@ -1258,6 +1282,10 @@
     {
         "merged": "C:\\Projects\\MyRepo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icontab_new.png",
         "source": "C:\\Projects\\MyRepo\\app\\src\\main\\res\\drawable-mdpi\\icontab_new.png"
+    },
+    {
+        "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_us.png",
+        "source": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\src\\main\\res\\drawable-mdpi\\ic_us.png"
     },
     {
         "merged": "C:\\Users\\ihab\\Desktop\\Claudia\\projects\\PET\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\logo_wfp_v.png",

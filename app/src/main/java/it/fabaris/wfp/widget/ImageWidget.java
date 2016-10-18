@@ -2224,7 +2224,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 //----------------------------------------------------------------------------------Setup button for the livestock walking -----------------------------------------------------------//
 
         Button cMoreBtn = new Button(context);
-        cMoreBtn.setText("More Close ups for this Mode");
+        cMoreBtn.setText("More Close ups for this Score");
         cMoreBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
         cMoreBtn.setPadding(20, 20, 20, 20);
         cMoreBtn.setEnabled(!prompt.isReadOnly());
@@ -2285,15 +2285,14 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
         else if (mFormName.contains("CropsWalking"))
         {
             removeView(mImageView);
-            addView(scoreBetweenBtn);
+           // addView(scoreBetweenBtn); //between zero and blue
             addView(mImageView);
             addView(closeUpBtn);
-            addView(scoreLowBtn);
-            addView(scoreBetweenLMBtn);
-            addView(scoreMidBtn);
-            addView(scoreBetweenMHBtn);
             addView(scoreHighBtn);
-
+            addView(scoreBetweenMHBtn);
+            addView(scoreMidBtn);
+            addView(scoreBetweenLMBtn);
+            addView(scoreLowBtn);
         }
 
         mErrorTextView.setVisibility(View.GONE);
@@ -2473,25 +2472,30 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
         mImageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent("android.intent.action.VIEW");
+                if (mFormName.contains("Walking")) {
+                    Intent i = new Intent("android.intent.action.VIEW");
 
-                try {
-                    Intent myIntent = new Intent(android.content.Intent.ACTION_VIEW);
-                    File file = new File(FormEntryActivity.imagePath);
-                    String extension = android.webkit.MimeTypeMap.getFileExtensionFromUrl(Uri.fromFile(file).toString());
-                    String mimetype = android.webkit.MimeTypeMap.getSingleton().getMimeTypeFromExtension(extension);
-                    myIntent.setDataAndType(Uri.fromFile(file),mimetype);
-                    //   myIntent.setPackage("com.android.gallery");
-                    context.startActivity(myIntent);
+                    try {
+                        Intent myIntent = new Intent(android.content.Intent.ACTION_VIEW);
+                        File file = new File(FormEntryActivity.imagePath);
+                        String extension = android.webkit.MimeTypeMap.getFileExtensionFromUrl(Uri.fromFile(file).toString());
+                        String mimetype = android.webkit.MimeTypeMap.getSingleton().getMimeTypeFromExtension(extension);
+                        myIntent.setDataAndType(Uri.fromFile(file), mimetype);
+                        //   myIntent.setPackage("com.android.gallery");
+                        context.startActivity(myIntent);
 //                        Uri uri = Uri.parse("file:/"+FormEntryActivity.imagePath);
 //                        context.startActivity(new Intent(Intent.ACTION_VIEW,uri));;
-                } catch (ActivityNotFoundException e) {
-                    Toast.makeText(context,
-                            context.getString(R.string.activity_not_found, "view image"),
-                            Toast.LENGTH_SHORT);
-                }
+                    } catch (ActivityNotFoundException e) {
+                        Toast.makeText(context,
+                                context.getString(R.string.activity_not_found, "view image"),
+                                Toast.LENGTH_SHORT);
+                    }
 //                }
 //                c.close();
+                }
+                else{
+                    //do nothing //added if-else to disable previewing the image in the driving
+                }
             }
         });
 

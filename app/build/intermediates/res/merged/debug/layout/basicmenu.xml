@@ -27,7 +27,7 @@
 	<LinearLayout
 	    android:id="@+id/buttonLayer"
 	    android:layout_width="match_parent"
-	    android:layout_height="80dp"
+	    android:layout_height="70dp"
 	    android:layout_alignParentBottom="true"
 	    android:layout_alignParentRight="true" >
 
@@ -42,16 +42,16 @@
             android:textColor="@color/white"
             android:textSize="15sp" />
 
-        <Button
-            android:id="@+id/help"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="right"
-            android:layout_weight="1"
-            android:background="@drawable/button_black"
-            android:text="@string/help"
-            android:textColor="@color/white"
-            android:textSize="15sp" />
+        <!--<Button-->
+            <!--android:id="@+id/help"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_gravity="right"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@drawable/button_black"-->
+            <!--android:text="@string/help"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="15sp" />-->
 
         <Button
             android:id="@+id/exit"
@@ -82,13 +82,15 @@
             android:orientation="vertical"
             android:layout_gravity="center"
             android:gravity="center"
-            android:padding="20dp" >
+            android:padding="30dp"
+            android:layout_marginTop="20dp"
+            android:weightSum="1">
 
         <Button
             android:id="@+id/sms"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="25dp"
+            android:layout_margin="15dp"
             android:background="@drawable/button_blue"
             android:drawableLeft="@drawable/ic_menu_sms"
             android:gravity="center"
@@ -100,7 +102,7 @@
             android:id="@+id/forms"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="25dp"
+            android:layout_margin="15dp"
             android:background="@drawable/button_blue"
             android:drawableLeft="@drawable/ic_menu_forms"
             android:gravity="center"
@@ -112,13 +114,25 @@
             android:id="@+id/settings"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="25dp"
+            android:layout_margin="15dp"
             android:background="@drawable/button_blue"
             android:drawableLeft="@drawable/ic_menu_settings"
             android:gravity="center"
             android:text="@string/settings"
             android:textColor="@color/white"
             android:textSize="20sp" />
+            <Button
+                android:id="@+id/help"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/button_blue"
+                android:drawableLeft="@drawable/inst"
+                android:gravity="center"
+                android:text="@string/help"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
             <!--<Button-->
                 <!--android:id="@+id/map"-->
                 <!--android:layout_width="match_parent"-->

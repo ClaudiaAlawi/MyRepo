@@ -31,7 +31,7 @@ public class HelpActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.help);
         //setTitle(getString(R.string.app_name) + " > " + getString(R.string.help));
-       setTitle("HELP > PET Manuals");
+       setTitle("GUIDES > PET Manuals");
         final Context context = HelpActivity.this;
         final Button aboutCropsBtn = (Button) findViewById(R.id.about_crops);
         final Button aboutLivestockBtn = (Button) findViewById(R.id.about_livestock);

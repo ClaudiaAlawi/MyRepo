@@ -273,6 +273,8 @@ public boolean formHasVideos;
 
 
                     };
+
+/*************************************************************************** disable timeout***
         if(drivingMode.equalsIgnoreCase("enabled")){
 if (formName.equalsIgnoreCase("CropsDriving")){
             final AlertDialog.Builder alertDialog = new AlertDialog.Builder(this);
@@ -308,7 +310,7 @@ if (formName.equalsIgnoreCase("CropsDriving")){
 
         }
         }
-//***************************************************************/
+//**************************************************************************************************/
         // -- 11/10/2013 -- DO NOT CHANGE -- IT IS CORRECT
         // -----------------------------------------------------------
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
