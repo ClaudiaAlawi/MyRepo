@@ -899,6 +899,8 @@ containing a value of this type.
         public static final int splash_color=0x7f02008c;
         public static final int splash_screen=0x7f02008d;
         public static final int swipe=0x7f02008e;
+        public static final int tm=0x7f02008f;
+        public static final int tm2=0x7f020090;
     }
     public static final class id {
         public static final int ImageButton01=0x7f0f009c;

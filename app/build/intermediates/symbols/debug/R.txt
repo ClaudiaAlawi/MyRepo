@@ -366,6 +366,8 @@ int drawable sp 0x7f02008b
 int drawable splash_color 0x7f02008c
 int drawable splash_screen 0x7f02008d
 int drawable swipe 0x7f02008e
+int drawable tm 0x7f02008f
+int drawable tm2 0x7f020090
 int id ImageButton01 0x7f0f009c
 int id RadioButton01 0x7f0f009a
 int id aa1 0x7f0f005c

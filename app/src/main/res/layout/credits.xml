@@ -127,10 +127,10 @@
             android:layout_width="120dp"
             android:layout_height="40dp"
             android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
             android:layout_marginBottom="10dp"
             android:paddingRight="5dp"
-            android:src="@drawable/logo_be" />
+            android:src="@drawable/tm2"
+            android:layout_alignParentTop="true" />
 
         <TextView
             android:id="@+id/textView5"
@@ -172,7 +172,7 @@
             android:paddingLeft="5dp"
             android:paddingRight="5dp"
             android:paddingTop="5dp"
-            android:text="A Word Food Programme Information System"
+            android:text="A World Food Programme Information System"
             android:textSize="12sp" />
 
     </RelativeLayout>
@@ -197,7 +197,7 @@
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:paddingTop="10dp"
-            android:text="Grasp Mobile Tool is a free software: you can redistribuite it/or modify it Public License under the term of the GNU Lesser General as published by the Free Software Foundation."
+            android:text="Grasp Mobile Tool is a free software: you can redistribute it/or modify it Public License under the terms of the GNU Lesser General as published by the Free Software Foundation."
             android:textSize="12sp" />
 
     </RelativeLayout>

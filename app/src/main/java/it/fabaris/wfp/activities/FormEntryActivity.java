@@ -141,7 +141,8 @@ public class FormEntryActivity extends Activity implements AnimationListener,
     public static final int VIDEO_CHOOSER = 9;
     public static final int IMAGE_PREVIEW = 10;
     public static String imagePath;
-    public static ArrayList scores;
+    public static String actualScore;
+   // public static ArrayList scores;
 //////////////////////////////////////////////////////////////////////////////////
 public static String  videoPath;
     public boolean roasterRepeatCount=false;
@@ -574,7 +575,7 @@ if (formName.equalsIgnoreCase("CropsDriving")){
 
              //   String s2 = mInstanceFolder.substring(0, mInstanceFolder.indexOf("_")) +"/"+ImageWidget.imagesPath+ ".jpg";
                     String s2 = Environment.getExternalStorageDirectory().getPath() +"/GRASP/"+formName+"/"+ImageWidget.imagesPath+ ".jpg";
-                String s3 = Environment.getExternalStorageDirectory().getPath() +"/GRASP/"+formName+"/"+ImageWidget.imagesPath+ ".jpg";
+               // String s3 = Environment.getExternalStorageDirectory().getPath() +"/GRASP/"+formName+"/"+ImageWidget.imagesPath+ ".jpg";
 
                 imagePath =s2;
                     if (mCurrentView != null) {
@@ -1440,8 +1441,10 @@ if (formName.equalsIgnoreCase("CropsDriving")){
 
                         break group_skip;
                     case FormEntryController.EVENT_PROMPT_NEW_REPEAT:
-                        createRepeatDialog();
-                        break group_skip;
+
+                            createRepeatDialog();
+                            break group_skip;
+
                     case FormEntryController.EVENT_GROUP:
                         /**
                          *  CREATE THE VIEW
@@ -1677,8 +1680,11 @@ if (formName.equalsIgnoreCase("CropsDriving")){
                     case DialogInterface.BUTTON1:
                         // yes, repeat
                         try {
+                            //check if score is not empty
+
                             QuestionWidget.clearColorLabelStoredForRequiredCheckBox();
                             mFormController.newRepeat();
+
                         } catch (XPathTypeMismatchException e) {
                             FormEntryActivity.this.createErrorDialog(
                                     e.getMessage(), EXIT);
@@ -1695,6 +1701,10 @@ if (formName.equalsIgnoreCase("CropsDriving")){
             }
         };
         if (mFormController.getLastRepeatCount() > 0) {
+            if(actualScore == null)
+                Toast.makeText(this,"You Didn't choose any score!",
+                        Toast.LENGTH_LONG).show();
+            else {
             mAlertDialog.setTitle(getString(R.string.leaving_repeat_ask));
             mAlertDialog.setMessage(getString(R.string.add_another_repeat,
                     mFormController.getLastGroupText()));
@@ -1702,7 +1712,8 @@ if (formName.equalsIgnoreCase("CropsDriving")){
                     repeatListener);
             mAlertDialog.setButton2(getString(R.string.leave_repeat_yes),
                     repeatListener);
-        } else {
+        }}
+        else {
             mAlertDialog.setTitle(getString(R.string.entering_repeat_ask));
             mAlertDialog.setMessage(getString(R.string.add_repeat,
                     mFormController.getLastGroupText()));
@@ -1711,7 +1722,7 @@ if (formName.equalsIgnoreCase("CropsDriving")){
             mAlertDialog.setButton2(getString(R.string.add_repeat_no),
                     repeatListener);
         }
-        mAlertDialog.setCancelable(false);
+        mAlertDialog.setCancelable(true);
         mAlertDialog.show();
         mBeenSwiped = false;
     }

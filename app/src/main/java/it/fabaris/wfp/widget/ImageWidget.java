@@ -127,6 +127,12 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                     getContext().getString(R.string.activity_not_found, "image capture"),
                     Toast.LENGTH_SHORT);
         }
+        if(mFormName.contains("LivestockDriving") || mFormName.contains("CropsDriving") || mFormName.contains("ForagesDriving")) {
+            FormEntryActivity.actualScore = null;
+        }
+        if((mFormName.contains("LivestockWalking") || mFormName.contains("CropsWalking") || mFormName.contains("ForagesWalking")) && picturesIndex == 1) {
+            FormEntryActivity.actualScore = null;
+        }
 
         mScoreButton = new Button(getContext());
         mScoreButton.setText(getContext().getString(R.string.scoreButton));
@@ -142,14 +148,14 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
         mZeroButton.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
         mZeroButton.setPadding(20, 20, 20, 20);
         mZeroButton.setEnabled(!prompt.isReadOnly());
-        mZeroButton.setBackgroundColor(getResources().getColor(R.color.bg_mand));
+        mZeroButton.setBackgroundColor(Color.GREEN);
 
         mZeroButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
                 currentScrore = 0;
                 imageScore = true;
-
+                FormEntryActivity.actualScore="" + currentScrore;
                 setBinaryData(currentScrore);
                 IAnswerData s = getAnswer();
                 setAnswer(s);
@@ -157,8 +163,8 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
             }
         });
 
-        if (picturesIndex==1 && mFormName.contains("CropsWalking"))
-            addView(mZeroButton);
+       // if (picturesIndex==1 && mFormName.contains("CropsWalking"))
+        //    addView(mZeroButton);
         mScoreButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v)
             {
@@ -168,7 +174,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                 // get the species:
                 currentScrore = picturesIndex;
                 imageScore = true;
-
+                FormEntryActivity.actualScore="" + currentScrore;
                 setBinaryData(currentScrore);
                 IAnswerData s = getAnswer();
                 setAnswer(s);
@@ -248,6 +254,22 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                     case "Finger":
                         imagesPath = "Fingermillet/" + cropsPicturesIndex;
                         break;
+                    case "Alet":
+                        imagesPath = "Alet/" + cropsPicturesIndex;
+                        break;
+                    case "Mixed":
+                        imagesPath = "Mixed/" + cropsPicturesIndex;
+                        break;
+                    case "Star":
+                        imagesPath = "Star/" + cropsPicturesIndex;
+                        break;
+                    case "Thatching":
+                        imagesPath = "Thatching/" + cropsPicturesIndex;
+                        break;
+                    case "Sorghum":
+                        imagesPath = "Sorghum/" + cropsPicturesIndex;
+                        break;
+
                     default:
                         break;
 
@@ -313,6 +335,21 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                         break;
                     case"Finger":
                         imagesPath ="Fingermillet";
+                        break;
+                    case "Alet":
+                        imagesPath = "Alet" ;
+                        break;
+                    case "Mixed":
+                        imagesPath = "Mixed";
+                        break;
+                    case "Star":
+                        imagesPath = "Star" ;
+                        break;
+                    case "Thatching":
+                        imagesPath = "Thatching";
+                        break;
+                    case "Sorghum":
+                        imagesPath = "Sorghum"  ;
                         break;
                     default:
                         break;
@@ -592,6 +629,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                         break;
 
                 }
+                FormEntryActivity.actualScore="" + currentScrore;
                 setBinaryData(currentScrore);
                 IAnswerData s = getAnswer();
                 setAnswer(s);
@@ -807,6 +845,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                         break;
 
                 }
+                FormEntryActivity.actualScore="" + currentScrore;
                 setBinaryData(currentScrore);
                 IAnswerData s = getAnswer();
                 setAnswer(s);
@@ -963,7 +1002,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
 
                         switch (index) {
                             case "1":
-                                currentScrore =  1.12;
+                                currentScrore =  1.20;//changed from 1.12
                                 break;
                             case "3":
                                 currentScrore =   2.75;
@@ -1016,6 +1055,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                         break;
 
                 }
+                FormEntryActivity.actualScore="" + currentScrore;
                 setBinaryData(currentScrore);
                 IAnswerData s = getAnswer();
                 setAnswer(s);
@@ -1279,6 +1319,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                         break;
 
                 }
+                FormEntryActivity.actualScore="" + currentScrore;
                 setBinaryData(currentScrore);
                 IAnswerData s = getAnswer();
                 setAnswer(s);
@@ -1457,7 +1498,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                                 break;
 
                             case "5":
-                                currentScrore = 2.4;
+                                currentScrore = 2.2; //changed from 2.4
                                 break;
                         }
                         break;
@@ -1531,6 +1572,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                         break;
 
                 }
+                FormEntryActivity.actualScore="" + currentScrore;
                 setBinaryData(currentScrore);
                 IAnswerData s = getAnswer();
                 setAnswer(s);
@@ -1544,237 +1586,340 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
             }
         });;
 
-        final Button scoreBetweenBtn = new Button(context);
-        scoreBetweenBtn.setText("Score Between");
-        scoreBetweenBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
-        scoreBetweenBtn.setPadding(20, 20, 20, 20);
-        scoreBetweenBtn.setEnabled(!prompt.isReadOnly());
-        scoreBetweenBtn.setBackgroundColor(getResources().getColor(R.color.between));
+//        final Button scoreBetweenBtn = new Button(context);
+//        scoreBetweenBtn.setText("Score Between");
+//        scoreBetweenBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+//        scoreBetweenBtn.setPadding(20, 20, 20, 20);
+//        scoreBetweenBtn.setEnabled(!prompt.isReadOnly());
+//        scoreBetweenBtn.setBackgroundColor(getResources().getColor(R.color.between));
+//
+//
+//        scoreBetweenBtn.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View v)
+//            {
+//
+//                String temp[] =imagesPath.split("/");
+//                String selection = temp[0];
+//                String index = temp[1];
+//                switch (selection){
+//                    case"Barley":
+//
+//                        switch (index) {
+//                            case "1":
+//                                currentScrore = 0.15;
+//                                break;
+//
+//                            case "3":
+//                                currentScrore = 1;
+//                                break;
+//
+//                            case "5":
+//                                currentScrore = 2.43;
+//                                break;
+//
+//                        }
+//                        break;
+//                    case"Cassava":
+//                        switch (index) {
+//                            case "1":
+//                                currentScrore = 1.63;
+//                                break;
+//
+//                            case "3":
+//                                currentScrore = 12.5;
+//                                break;
+//
+//                            case "5":
+//                                currentScrore = 27.57;
+//                                break;
+//
+//                        }
+//                        break;
+//                    case"Groundnut":
+//                        switch (index) {
+//                            case "1":
+//                                currentScrore = 0.05;
+//                                break;
+//
+//                            case "3":
+//                                currentScrore = 1.38;
+//                                break;
+//
+//                            case "5":
+//                                currentScrore = 2.5;
+//                                break;
+//
+//                        }
+//                        break;
+//                    case"Maize":
+//                        switch (index) {
+//                            case "1":
+//                                currentScrore = 0.13;
+//                                break;
+//                            case "3":
+//                                currentScrore = 1.6;
+//                                break;
+//                            case "5":
+//                                currentScrore = 4.18;
+//                                break;
+//
+//                        }
+//                        break;
+//                    case"Teff":
+//                        switch (index) {
+//                            case "1":
+//                                currentScrore =  0.13;
+//                                break;
+//                            case "3":
+//                                currentScrore = 0.89;
+//                                break;
+//
+//                            case "5":
+//                                currentScrore =  1.75;
+//                                break;
+//                        }
+//                        break;
+//                    case"Sunflowers":
+//                        switch (index) {
+//                            case "1":
+//                                currentScrore =  0.21;
+//                                break;
+//                            case "3":
+//                                currentScrore = 1.13;
+//                                break;
+//
+//                            case "5":
+//                                currentScrore =  2.05;
+//                                break;
+//
+//                        }
+//                        break;
+//                    case"WheatI":
+//                        switch (index) {
+//                            case "1":
+//                                currentScrore =  0.3;
+//                                break;
+//                            case "3":
+//
+//                                currentScrore = 2.8;
+//                                break;
+//
+//                            case "5":
+//                                currentScrore = 5.03;
+//                                break;
+//
+//                        }
+//                        break;
+//                    case"WheatR":
+//                        switch (index) {
+//                            case "1":
+//                                currentScrore =  0.25;
+//                                break;
+//                            case "3":
+//                                currentScrore = 1.75;
+//                                break;
+//                            case "5":
+//                                currentScrore =  4.1;
+//                                break;
+//
+//                        }
+//                        break;
+//                    case"Uplandrice":
+//
+//                        switch (index) {
+//                            case "1":
+//                                currentScrore =  0.05;
+//                                break;
+//                            case "3":
+//                                currentScrore =  1.48;
+//                                break;
+//                            case "5":
+//                                currentScrore = 3.43;
+//                                break;
+//
+//                        }
+//                        break;
+//                    case"Pearlmillet":
+//                        switch (index) {
+//                            case "1":
+//                                currentScrore =0.07;
+//                                break;
+//                            case "3":
+//
+//                                currentScrore = 0.93;
+//                                break;
+//
+//                            case "5":
+//                                currentScrore =1.79;
+//                                break;
+//
+//                        }
+//                        break;
+//                    case"Earlymaindrf":
+//
+//                        switch (index) {
+//                            case "1":
+//                                currentScrore =  0.13;
+//                                break;
+//                            case "3":
+//                                currentScrore =  1.33;
+//                                break;
+//                            case "5":
+//                                currentScrore =   3.18;
+//                                break;
+//                        }
+//                        break;
+//                    case"EarlymainI":
+//                        switch (index) {
+//                            case "1":
+//                                currentScrore = 0.35;
+//                                break;
+//                            case "3":
+//                                currentScrore = 2.5;
+//                                break;
+//
+//                            case "5":
+//                                currentScrore =  4.18;
+//                                break;
+//                        }
+//                        break;
+//                    case"Latesorg":
+//                        switch (index) {
+//                            case "1":
+//                                currentScrore =   0.1;
+//                                break;
+//                            case "3":
+//                                currentScrore =  1.05;
+//                                break;
+//                            case "5":
+//                                currentScrore =  2;
+//                                break;
+//                        }
+//                        break;
+//                    case"Fingermillet":
+//                        switch (index) {
+//                            case "1":
+//                                currentScrore =0.13;
+//                                break;
+//                            case "3":
+//                                currentScrore =0.83;
+//                                break;
+//
+//                            case "5":
+//                                currentScrore = 2.34;
+//                                break;
+//
+//                        }
+//                        break;
+//
+//                }
+        final Button scoreBetweenBYBtn = new Button(context);
+        scoreBetweenBYBtn.setText("Score between Blue and Yellow");
+        scoreBetweenBYBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+        scoreBetweenBYBtn.setPadding(20, 20, 20, 20);
+        scoreBetweenBYBtn.setEnabled(!prompt.isReadOnly());
+        scoreBetweenBYBtn.setBackgroundColor(Color.YELLOW);
 
 
-        scoreBetweenBtn.setOnClickListener(new View.OnClickListener() {
+        scoreBetweenBYBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v)
             {
-
                 String temp[] =imagesPath.split("/");
-                String selection = temp[0];
-                String index = temp[1];
+               String selection = temp[0];
+
                 switch (selection){
                     case"Barley":
 
-                        switch (index) {
-                            case "1":
-                                currentScrore = 0.15;
-                                break;
+                        currentScrore = 1;
 
-                            case "3":
-                                currentScrore = 1;
-                                break;
-
-                            case "5":
-                                currentScrore = 2.43;
-                                break;
-
-                        }
                         break;
                     case"Cassava":
-                        switch (index) {
-                            case "1":
-                                currentScrore = 1.63;
-                                break;
 
-                            case "3":
-                                currentScrore = 12.5;
-                                break;
+                        currentScrore = 12.5;
 
-                            case "5":
-                                currentScrore = 27.57;
-                                break;
-
-                        }
                         break;
                     case"Groundnut":
-                        switch (index) {
-                            case "1":
-                                currentScrore = 0.05;
-                                break;
 
-                            case "3":
-                                currentScrore = 1.38;
-                                break;
+                        currentScrore = 1.38;
 
-                            case "5":
-                                currentScrore = 2.5;
-                                break;
-
-                        }
                         break;
                     case"Maize":
-                        switch (index) {
-                            case "1":
-                                currentScrore = 0.13;
-                                break;
-                            case "3":
-                                currentScrore = 1.6;
-                                break;
-                            case "5":
-                                currentScrore = 4.18;
-                                break;
 
-                        }
+                        currentScrore = 1.6;
+
                         break;
                     case"Teff":
-                        switch (index) {
-                            case "1":
-                                currentScrore =  0.13;
-                                break;
-                            case "3":
-                                currentScrore = 0.89;
-                                break;
 
-                            case "5":
-                                currentScrore =  1.75;
-                                break;
-                        }
+                        currentScrore = 0.89;
+
                         break;
                     case"Sunflowers":
-                        switch (index) {
-                            case "1":
-                                currentScrore =  0.21;
-                                break;
-                            case "3":
-                                currentScrore = 1.13;
-                                break;
 
-                            case "5":
-                                currentScrore =  2.05;
-                                break;
+                        currentScrore = 1.13;
 
-                        }
                         break;
                     case"WheatI":
-                        switch (index) {
-                            case "1":
-                                currentScrore =  0.3;
-                                break;
-                            case "3":
 
-                                currentScrore = 2.8;
-                                break;
+                        currentScrore = 2.8;
 
-                            case "5":
-                                currentScrore = 5.03;
-                                break;
-
-                        }
                         break;
                     case"WheatR":
-                        switch (index) {
-                            case "1":
-                                currentScrore =  0.25;
-                                break;
-                            case "3":
-                                currentScrore = 1.75;
-                                break;
-                            case "5":
-                                currentScrore =  4.1;
-                                break;
 
-                        }
+                        currentScrore = 1.75;
+
                         break;
                     case"Uplandrice":
 
-                        switch (index) {
-                            case "1":
-                                currentScrore =  0.05;
-                                break;
-                            case "3":
-                                currentScrore =  1.48;
-                                break;
-                            case "5":
-                                currentScrore = 3.43;
-                                break;
+                        currentScrore =  1.48;
 
-                        }
                         break;
                     case"Pearlmillet":
-                        switch (index) {
-                            case "1":
-                                currentScrore =0.07;
-                                break;
-                            case "3":
 
-                                currentScrore = 0.93;
-                                break;
+                        currentScrore = 0.93;
 
-                            case "5":
-                                currentScrore =1.79;
-                                break;
-
-                        }
                         break;
                     case"Earlymaindrf":
+                        currentScrore =  1.33;
 
-                        switch (index) {
-                            case "1":
-                                currentScrore =  0.13;
-                                break;
-                            case "3":
-                                currentScrore =  1.33;
-                                break;
-                            case "5":
-                                currentScrore =   3.18;
-                                break;
-                        }
                         break;
                     case"EarlymainI":
-                        switch (index) {
-                            case "1":
-                                currentScrore = 0.35;
-                                break;
-                            case "3":
-                                currentScrore = 2.5;
-                                break;
 
-                            case "5":
-                                currentScrore =  4.18;
-                                break;
-                        }
+                        currentScrore = 2.5;
+
                         break;
                     case"Latesorg":
-                        switch (index) {
-                            case "1":
-                                currentScrore =   0.1;
-                                break;
-                            case "3":
-                                currentScrore =  1.05;
-                                break;
-                            case "5":
-                                currentScrore =  2;
-                                break;
-                        }
+
+                        currentScrore =  1.05;
+
                         break;
                     case"Fingermillet":
-                        switch (index) {
-                            case "1":
-                                currentScrore =0.13;
-                                break;
-                            case "3":
-                                currentScrore =0.83;
-                                break;
 
-                            case "5":
-                                currentScrore = 2.34;
-                                break;
+                        currentScrore =0.83;
 
-                        }
+                        break;
+
+                    case "Star":
+                        currentScrore = 2.58;
+                        break;
+                    case "Alet":
+                        currentScrore = 0.69;
+                        break;
+                    case "Thatching":
+                        currentScrore = 2.28;
+                        break;
+                    case "Mixed":
+                        currentScrore = 0.96;
+                        break;
+                    case "Sorghum":
+                        currentScrore =2.13;
                         break;
 
                 }
+                FormEntryActivity.actualScore="" + currentScrore;
                 setBinaryData(currentScrore);
                 IAnswerData s = getAnswer();
                 setAnswer(s);
-                scoreBetweenBtn.setBackgroundColor(Color.DKGRAY);
+                scoreBetweenBYBtn.setBackgroundColor(Color.DKGRAY);
                 scoreBetweenLMBtn.setBackgroundColor(getResources().getColor(R.color.ml));
                 scoreBetweenMHBtn.setBackgroundColor(getResources().getColor(R.color.hm));
                 scoreLowBtn.setBackgroundColor(getResources().getColor(R.color.low));
@@ -1783,6 +1928,108 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
             }
         });
 
+        final Button scoreBetweenYRBtn = new Button(context);
+        scoreBetweenYRBtn.setText("Score between Red and Yellow");
+        scoreBetweenYRBtn.setTextSize(TypedValue.COMPLEX_UNIT_DIP, mAnswerFontsize);
+        scoreBetweenYRBtn.setPadding(20, 20, 20, 20);
+        scoreBetweenYRBtn.setEnabled(!prompt.isReadOnly());
+        scoreBetweenYRBtn.setBackgroundColor(Color.RED);
+
+
+        scoreBetweenYRBtn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v)
+            {
+
+                String temp[] =imagesPath.split("/");
+                String selection = temp[0];
+                switch (selection){
+                    case"Barley":
+                        currentScrore = 2.43;
+                        break;
+
+                    case"Cassava":
+                        currentScrore = 27.57;
+                        break;
+
+                    case"Groundnut":
+                        currentScrore = 2.5;
+                        break;
+
+                    case"Maize":
+                        currentScrore = 4.18;
+                        break;
+
+                    case"Teff":
+                        currentScrore =  1.75;
+                        break;
+
+                    case"Sunflowers":
+                        currentScrore =  2.05;
+                        break;
+
+                    case"WheatI":
+                        currentScrore = 5.03;
+                        break;
+
+                    case"WheatR":
+                        currentScrore =  4.1;
+                        break;
+
+                    case"Uplandrice":
+                        currentScrore = 3.43;
+                        break;
+
+                    case"Pearlmillet":
+                        currentScrore =1.79;
+                        break;
+
+                    case"Earlymaindrf":
+                        currentScrore =   3.18;
+                        break;
+
+
+                    case"EarlymainI":
+                        currentScrore =  4.18;
+                        break;
+
+
+                    case"Latesorg":
+                        currentScrore =  2;
+                        break;
+
+                    case"Fingermillet":
+                        currentScrore = 2.34;
+                        break;
+
+                    case "Star":
+                        currentScrore = 4.54;
+                        break;
+                    case "Alet":
+                        currentScrore = 1.51;
+                        break;
+                    case "Thatching":
+                        currentScrore = 3.64;
+                        break;
+                    case "Mixed":
+                        currentScrore = 1.76;
+                        break;
+                    case "Sorghum":
+                        currentScrore =5.64;
+                        break;
+
+                }
+                FormEntryActivity.actualScore="" + currentScrore;
+                setBinaryData(currentScrore);
+                IAnswerData s = getAnswer();
+                setAnswer(s);
+                scoreBetweenYRBtn.setBackgroundColor(Color.DKGRAY);
+                scoreBetweenLMBtn.setBackgroundColor(getResources().getColor(R.color.ml));
+                scoreBetweenMHBtn.setBackgroundColor(getResources().getColor(R.color.hm));
+                scoreLowBtn.setBackgroundColor(getResources().getColor(R.color.low));
+                scoreHighBtn.setBackgroundColor(getResources().getColor(R.color.high));
+                scoreMidBtn.setBackgroundColor(getResources().getColor(R.color.mid));
+            }
+        });
 
 //---------------------------------------------------------------------------------------score above red button-----------------------------------------------------------//
         final Button abvRedBtn = new Button(context);
@@ -1791,8 +2038,8 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
         abvRedBtn.setPadding(20, 20, 20, 20);
         abvRedBtn.setEnabled(!prompt.isReadOnly());
         abvRedBtn.setBackgroundColor(Color.RED);
-        if(cropsPicturesIndex == 5 && mFormName.contains("CropsWalking") )
-            addView(abvRedBtn);
+//        if(cropsPicturesIndex == 5 && mFormName.contains("CropsWalking") )
+//            addView(abvRedBtn);
         abvRedBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 String temp[] =imagesPath.split("/");
@@ -1843,6 +2090,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                         break;
 
                 }
+                FormEntryActivity.actualScore="" + currentScrore;
                 setBinaryData(currentScrore);
                 IAnswerData s = getAnswer();
                 setAnswer(s);
@@ -1894,7 +2142,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                 // get the species:
                 currentScrore = 1;
                 imageScore = true;
-
+                FormEntryActivity.actualScore="" + currentScrore;
                 setBinaryData(currentScrore);
                 IAnswerData s = getAnswer();
                 setAnswer(s);
@@ -1918,7 +2166,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                 // get the species:
                 currentScrore = 2;
                 imageScore = true;
-
+                FormEntryActivity.actualScore="" + currentScrore;
                 setBinaryData(currentScrore);
                 IAnswerData s = getAnswer();
                 setAnswer(s);
@@ -1942,7 +2190,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                 // get the species:
                 currentScrore = 3;
                 imageScore = true;
-
+                FormEntryActivity.actualScore="" + currentScrore;
                 setBinaryData(currentScrore);
                 IAnswerData s = getAnswer();
                 setAnswer(s);
@@ -1966,7 +2214,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                 // get the species:
                 currentScrore = 4;
                 imageScore = true;
-
+                FormEntryActivity.actualScore="" + currentScrore;
                 setBinaryData(currentScrore);
                 IAnswerData s = getAnswer();
                 setAnswer(s);
@@ -1990,7 +2238,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                 // get the species:
                 currentScrore = 5;
                 imageScore = true;
-
+                FormEntryActivity.actualScore="" + currentScrore;
                 setBinaryData(currentScrore);
                 IAnswerData s = getAnswer();
                 setAnswer(s);
@@ -2074,6 +2322,22 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                     case"Finger":
                         currentScrore =2.99;
                         break;
+                    //socre for forages"
+                    case "Star":
+                        currentScrore = 5.73;
+                        break;
+                    case "Alet":
+                        currentScrore = 2.11;
+                        break;
+                    case "Thatching":
+                        currentScrore = 4.52;
+                        break;
+                    case "Mixed":
+                        currentScrore = 2.08;
+                        break;
+                    case "Sorghum":
+                        currentScrore =8.27;
+                        break;
                     default:
                         break;
 
@@ -2082,7 +2346,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                 setBinaryData(currentScrore);
                 IAnswerData s = getAnswer();
                 setAnswer(s);
-
+                FormEntryActivity.actualScore="" + currentScrore;
                 mRedButton.setBackgroundColor(Color.DKGRAY);
                 mYellowButton.setBackgroundColor(Color.YELLOW);
                 mBlueButton.setBackgroundColor(Color.BLUE);
@@ -2138,6 +2402,21 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                     case"Finger":
                         currentScrore =0.50;
                         break;
+                    case "Star":
+                        currentScrore = 1.80;
+                        break;
+                    case "Alet":
+                        currentScrore = 0.47;
+                        break;
+                    case "Thatching":
+                        currentScrore = 1.80;
+                        break;
+                    case "Mixed":
+                        currentScrore = 0.48;
+                        break;
+                    case "Sorghum":
+                        currentScrore =1.25;
+                        break;
                     default:
                         break;
 
@@ -2146,7 +2425,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                 setBinaryData(currentScrore);
                 IAnswerData s = getAnswer();
                 setAnswer(s);
-
+                FormEntryActivity.actualScore="" + currentScrore;
                 mBlueButton.setBackgroundColor(Color.DKGRAY);
                 mRedButton.setBackgroundColor(Color.RED);
                 mYellowButton.setBackgroundColor(Color.YELLOW);
@@ -2202,6 +2481,21 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                     case"Finger":
                         currentScrore =1.51;
                         break;
+                    case "Star":
+                        currentScrore = 3.35;
+                        break;
+                    case "Alet":
+                        currentScrore = 0.91;
+                        break;
+                    case "Thatching":
+                        currentScrore = 2.75;
+                        break;
+                    case "Mixed":
+                        currentScrore = 1.43;
+                        break;
+                    case "Sorghum":
+                        currentScrore =3.00;
+                        break;
                     default:
                         break;
 
@@ -2210,7 +2504,7 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
                 setBinaryData(currentScrore);
                 IAnswerData s = getAnswer();
                 setAnswer(s);
-
+                FormEntryActivity.actualScore="" + currentScrore;
                 mYellowButton.setBackgroundColor(Color.DKGRAY);
                 mRedButton.setBackgroundColor(Color.RED);
                 mBlueButton.setBackgroundColor(Color.BLUE);
@@ -2284,15 +2578,45 @@ public class ImageWidget extends QuestionWidget implements IBinaryWidget {
         }
         else if (mFormName.contains("CropsWalking"))
         {
-            removeView(mImageView);
+           // removeView(mImageView);
            // addView(scoreBetweenBtn); //between zero and blue
-            addView(mImageView);
+           // addView(mImageView);
             addView(closeUpBtn);
+            if(cropsPicturesIndex == 5)
+                addView(abvRedBtn);
             addView(scoreHighBtn);
             addView(scoreBetweenMHBtn);
             addView(scoreMidBtn);
             addView(scoreBetweenLMBtn);
             addView(scoreLowBtn);
+            if (picturesIndex==1 ) {
+                scoreHighBtn.setBackgroundColor(Color.BLUE);
+                scoreBetweenMHBtn.setBackgroundColor(Color.BLUE);
+                scoreMidBtn.setBackgroundColor(Color.BLUE);
+                scoreBetweenLMBtn.setBackgroundColor(Color.BLUE);
+                scoreLowBtn.setBackgroundColor(Color.BLUE);
+                scoreBetweenLMBtn.setBackgroundColor(Color.BLUE);
+                addView(mZeroButton);
+            }
+            if(cropsPicturesIndex == 3) {
+                scoreHighBtn.setBackgroundColor(Color.YELLOW);
+                scoreBetweenMHBtn.setBackgroundColor(Color.YELLOW);
+                scoreMidBtn.setBackgroundColor(Color.YELLOW);
+                scoreBetweenLMBtn.setBackgroundColor(Color.YELLOW);
+                scoreLowBtn.setBackgroundColor(Color.YELLOW);
+                scoreBetweenLMBtn.setBackgroundColor(Color.YELLOW);
+
+                addView(scoreBetweenBYBtn);
+            }
+            if(cropsPicturesIndex == 5) {
+                scoreHighBtn.setBackgroundColor(Color.RED);
+                scoreBetweenMHBtn.setBackgroundColor(Color.RED);
+                scoreMidBtn.setBackgroundColor(Color.RED);
+                scoreBetweenLMBtn.setBackgroundColor(Color.RED);
+                scoreLowBtn.setBackgroundColor(Color.RED);
+                scoreBetweenLMBtn.setBackgroundColor(Color.RED);
+                addView(scoreBetweenYRBtn);
+            }
         }
 
         mErrorTextView.setVisibility(View.GONE);
